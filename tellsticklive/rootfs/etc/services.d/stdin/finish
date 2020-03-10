@@ -1,0 +1,6 @@
+#!/usr/bin/with-contenv bashio
+# ==============================================================================
+# Restarts the STDIN service
+# ==============================================================================
+
+bashio::log.info 'STDIN service was stopped, restarting...'

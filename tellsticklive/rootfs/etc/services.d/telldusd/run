@@ -1,0 +1,10 @@
+#!/usr/bin/with-contenv bashio
+
+bashio::log.info "Exposing sockets..."
+
+socat TCP-LISTEN:50800,reuseaddr,fork UNIX-CONNECT:/tmp/TelldusClient &
+socat TCP-LISTEN:50801,reuseaddr,fork UNIX-CONNECT:/tmp/TelldusEvents &
+
+bashio::log.info "Loading Telldus service..."
+
+exec /usr/local/sbin/telldusd --nodaemon

@@ -1,0 +1,72 @@
+{
+  "name": "TellStick with Telldus Live",
+  "version": "0.6",
+  "slug": "tellsticklives6",
+  "description": "TellStick and TellStick Duo service with Telldus Live support",
+  "url": "https://github.com/erik73/hassio-tellstick-tellive",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "system",
+  "stdin": true,
+  "boot": "auto",
+  "devices": ["/dev/bus/usb:/dev/bus/usb:rwm"],
+  "options": {
+    "enablelive": false,
+    "devices": [
+      {
+        "id": 1,
+        "name": "Example device",
+        "protocol": "everflourish",
+        "model": "selflearning-switch",
+        "house": "A",
+        "unit": "1"
+      },
+      {
+        "id": 2,
+        "name": "Example device two",
+        "protocol": "everflourish",
+        "model": "selflearning-switch",
+        "house": "A",
+        "unit": "2"
+      }
+    ],
+    "sensors": [
+      {
+        "id": 199,
+        "name": "Example sensor",
+        "protocol": "fineoffset",
+        "model": "temperature"
+      },
+      {
+        "id": 215,
+        "name": "Example sensor two",
+        "protocol": "fineoffset",
+        "model": "temperaturehumidity"
+      }
+    ]
+  },
+  "schema": {
+    "enablelive": "bool",
+    "liveuuid": "str?",
+    "devices": [
+      {
+        "id": "int(1,)",
+        "name": "str",
+        "protocol": "match(arctech|brateck|comen|everflourish|fineoffset|fuhaote|hasta|ikea|kangtai|mandolyn|oregon|risingsun|sartano|silvanchip|upm|waveman|x10|yidong)",
+        "model": "match(codeswitch|bell|selflearning-switch|selflearning-dimmer|selflearning|ecosavers|kp100|temperaturehumidity|temperature)?",
+        "house": "str?",
+        "code": "str?",
+        "unit": "str?",
+        "fade": "str?"
+      }
+    ],
+    "sensors": [
+      {
+        "id": "int(1,)",
+        "name": "str",
+        "protocol": "match(arctech|brateck|comen|everflourish|fineoffset|fuhaote|hasta|ikea|kangtai|mandolyn|oregon|risingsun|sartano|silvanchip|upm|waveman|x10|yidong)",
+        "model": "match(codeswitch|bell|selflearning-switch|selflearning-dimmer|selflearning|ecosavers|kp100|temperaturehumidity|temperature)?"
+      }
+    ]
+  },
+  "image": "ehilton73/tellstick-tellive-s6-{arch}"
+}

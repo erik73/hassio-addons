@@ -1,0 +1,8 @@
+#!/usr/bin/with-contenv bashio
+
+if bashio::config.has_value "liveuuid"; then
+# Start tellive_core_connector
+bashio::log.info "Running services.d run script since UUID has been entered in config"
+sleep 10
+exec tellive_core_connector /etc/tellive.conf
+fi

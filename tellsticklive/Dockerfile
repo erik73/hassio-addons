@@ -1,0 +1,45 @@
+ARG BUILD_FROM
+FROM $BUILD_FROM
+
+ENV LANG C.UTF-8
+
+# Install Telldus library for TellStick (using same approach as in hassio docker installation)
+RUN apk add --no-cache \
+        confuse \
+        libftdi1 \
+        libstdc++ \
+        socat \
+        screen \
+    && apk add --no-cache --virtual .build-dependencies \
+        argp-standalone \
+        build-base \
+        cmake \
+        confuse-dev \
+        gcc \
+        git \
+        libftdi1-dev \
+    && ln -s /usr/include/libftdi1/ftdi.h /usr/include/ftdi.h \
+    && mkdir -p /usr/src \
+    && cd /usr/src \
+    && git clone -b v2.1.3-beta1 --depth 1 https://github.com/telldus/telldus \
+    && cd telldus/telldus-core \
+    && sed -i \
+        "/\<sys\/socket.h\>/a \#include \<sys\/select.h\>" \
+        common/Socket_unix.cpp \
+    && cmake . \
+        -DBUILD_LIBTELLDUS-CORE=ON \
+        -DBUILD_TDADMIN=OFF \
+        -DBUILD_TDTOOL=ON \
+        -DGENERATE_MAN=OFF \
+        -DFORCE_COMPILE_FROM_TRUNK=ON \
+        -DFTDI_LIBRARY=/usr/lib/libftdi1.so \
+    && make \
+    && make install \
+    && apk del .build-dependencies \
+    && rm -rf /usr/src/telldus
+
+RUN pip install --no-cache-dir tellcore-py
+RUN pip install --no-cache-dir tellive-py
+
+# Copy data for add-on
+COPY rootfs /
