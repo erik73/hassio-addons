@@ -46,7 +46,7 @@
   },
   "schema": {
     "enablelive": "bool",
-    "liveuuid": "str?(36,36)",
+    "liveuuid": "str(36,36)?",
     "devices": [
       {
         "id": "int(1,)",
