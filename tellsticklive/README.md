@@ -13,7 +13,7 @@ See the official addon documentation for details on device setup.
 ## Installation
 
 Follow these steps to get the add-on installed on your system:
-1. Add the repository https://github.com/erik73/hassio-tellstick-tellive. 
+1. Add the repository https://github.com/erik73/hassio-addons. 
 2. Find the "TellStick with Telldus Live" add-on and click it.
 3. Click on the "INSTALL" button.
 
@@ -38,7 +38,7 @@ file to enable the integration with the add-on.
 ```yaml
 # Example configuration.yaml entry
 tellstick:
-    host: 044971a0-tellsticklive
+    host: 32b8266a-tellsticklive
     port: [50800, 50801]
 ```
 
@@ -78,7 +78,7 @@ sensor you'd like to add to Telldus Live
 #### Option: `sensors.id` (required)
 
 This is the id of the sensor. To find out what id to use you have to use the service call hassio.addon_stdin with the following data:
-`{"addon":"044971a0_tellsticklive","input":{"function":"list-sensors"}}`
+`{"addon":"32b8266a_tellsticklive","input":{"function":"list-sensors"}}`
 Look in the addon log, and you should be able to find the id, protocol and model for your sensors.
 
 #### Option: `sensors.name` (required)
@@ -101,12 +101,12 @@ Go to Home Assistant service call in Developer tools and select:
 
 - Service: `hassio.addon_stdin`
 - Enter service Data:
-  `{"addon":""044971a0_tellsticklive","input":{"function":"learn","device":"1"}}`
+  `{"addon":"32b8266a-tellsticklive","input":{"function":"learn","device":"1"}}`
 
 Replace `1` with the corresponding ID of the device in your TellStick configuration.
 
 You can also use this to list devices or sensors and read the output in the
-add-on log: `{"addon":""044971a0_tellsticklive","input":{"function":"list-sensors"}}`
+add-on log: `{"addon":"32b8266a-tellsticklive","input":{"function":"list-sensors"}}`
 
 ### Supported service commands
 
