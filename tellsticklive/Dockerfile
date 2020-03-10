@@ -9,7 +9,6 @@ RUN apk add --no-cache \
         libftdi1 \
         libstdc++ \
         socat \
-        screen \
     && apk add --no-cache --virtual .build-dependencies \
         argp-standalone \
         build-base \
