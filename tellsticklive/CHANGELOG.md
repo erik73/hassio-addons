@@ -1,9 +1,13 @@
 # Changelog
 
 
+## 0.63
+
+-Cleanup and remove dependencies not needed.
+
 ## 0.6
 
-- Addon is now using S6-overlay
+- Addon is now using S6-overlay.
 
 ## 0.5
 
