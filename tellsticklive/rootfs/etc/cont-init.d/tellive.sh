@@ -30,18 +30,3 @@ for device in $(bashio::config 'sensors|keys'); do
         echo "sensor_${SENSOR_PROTO}_${SENSOR_MODEL}_${SENSOR_ID} = ${SENSOR_NAME}"
     ) >> "${TELLIVE}"
 done
-
-# 
-#if bashio::config.true "enablelive"; then
-#    bashio::log.info "Telldus Live enabled."
-#
-#    if bashio::config.has_value "liveuuid"; then
-#        # If uuid exists in the config we will start the service via servises.d
-#        bashio::log.info "UUID has been entered in config options. Exit config script and start as a service..."
-#    else
-#        bashio::log.info "UUID has not been entered in config. Generating registration URL"
-#        bashio::log.info "Follow the link below to register this addon with Telldus Live."
-#        bashio::log.info "copy the uuid string in the url and set liveuuid config option to match that."
-#        tellive_core_connector /etc/tellive.conf
-#    fi
-#fi
