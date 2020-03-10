@@ -1,8 +1,8 @@
 {
   "name": "TellStick with Telldus Live",
-  "version": "0.62",
+  "version": "0.63",
   "slug": "tellsticklive",
-  "description": "TellStick and TellStick Duo service with Telldus Live support and S6-overlay",
+  "description": "TellStick and TellStick Duo service with Telldus Live",
   "url": "https://github.com/erik73/hassio-addons",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "system",
