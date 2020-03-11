@@ -2,6 +2,6 @@ SUPERVISED_DIR=/var/run/s6/services
 
 # hack: this is run-once service
 # stop the s6-supervise process and ensure that its not started again
-s6-svc -x ${SUPERVISED_DIR}/<service>
-rm -rf ${SUPERVISED_DIR}/<service>
+s6-svc -x ${SUPERVISED_DIR}/getuuid
+rm -rf ${SUPERVISED_DIR}/getuuid
 s6-svscanctl -a ${SUPERVISED_DIR}

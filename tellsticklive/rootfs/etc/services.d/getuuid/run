@@ -1,0 +1,10 @@
+#!/usr/bin/with-contenv bashio
+
+if bashio::config.true "enablelive"; then
+    sleep 10
+    if bashio::config.is_empty "liveuuid"; then
+        bashio::log.info "UUID has NOT been entered in config options. Generating..."
+        exec tellive_core_connector /etc/tellive.conf
+    else
+    fi
+fi

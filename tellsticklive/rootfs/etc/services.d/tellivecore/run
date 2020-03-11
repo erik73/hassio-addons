@@ -7,9 +7,5 @@ if bashio::config.true "enablelive"; then
         bashio::log.info "UUID has been entered in config options. Starting Telldus Live..."
         exec tellive_core_connector /etc/tellive.conf
     else
-        bashio::log.info "UUID has not been entered in config. Generating registration URL"
-        bashio::log.info "Follow the link below to register this addon with Telldus Live."
-        bashio::log.info "Copy the uuid string in the url and set liveuuid config option to match that."
-        exec tellive_core_connector /etc/tellive.conf
     fi
 fi
