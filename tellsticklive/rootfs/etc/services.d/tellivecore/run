@@ -6,6 +6,6 @@ if bashio::config.true "enablelive"; then
     if bashio::config.has_value "liveuuid"; then
     bashio::log.info "UUID has been entered in config options. Starting Telldus Live..."
     exec tellive_core_connector /etc/tellive.conf
-    fi
+    else
 done
 
