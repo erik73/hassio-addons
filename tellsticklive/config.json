@@ -4,7 +4,7 @@
   "slug": "tellsticklive",
   "description": "TellStick and TellStick Duo service with Telldus Live",
   "url": "https://github.com/erik73/hassio-addons",
-  "arch": ["armv7"],
+  "arch": ["aarch64", "amd64", "armhf", "armv7", "i386"],
   "startup": "system",
   "stdin": true,
   "boot": "auto",
