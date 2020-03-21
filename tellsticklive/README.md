@@ -6,7 +6,8 @@ TellStick and TellStick Duo service with a possibility to export devices to Tell
 
 ## About
 
-This add-on is a modification of the official TellStick addon. The ability to have your devices and sensors published Telldus Live has been added.
+This add-on is a modification of the official TellStick addon. 
+It adds the ability to have your devices and sensors published Telldus Live
 
 See the official addon documentation for details on device setup. 
 
@@ -22,8 +23,6 @@ Follow these steps to get the add-on installed on your system:
 ### Starting the add-on
 
 After installation you are presented with a default and example configuration.
-The difference from the official addon is the sensors part. Leave that for now.
-Setup the devices according to the official instructions, and start the addon.
 
 1. Adjust the add-on configuration to match your devices. See the official add-on
    configuration options for details.
@@ -45,12 +44,14 @@ tellstick:
 
 ## Configuration
 
-When your devices work as expected you can start the configuration of the Telldus Live integration.
+For device configuration, refer to the official addon instructions.
+
 All devices configured and working will be visible in your Telldus Live account when you have completed all
 configuration steps below.
 
-The configuration of devices is well documented for the official addon. Use those instructions for your devices.
-To find the ID:s to be used in the sensor configuration options, see the options listed below.
+To have your sensors visible in Telldus Live they have to be added to the configuration.
+Use the following service call to find the needed sensor information:
+`{"addon":"32b8266a-tellsticklive","input":{"function":"list-sensors"}}`
 
 Example sensor configuration:
 
@@ -95,37 +96,7 @@ The model of the sensor. See above regarding the service call to find this infor
 
 ## Service calls
 
-If you wish to teach a self-learning device in your TellStick configuration:
-
-Go to Home Assistant service call in Developer tools and select:
-
-- Service: `hassio.addon_stdin`
-- Enter service Data:
-  `{"addon":"32b8266a-tellsticklive","input":{"function":"learn","device":"1"}}`
-
-Replace `1` with the corresponding ID of the device in your TellStick configuration.
-
-You can also use this to list devices or sensors and read the output in the
-add-on log: `{"addon":"32b8266a-tellsticklive","input":{"function":"list-sensors"}}`
-
-### Supported service commands
-
-- `"function":"list"`
-  List currently configured devices with name and device id and all discovered sensors.
-  
-- `"function":"list-sensors"`
-  
-- `"function":"list-devices"`
-  Alternative devices/sensors listing: Shows devices and/or sensors using key=value
-  format (with tabs as separators, one device/sensor per line, no header lines.)
-
-- `"function":"on","device":"x"`
-  Turns on device. ’x’ could either be an integer of the device-id,
-  or the name of the device.
-
-- `"function":"off","device":"x"`
-  Turns off device. ’x’ could either be an integer of the device-id,
-  or the name of the device.
+See the official addon instructions.
 
 ## How to enable the Telldus Live connection
 
@@ -156,9 +127,9 @@ Once all this is complete, you can restart the addon, and your devices and senso
 in Telldus Live!
 It can take a restart or two before the sensor names show correctly in Telldus Live.
 
-Please note: Once enablelive: true is set, but you have not set the liveuuid, the addon
-is in a configuration mode and will not accept service calls. Once the liveuuid: is set
-the addon works as expected.
+Please note: Once enablelive: true is set, but you have not set the liveuuid config option, the addon
+will continously display information in the addon log asking you to activate the Live connection. 
+Once the liveuuid: is setthe addon works as expected.
 
 ## Support
 
