@@ -3,7 +3,7 @@
 
 ## 0.63
 
--Cleanup and remove dependencies not needed.
+- Cleanup and remove dependencies not needed.
 
 ## 0.6
 
