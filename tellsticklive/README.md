@@ -7,7 +7,7 @@ TellStick and TellStick Duo service with a possibility to export devices to Tell
 ## About
 
 This add-on is a modification of the official TellStick addon. 
-It adds the ability to have your devices and sensors published Telldus Live
+It adds the ability to have your devices and sensors published Telldus Live.
 
 See the official addon documentation for details on device setup. 
 
@@ -46,7 +46,7 @@ tellstick:
 
 For device configuration, refer to the official addon instructions.
 
-All devices configured and working will be visible in your Telldus Live account when you have completed all
+All devices configured and working will be visible in your Telldus Live account when you have completed the
 configuration steps below.
 
 To have your sensors visible in Telldus Live they have to be added to the configuration.
@@ -74,7 +74,7 @@ you need to restart the add-on for the changes to take effect.
 ### Option: `sensors` (required)
 
 Add one or more sensors entries to the add-on configuration for each
-sensor you'd like to add to Telldus Live
+sensor you'd like to add to Telldus Live.
 
 #### Option: `sensors.id` (required)
 
