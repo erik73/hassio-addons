@@ -51,7 +51,7 @@ configuration steps below.
 
 To have your sensors visible in Telldus Live they have to be added to the configuration.
 Use the following service call to find the needed sensor information:
-`{"addon":"32b8266a-tellsticklive","input":{"function":"list-sensors"}}`
+`{"addon":"32b8266a_tellsticklive","input":{"function":"list-sensors"}}`
 
 Example sensor configuration:
 
