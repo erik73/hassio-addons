@@ -129,7 +129,7 @@ It can take a restart or two before the sensor names show correctly in Telldus L
 
 Please note: Once enablelive: true is set, but you have not set the liveuuid config option, the addon
 will continously display information in the addon log asking you to activate the Live connection. 
-Once the liveuuid: is setthe addon works as expected.
+Once the liveuuid: is set, the addon works as expected.
 
 ## Support
 
