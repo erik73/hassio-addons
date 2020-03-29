@@ -1,6 +1,10 @@
 # Changelog
 
 
+## 0.7
+
+- Added Runonce-service to simplify initial registration to Telldus Live!
+
 ## 0.63
 
 - Cleanup and remove dependencies not needed.
