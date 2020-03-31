@@ -1,6 +1,10 @@
 # Changelog
 
 
+## 0.71
+
+- Added missing file for runonce-service
+
 ## 0.7
 
 - Added Runonce-service to simplify initial registration to Telldus Live!
