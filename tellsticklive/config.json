@@ -1,6 +1,6 @@
 {
   "name": "TellStick with Telldus Live",
-  "version": "0.71",
+  "version": "0.72",
   "slug": "tellsticklive",
   "description": "TellStick and TellStick Duo service with Telldus Live",
   "url": "https://github.com/erik73/hassio-addons",
@@ -46,7 +46,7 @@
   },
   "schema": {
     "enablelive": "bool",
-    "liveuuid": "str?",
+    "liveuuid": "match(^[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?",
     "devices": [
       {
         "id": "int(1,)",
