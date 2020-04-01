@@ -1,6 +1,10 @@
 # Changelog
 
 
+## 0.72
+
+ - Added regexp to validate uuid string
+
 ## 0.71
 
 - Added missing file for runonce-service
