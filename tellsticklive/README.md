@@ -1,6 +1,6 @@
 # Home Assistant Add-on: TellStick with Telldus Live
 
-TellStick and TellStick Duo service with a possibility to export devices to Telldus Live
+TellStick and TellStick Duo service with a possibility to export devices to Telldus Live!
 
 ![Supports aarch64 Architecture][aarch64-shield] ![Supports amd64 Architecture][amd64-shield] ![Supports armhf Architecture][armhf-shield] ![Supports armv7 Architecture][armv7-shield] ![Supports i386 Architecture][i386-shield]
 
