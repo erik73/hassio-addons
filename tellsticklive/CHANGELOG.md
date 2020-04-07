@@ -1,13 +1,16 @@
 # Changelog
 
+##0.8
+ - Enable Telldus Live-only mode.
+
 
 ## 0.72
 
- - Added regexp to validate uuid string
+ - Added regexp to validate uuid string.
 
 ## 0.71
 
-- Added missing file for runonce-service
+- Added missing file for runonce-service.
 
 ## 0.7
 
