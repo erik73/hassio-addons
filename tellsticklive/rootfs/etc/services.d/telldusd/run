@@ -1,9 +1,11 @@
 #!/usr/bin/with-contenv bashio
 
-bashio::log.info "Exposing sockets..."
+if bashio::config.true "enablelocal"; then
+bashio::log.info "Local enabled. Exposing sockets to HomeAssistant..."
 
 socat TCP-LISTEN:50800,reuseaddr,fork UNIX-CONNECT:/tmp/TelldusClient &
 socat TCP-LISTEN:50801,reuseaddr,fork UNIX-CONNECT:/tmp/TelldusEvents &
+fi
 
 bashio::log.info "Loading Telldus service..."
 
