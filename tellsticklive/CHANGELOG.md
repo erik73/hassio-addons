@@ -1,8 +1,8 @@
 # Changelog
 
-##0.8
- - Enable Telldus Live-only mode.
+## 0.8
 
+ - Enable Telldus Live-only mode.
 
 ## 0.72
 
