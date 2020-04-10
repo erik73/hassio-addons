@@ -3,7 +3,7 @@
 # This script will create the config file needed to connect to Telldus Live
 
 TELLIVE="/etc/tellive.conf"
-UUID=$(bashio::config 'liveuuid')
+UUID=$(bashio::config 'live_uuid')
 
 {
     echo "[settings]"
