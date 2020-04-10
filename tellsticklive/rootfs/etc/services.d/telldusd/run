@@ -1,6 +1,6 @@
 #!/usr/bin/with-contenv bashio
 
-if bashio::config.true "enablelocal"; then
+if bashio::config.true "enable_local"; then
 bashio::log.info "Local enabled. Exposing sockets to HomeAssistant..."
 
 socat TCP-LISTEN:50800,reuseaddr,fork UNIX-CONNECT:/tmp/TelldusClient &

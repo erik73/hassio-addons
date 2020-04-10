@@ -10,8 +10,8 @@
   "boot": "auto",
   "devices": ["/dev/bus/usb:/dev/bus/usb:rwm"],
   "options": {
-    "enablelocal": true,
-    "enablelive": false,
+    "enable_local": true,
+    "enable_live": false,
     "devices": [
       {
         "id": 1,
@@ -46,9 +46,9 @@
     ]
   },
   "schema": {
-    "enablelocal": "bool",
-    "enablelive": "bool",
-    "liveuuid": "match(^[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?",
+    "enable_local": "bool",
+    "enable_live": "bool",
+    "live_uuid": "match(^[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?",
     "devices": [
       {
         "id": "int(1,)",
