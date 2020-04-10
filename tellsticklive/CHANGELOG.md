@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.81
+
+ - Renamed config options.
+
 ## 0.8
 
  - Enable Telldus Live-only mode.
