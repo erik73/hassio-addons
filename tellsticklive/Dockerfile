@@ -39,7 +39,7 @@ RUN apk add --no-cache \
     && cd / \
     && pip install --no-cache-dir \ 
        tellcore-py \
-       tellive-py \
+       tellive-py
 
 # Copy data for add-on
 COPY rootfs /
