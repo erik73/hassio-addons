@@ -2,7 +2,7 @@
 
 ## 0.82
 
- - Updated Dockerfile to reduce numder of layers.
+ - Updated Dockerfile to reduce number of layers.
 
 ## 0.81
 
