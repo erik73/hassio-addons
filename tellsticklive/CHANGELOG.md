@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.82
+
+ - Updated Dockerfile to reduce numder of layers.
+
 ## 0.81
 
  - Renamed config options.
