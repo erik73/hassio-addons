@@ -36,9 +36,11 @@ RUN apk add --no-cache \
     && make install \
     && apk del .build-dependencies \
     && rm -rf /usr/src/telldus \
+    \
     && pip install --no-cache-dir \ 
        tellcore-py \
        tellive-py \
+    \
 
 # Copy data for add-on
 COPY rootfs /
