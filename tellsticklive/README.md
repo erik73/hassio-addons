@@ -7,8 +7,7 @@ TellStick and TellStick Duo service with a possibility to export devices to Tell
 ## About
 
 This add-on is a modification of the official TellStick addon. 
-It adds the ability to have your devices and sensors published Telldus Live.
-
+It adds the ability to have your devices and sensors published Telldus Live. 
 See the official addon documentation for details on device setup. 
 
 ## Installation
@@ -31,7 +30,8 @@ After installation you are presented with a default and example configuration.
 
 ### Home Assistant integration
 
-You will need to add internal communication details to the `configuration.yaml`
+You can run the addon in Live-only mode. In that case, you configure the TelldusLive integration i HA once you have everything set up.
+If you want to run in local mode (the same way the official addon runs), you will need to add internal communication details to the `configuration.yaml`
 file to enable the integration with the add-on.
 
 ```yaml
@@ -106,7 +106,7 @@ the connection to Telldus Live, and generate an UUID that will be used to connec
 Set the config option:
 
 ```yaml
-enablelive: true
+enable_live: true
 ```
 
 Restart the addon and look in the addon log. 
@@ -118,10 +118,16 @@ if you don´t have one.
 Also make sure you copy the string after uuid= in the URL, and create the following config entry:
 
 ```yaml
-liveuuid: de1333b5-154c-5342-87dc-6b7e0b2096ab
+live_uuid: de1333b5-154c-5342-87dc-6b7e0b2096ab
 ```
 
 The above is an example. Yours will look different.
+
+Finally, if you want to disable the local connection to HA, and get all of your devices from Telldus Live through the Telldus Live integration
+you have the set the following config option to false. In that case, you can remove all tellstick configuration from configuration.yaml.
+```yaml
+enable_local: false
+```
 
 Once all this is complete, you can restart the addon, and your devices and sensors will appear
 in Telldus Live!
