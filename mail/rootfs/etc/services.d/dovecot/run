@@ -1,4 +1,0 @@
-#!/usr/bin/with-contenv bashio
-bashio::log.info "Starting Dovecot...."
-
-exec /usr/sbin/dovecot -F -c /etc/dovecot/dovecot.conf
