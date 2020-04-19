@@ -15,6 +15,4 @@ SERVICE_PASSWORD=$(bashio::services "mysql" "password")
 SERVICE_PORT=$(bashio::services "mysql" "port")
 SERVICE_USERNAME=$(bashio::services "mysql" "username")
 
- php /var/www/postfixadmin/public/upgrade.php
-
 exec php-fpm7 --nodaemonize
