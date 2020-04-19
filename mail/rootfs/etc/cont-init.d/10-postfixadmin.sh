@@ -61,5 +61,3 @@ SERVICE_USERNAME=$(bashio::services "mysql" "username")
 
 php /var/www/postfixadmin/public/upgrade.php
 fi
-
-sed -i 's/^user .*$/user = '$SERVICE_USERNAME'/' mysql_virtual_alias_domain_maps.cf
