@@ -1,6 +1,6 @@
 {
   "name": "Mailserver",
-  "version": "0.31",
+  "version": "0.32",
   "slug": "mailserver",
   "description": "Complete mail server solution for Home Assistant",
   "url": "https://github.com/erik73/hassio-addons2",
@@ -15,65 +15,10 @@
   "hassio_api": true,
   "hassio_role": "default",
   "options": {
-    "enablelive": false,
-    "enablelocal": true,
-    "devices": [
-      {
-        "id": 1,
-        "name": "Example device",
-        "protocol": "everflourish",
-        "model": "selflearning-switch",
-        "house": "A",
-        "unit": "1"
-      },
-      {
-        "id": 2,
-        "name": "Example device two",
-        "protocol": "everflourish",
-        "model": "selflearning-switch",
-        "house": "A",
-        "unit": "2"
-      }
-    ],
-    "sensors": [
-      {
-        "id": 199,
-        "name": "Example sensor",
-        "protocol": "fineoffset",
-        "model": "temperature"
-      },
-      {
-        "id": 215,
-        "name": "Example sensor two",
-        "protocol": "fineoffset",
-        "model": "temperaturehumidity"
-      }
-    ]
+    "domain_name": "mydomain.no-ip.com",
   },
   "schema": {
-    "enablelive": "bool",
-    "enablelocal": "bool",
-    "liveuuid": "match(^[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?",
-    "devices": [
-      {
-        "id": "int(1,)",
-        "name": "str",
-        "protocol": "match(arctech|brateck|comen|everflourish|fineoffset|fuhaote|hasta|ikea|kangtai|mandolyn|oregon|risingsun|sartano|silvanchip|upm|waveman|x10|yidong)",
-        "model": "match(codeswitch|bell|selflearning-switch|selflearning-dimmer|selflearning|ecosavers|kp100|temperaturehumidity|temperature)?",
-        "house": "str?",
-        "code": "str?",
-        "unit": "str?",
-        "fade": "str?"
-      }
-    ],
-    "sensors": [
-      {
-        "id": "int(1,)",
-        "name": "str",
-        "protocol": "match(arctech|brateck|comen|everflourish|fineoffset|fuhaote|hasta|ikea|kangtai|mandolyn|oregon|risingsun|sartano|silvanchip|upm|waveman|x10|yidong)",
-        "model": "match(codeswitch|bell|selflearning-switch|selflearning-dimmer|selflearning|ecosavers|kp100|temperaturehumidity|temperature)?"
-      }
-    ]
+    "domain_name: "str",
   },
   "image": "ehilton73/mailserver-test-{arch}"
 }
