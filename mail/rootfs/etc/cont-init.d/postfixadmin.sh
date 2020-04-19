@@ -47,6 +47,6 @@ if ! bashio::var.has_value "${database}"; then
     mysql \
         -u "${username}" -p"${password}" \
         -h "${host}" -P "${port}" \
-            < /etc/postfix/createdb.sql
+            < /etc/postfix/createdb.sql \
     php /var/www/postfixadmin/public/upgrade.php
 fi
