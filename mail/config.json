@@ -16,9 +16,9 @@
   "hassio_role": "default",
   "options": {
     "domain_name": "mydomain.no-ip.com"
-  },
+    },
   "schema": {
     "domain_name: "str"
-  },
+    },
   "image": "ehilton73/mailserver-test-{arch}"
 }
