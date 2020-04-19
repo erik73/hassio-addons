@@ -2,9 +2,10 @@
 $CONF['configured'] = true;
 
 $CONF['database_type'] = 'mysqli';
-$CONF['database_host'] = 'core-mariadb';
-$CONF['database_user'] = 'postfixadmin';
-$CONF['database_password'] = 'postfixadmin';
+$CONF['database_host'] = getenv("SERVICE_HOST");
+$CONF['database_user'] = getenv("SERVICE_USERNAME");
+$CONF['database_password'] = getenv("SERVICE_PASSWORD");
+$CONF['database_port'] = getenv("SERVICE_PORT");
 $CONF['database_name'] = 'postfixadmin';
 
 $CONF['default_aliases'] = array (
