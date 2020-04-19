@@ -10,4 +10,6 @@ SERVICE_PASSWORD=$(bashio::services "mysql" "password")
 SERVICE_PORT=$(bashio::services "mysql" "port")
 SERVICE_USERNAME=$(bashio::services "mysql" "username")
 
-sed -i 's/^user .*$/user = '$SERVICE_USERNAME'/' /etc/postfix/sql/mysql_virtual_alias_domain_maps.cf
+sed -i 's/^user .*$/user = '$SERVICE_USERNAME'/' /etc/postfix/sql/*.cf
+sed -i 's/^password .*$/password = '$SERVICE_PASSWORD'/' /etc/postfix/sql/*.cf
+sed -i 's/^hosts .*$/hosts = '$SERVICE_HOST'/' /etc/postfix/sql/*.cf
