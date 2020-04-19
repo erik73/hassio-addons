@@ -48,6 +48,4 @@ if ! bashio::var.has_value "${database}"; then
         -u "${username}" -p"${password}" \
         -h "${host}" -P "${port}" \
             < /etc/postfix/createdb.sql
-    bashio::log.info "Database created. Starting php script"
-    php /var/www/postfixadmin/public/upgrade.php
 fi

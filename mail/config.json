@@ -6,6 +6,7 @@
   "url": "https://github.com/erik73/hassio-addons2",
   "arch": ["amd64", "armv7"],
   "startup": "application",
+  "init": false,
   "ingress": true,
   "boot": "auto",
   "map": ["ssl"],
