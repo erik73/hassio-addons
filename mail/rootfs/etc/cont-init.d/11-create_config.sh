@@ -19,3 +19,4 @@ sed -i 's/^connect .*$/connect = host='$SERVICE_HOST' dbname=postfixadmin user='
 
 sed -i "s/postmaster_address = postmaster/postmaster_address = postmaster@${domain}/g" /etc/dovecot/conf.d/20-lmtp.conf
 sed -i "s/From: postmaster/From: postmaster@${domain}/g" /usr/local/bin/quota-warning.sh
+sed -i "s/@domain/@${domain}/g" /var/www/postfixadmin/config.local.php

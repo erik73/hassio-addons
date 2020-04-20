@@ -9,10 +9,10 @@ $CONF['database_port'] = getenv("SERVICE_PORT");
 $CONF['database_name'] = 'postfixadmin';
 
 $CONF['default_aliases'] = array (
-  'abuse'      => 'abuse@hilton.zapto.org',
-  'hostmaster' => 'hostmaster@hilton.zapto.org',
-  'postmaster' => 'postmaster@hilton.zapto.org',
-  'webmaster'  => 'webmaster@hilton.zapto.org'
+  'abuse'      => 'abuse@domain',
+  'hostmaster' => 'hostmaster@domain',
+  'postmaster' => 'postmaster@domain',
+  'webmaster'  => 'webmaster@domain'
 );
 
 $CONF['fetchmail'] = 'NO';
