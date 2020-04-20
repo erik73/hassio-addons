@@ -15,7 +15,8 @@
   "hassio_api": true,
   "hassio_role": "default",
   "options": {
-    "domain_name": "mydomain.no-ip.com"
+    "domain_name": "mydomain.no-ip.com",
+    "smtp_relayhost": ""
   },
   "schema": {
     "domain_name": "str",
