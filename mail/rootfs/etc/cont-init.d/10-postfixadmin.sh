@@ -44,6 +44,11 @@ database=$(\
         -e "SHOW DATABASES LIKE 'postfixadmin';"
 )
 
+postfixadmin=$(bashio::config 'admin_user')
+postfixpassword=$(bashio::config 'admin_password')
+domain=$(bashio::config 'domain_name')
+
+
 if ! bashio::var.has_value "${database}"; then
     bashio::log.info "Creating database for postfixadmin"
     mysql \
@@ -62,5 +67,5 @@ SERVICE_PORT=$(bashio::services "mysql" "port")
 SERVICE_USERNAME=$(bashio::services "mysql" "username")
 
 php /var/www/postfixadmin/public/upgrade.php
-/var/www/postfixadmin/scripts/postfixadmin-cli admin add superadmin@hilton.zapto.org --superadmin 1 --active 1 --password Duchesse87 --password2 Duchesse87
+/var/www/postfixadmin/scripts/postfixadmin-cli admin add ${postfixadmin}@${domain} --superadmin 1 --active 1 --password ${postfixpassword} --password2 ${postfixpassword}
 fi
