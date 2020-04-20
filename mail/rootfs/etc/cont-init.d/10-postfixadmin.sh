@@ -68,5 +68,5 @@ SERVICE_USERNAME=$(bashio::services "mysql" "username")
 
 php /var/www/postfixadmin/public/upgrade.php
 /var/www/postfixadmin/scripts/postfixadmin-cli admin add ${postfixadmin}@${domain} --superadmin 1 --active 1 --password ${postfixpassword} --password2 ${postfixpassword}
-/var/www/postfixadmin/scripts/postfixadmin-cli admin add ${domain}
+/var/www/postfixadmin/scripts/postfixadmin-cli domain add ${domain}
 fi
