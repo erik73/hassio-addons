@@ -21,6 +21,8 @@ rm -fr /var/mail
 ln -s /data/mail /var/mail
 chown vmail:postdrop /var/mail
 
+newaliases
+
 if ! bashio::fs.file_exists "/data/config.secret.inc.php"; then
     cat > /data/config.secret.inc.php <<EOT
 <?php
