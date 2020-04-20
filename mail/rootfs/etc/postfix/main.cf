@@ -1,3 +1,4 @@
+maillog_file = /dev/stdout
 compatibility_level = 2
 queue_directory = /var/spool/postfix
 command_directory = /usr/sbin
