@@ -10,8 +10,7 @@ declare username
 declare database
 
 chmod +x /usr/local/bin/quota-warning.sh
-
-chown vmail:vmail /var/mail; \
+chown vmail:postdrop /etc/dovecot/users
 
 # Ensures the data of the Postfix and Dovecot is stored outside of the container
 if ! bashio::fs.directory_exists '/data/mail'; then
