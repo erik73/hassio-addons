@@ -1,3 +1,5 @@
+myhostname = hilton.zapto.org
+relayhost = smtp.internetport.se
 maillog_file = /dev/stdout
 compatibility_level = 2
 queue_directory = /var/spool/postfix
@@ -17,9 +19,7 @@ setgid_group = postdrop
 html_directory = no
 manpage_directory = /usr/share/man
 sample_directory = /etc/postfix
-myhostname=hilton.zapto.org
 mydestination = localhost.$mydomain, localhost
-relayhost = smtp.internetport.se
 readme_directory = /usr/share/doc/postfix/readme
 inet_protocols = ipv4
 meta_directory = /etc/postfix
