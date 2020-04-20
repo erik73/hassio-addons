@@ -1,4 +1,5 @@
 #!/usr/bin/with-contenv bashio
 
 bashio::log.info "Starting Postfix...."
+newaliases
 exec /usr/libexec/postfix/master -d
