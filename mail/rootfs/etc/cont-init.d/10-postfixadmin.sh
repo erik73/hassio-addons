@@ -10,7 +10,7 @@ declare username
 declare database
 
 chmod +x /usr/local/bin/quota-warning.sh
-chown vmail:dovetcot /etc/dovecot/users
+chown vmail:dovecot /etc/dovecot/users
 chmod 440 /etc/dovecot/users
 
 # Ensures the data of the Postfix and Dovecot is stored outside of the container
