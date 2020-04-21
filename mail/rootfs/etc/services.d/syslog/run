@@ -1,4 +1,0 @@
-#!/usr/bin/with-contenv bashio
-
-bashio::log.info "Starting Syslog...."
-exec /sbin/syslogd -n

@@ -11,13 +11,10 @@ RUN apk add --no-cache \
 	php7-cli \
 	php7-imap \
 	php7-session \
-	php7-curl \
 	php7-json \
 	php7-opcache \
 	php7-mbstring \
     php7-mysqli \
-	php7-gd \
-	php7 \
     postfix \
 	postfix-mysql \
 	dovecot \
