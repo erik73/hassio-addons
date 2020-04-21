@@ -24,7 +24,7 @@
     "domain_name": "str",
     "admin_user": "str",
     "admin_password": "str",
-    "relay_host": "str?"
+    "smtp_relayhost": "str?"
   },
   "image": "ehilton73/mailserver-test-{arch}"
 }
