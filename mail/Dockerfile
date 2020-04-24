@@ -3,6 +3,8 @@ FROM $BUILD_FROM
 
 ENV LANG C.UTF-8
 
+ARG BUILD_ARCH
+
 # Install mailserver
 RUN apk add --no-cache \
     mariadb-client \
@@ -20,17 +22,23 @@ RUN apk add --no-cache \
 	dovecot \
 	dovecot-lmtpd \
 	dovecot-mysql \
+	clamav \
+	clamav-libunrar \
+	clamsmtp \
     && curl -L -s -o postfixadmin.tar.gz "https://github.com/postfixadmin/postfixadmin/archive/postfixadmin-3.2.3.tar.gz"; \
 	mkdir /var/www/postfixadmin; \
 	tar -xf postfixadmin.tar.gz -C /var/www/postfixadmin --strip-components=1; \
 	rm postfixadmin.tar.gz; \
 	# Does not exist in tarball but is required
-        mkdir -p /var/www/postfixadmin/templates_c; \
-        chown -R nginx: /var/www/postfixadmin; \
-        addgroup vmail; \
+    mkdir -p /var/www/postfixadmin/templates_c; \
+    chown -R nginx: /var/www/postfixadmin; \
 	mkdir -p /etc/postfix/sql \
     && rm -f -r \
-        /tmp/* 
-
+    /tmp/* \
+	&& S6_ARCH="${BUILD_ARCH}" \
+    && if [ "${BUILD_ARCH}" = "i386" ]; then S6_ARCH="x86"; fi \
+    && if [ "${BUILD_ARCH}" = "armv7" ]; then S6_ARCH="arm"; fi \
+	&& curl -L -s "https://github.com/just-containers/socklog-overlay/releases/download/v3.1.0-2/socklog-overlay-${S6_ARCH}.tar.gz" \
+        | tar zxvf - -C /;
 # Copy data for add-on
 COPY rootfs /

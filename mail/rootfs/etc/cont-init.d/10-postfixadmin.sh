@@ -17,19 +17,12 @@ chmod 440 /etc/dovecot/users
 if ! bashio::fs.directory_exists '/data/mail'; then
     mkdir -p /data/mail
 fi
+addgroup vmail
 rm -fr /var/mail
 ln -s /data/mail /var/mail
 chown vmail:postdrop /var/mail
-
-newaliases
-
-if ! bashio::fs.file_exists "/data/config.secret.inc.php"; then
-    cat > /data/config.secret.inc.php <<EOT
-<?php
-\$cfg['blowfish_secret'] = '$(tr -dc 'a-zA-Z0-9~!@#$%^&*_()+}{?></";.,[]=-' < /dev/urandom | fold -w 32 | head -n 1)';
-EOT
-fi
-chmod 644 /data/config.secret.inc.php
+mkdir -p /var/www/postfixadmin/templates_c; \
+chown -R nginx: /var/www/postfixadmin; \
 
 host=$(bashio::services "mysql" "host")
 password=$(bashio::services "mysql" "password")

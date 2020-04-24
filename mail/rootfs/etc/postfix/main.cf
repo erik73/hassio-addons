@@ -1,6 +1,6 @@
-myhostname = hilton.zapto.org
+myhostname =
 relayhost =
-maillog_file = /dev/stdout
+# maillog_file = /dev/stdout
 compatibility_level = 2
 queue_directory = /var/spool/postfix
 command_directory = /usr/sbin
