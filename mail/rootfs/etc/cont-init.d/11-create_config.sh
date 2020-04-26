@@ -30,7 +30,7 @@ if bashio::config.false "enable_antivirus"; then
   rm -f -r \
   /etc/services.d/freshclam \
   /etc/services.d/clamd \
-  /etc/services.d/clamsmtpd \
+  /etc/services.d/clamsmtpd
 fi
 
 if bashio::config.true "enable_antivirus"; then
