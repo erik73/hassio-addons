@@ -1,10 +1,10 @@
 {
   "name": "Mailserver",
-  "version": "0.73",
+  "version": "0.80",
   "slug": "mailserver",
   "description": "Complete mail server solution for Home Assistant",
   "url": "https://github.com/erik73/hassio-addons2",
-  "arch": ["aarch64", "amd64", "armhf", "armv7", "i386"],
+  "arch": ["amd64", "armv7"],
   "startup": "application",
   "init": false,
   "ingress": true,
@@ -28,5 +28,5 @@
     "smtp_relayhost": "str?",
     "log_level": "list(trace|debug|info|notice|warning|error|fatal)?"
   },
-  "image": "ehilton73/mailserver-test-{arch}"
+  "image": "ehilton73/mailserver-{arch}"
 }

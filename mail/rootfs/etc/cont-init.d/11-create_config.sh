@@ -27,9 +27,29 @@ sed -i "s/myhostname =/myhostname = ${domain}/g" /etc/postfix/main.cf
 newaliases
 
 if bashio::config.true "enable_antivirus"; then
-    bashio::log.info "Antivirus enabled."
+    bashio::log.info "Antivirus enabled. Setting up ClamAV and Postfix"
+    cat << EOF >> /etc/postfix/main.cf
+content_filter = scan:127.0.0.1:10025
+receive_override_options = no_address_mappings
+EOF
+
+    cat << EOF >> /etc/postfix/master.cf
+# AV scan filter (used by content_filter)
+scan      unix  -       -       n       -       16      smtp
+  -o smtp_send_xforward_command=yes
+# For injecting mail back into postfix from the filter
+127.0.0.1:10026 inet  n -       n       -       16      smtpd
+  -o content_filter=
+  -o receive_override_options=no_unknown_recipient_checks,no_header_body_checks
+  -o smtpd_helo_restrictions=
+  -o smtpd_client_restrictions=
+  -o smtpd_sender_restrictions=
+  -o smtpd_recipient_restrictions=permit_mynetworks,reject
+  -o mynetworks_style=host
+  -o smtpd_authorized_xforward_hosts=127.0.0.0/8
+EOF
     mkdir /run/clamav
     chown clamav:clamav /run/clamav
     bashio::log.info "Updating antivirus patterns"
-    freshclam
+    freshclam >/dev/null 2>&1
 fi
