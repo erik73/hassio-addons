@@ -1,7 +1,4 @@
 #!/usr/bin/with-contenv bashio
-
-if bashio::config.true "enable_antivirus"; then
-    
-    bashio::log.info "Starting Clamsmtpd...."
-    exec clamsmtpd -d 1 -f /etc/clamsmtpd.conf
-fi
+ 
+bashio::log.info "Starting Clamsmtpd...."
+exec clamsmtpd -d 1 -f /etc/clamsmtpd.conf

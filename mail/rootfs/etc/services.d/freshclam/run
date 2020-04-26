@@ -1,7 +1,4 @@
 #!/usr/bin/with-contenv bashio
 
-if bashio::config.true "enable_antivirus"; then
-    
-    bashio::log.info "Starting Freshclam...."
-    exec freshclam -d --config-file /etc/clamav/freshclam.conf >/dev/null 2>&1
-fi
+bashio::log.info "Starting Freshclam...."
+exec freshclam -d --config-file /etc/clamav/freshclam.conf >/dev/null 2>&1
