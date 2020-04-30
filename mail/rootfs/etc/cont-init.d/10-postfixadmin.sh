@@ -20,7 +20,8 @@ fi
 addgroup vmail
 rm -fr /var/mail
 ln -s /data/mail /var/mail
-chown vmail:postdrop /var/mail
+mkdir -p /var/mail/vmail/sieve/global
+chown -R vmail:postdrop /var/mail
 mkdir -p /var/www/postfixadmin/templates_c; \
 chown -R nginx: /var/www/postfixadmin; \
 
