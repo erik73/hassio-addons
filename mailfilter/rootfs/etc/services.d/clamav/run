@@ -1,0 +1,5 @@
+#!/usr/bin/with-contenv bashio
+   
+bashio::log.info "Starting ClamAV antivirus daemon...."
+exec clamd >/dev/null 2>&1
+
