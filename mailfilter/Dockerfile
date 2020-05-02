@@ -11,11 +11,11 @@ RUN apk add --no-cache \
 	clamav \
 	clamav-libunrar \
 	redis@edge=5.0.9-r0 \
-	rspamd@edge=2.5-r3 \
-	rspamd-controller@edge=2.5-r3 \
-	rspamd-fuzzy@edge=2.5-r3 \
-	rspamd-proxy@edge=2.5-r3 \
-	rspamd-client@edge=2.5-r3 \
+	rspamd \
+	rspamd-controller \
+	rspamd-fuzzy \
+	rspamd-proxy \
+	rspamd-client \
     && rm -f -r \
     /tmp/* \
 	&& S6_ARCH="${BUILD_ARCH}" \
