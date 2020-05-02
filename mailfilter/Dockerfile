@@ -11,7 +11,7 @@ RUN apk add --no-cache \
 		nginx \ 
 		clamav \
 		clamav-libunrar \
-		redis@edge=5.0.9-r0 \
+		redis \
     && apk add --no-cache --virtual .build-dependencies \
 		build-base \
 		cmake \
