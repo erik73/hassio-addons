@@ -8,6 +8,10 @@ ARG BUILD_ARCH
 # Install mailserver
 RUN apk add --no-cache \
         luarocks \
+		nginx \ 
+		clamav \
+		clamav-libunrar \
+		redis@edge=5.0.9-r0 \
     && apk add --no-cache --virtual .build-dependencies \
 		build-base \
 		cmake \
