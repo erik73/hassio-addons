@@ -12,6 +12,10 @@ RUN apk add --no-cache \
 		clamav \
 		clamav-libunrar \
 		redis \
+		libcrypto1.1 \
+		libsodium \
+		luajit \
+		sqlite-libs \
     && apk add --no-cache --virtual .build-dependencies \
 		build-base \
 		cmake \
