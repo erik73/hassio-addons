@@ -16,6 +16,8 @@ RUN apk add --no-cache \
 		libsodium \
 		luajit \
 		sqlite-libs \
+		glib \
+		icu-libs \
     && apk add --no-cache --virtual .build-dependencies \
 		build-base \
 		cmake \
