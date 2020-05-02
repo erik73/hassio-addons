@@ -15,7 +15,7 @@ RUN apk add --no-cache \
 		file-dev \
 		gd-dev \
 		glib-dev \
-		icu-dev@edge=67.1-r0 \
+		icu-dev \
 		libevent-dev \
 		libsodium-dev \
 		openssl-dev \
