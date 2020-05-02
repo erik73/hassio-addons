@@ -1,5 +1,6 @@
 #!/usr/bin/with-contenv bashio
-
+    addgroup -S rspamd
+    adduser -S -D -H -G rspamd rspamd
     mkdir -p /data/lib/rspamd
     mkdir -p /data/lib/redis
     mkdir -p /data/lib/clamav
