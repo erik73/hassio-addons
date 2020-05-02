@@ -29,7 +29,7 @@ RUN apk add --no-cache \
     && cd /usr/src \
     && git clone -b 2.5 --recursive https://github.com/rspamd/rspamd \
     && cd rspamd \
-	&& cmake . \
+	&& cmake . -DCMAKE_INSTALL_PREFIX=/ \
     && make install \
     && apk del .build-dependencies \
     && rm -rf /usr/src/rspamd \
