@@ -7,15 +7,33 @@ ARG BUILD_ARCH
 
 # Install mailserver
 RUN apk add --no-cache \
-	nginx \ 
-	clamav \
-	clamav-libunrar \
-	redis@edge=5.0.9-r0 \
-	rspamd \
-	rspamd-controller \
-	rspamd-fuzzy \
-	rspamd-proxy \
-	rspamd-client \
+        luarocks \
+    && apk add --no-cache --virtual .build-dependencies \
+		build-base \
+		cmake \
+		curl-dev \
+		file-dev \
+		gd-dev \
+		glib-dev \
+		icu-dev@edge \
+		libevent-dev \
+		libsodium-dev \
+		openssl-dev \
+		luajit-dev \
+		pcre2-dev \
+		perl \
+		ragel \
+		sqlite-dev \
+		git \
+    && mkdir -p /usr/src \
+    && cd /usr/src \
+    && git clone -b 2.5 --recursive https://github.com/rspamd/rspamd \
+    && cd rspamd \
+	&& make . \
+    && make install \
+    && apk del .build-dependencies \
+    && rm -rf /usr/src/rspamd \
+    && cd / \
     && rm -f -r \
     /tmp/* \
 	&& S6_ARCH="${BUILD_ARCH}" \
