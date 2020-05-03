@@ -37,7 +37,7 @@ RUN apk add --no-cache \
 		git \
     && mkdir -p /usr/src \
     && cd /usr/src \
-    && git clone -b master --recursive https://github.com/rspamd/rspamd \
+    && git clone -b 2.5 --recursive https://github.com/rspamd/rspamd \
     && cd rspamd \
 	&& cmake -DCMAKE_INSTALL_PREFIX= . \
     && make install \

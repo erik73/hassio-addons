@@ -1,4 +1,5 @@
 #!/usr/bin/with-contenv bashio
+
     addgroup -S rspamd
     adduser -S -D -H -G rspamd rspamd
     mkdir -p /data/lib/rspamd
@@ -28,5 +29,5 @@ fi
 if bashio::config.true "enable_antivirus"; then
     sed -i '1d' /etc/rspamd/local.d/antivirus.conf
     bashio::log.info "Updating antivirus patterns"
-    freshclam >/dev/null 2>&1
+    freshclam
 fi
