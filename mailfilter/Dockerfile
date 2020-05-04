@@ -1,9 +1,15 @@
-ARG BUILD_FROM
-FROM $BUILD_FROM
+ARG BUILD_FROM=hassioaddons/base:7.1.0
+FROM ${BUILD_FROM}
 
 ENV LANG C.UTF-8
 
 ARG BUILD_ARCH
+
+# Set shell
+SHELL ["/bin/bash", "-o", "pipefail", "-c"]
+
+# Setup base system
+ARG BUILD_ARCH=amd64
 
 # Install mailserver
 RUN apk add --no-cache \
@@ -12,9 +18,10 @@ RUN apk add --no-cache \
 		clamav \
 		clamav-libunrar \
 		redis \
-		libcrypto1.1 \
+		libcrypto1.1=1.1.1g-r0 \
+		libssl1.1=1.1.1g-r0 \
 		libsodium \
-		luajit \
+		lua5.1 \
 		sqlite-libs \
 		glib \
 		icu-libs \
@@ -24,12 +31,12 @@ RUN apk add --no-cache \
 		curl-dev \
 		file-dev \
 		gd-dev \
-		glib-dev \
+		glib-dev=2.62.6-r0 \
+		lua5.1-dev \
 		icu-dev \
 		libevent-dev \
 		libsodium-dev \
 		openssl-dev \
-		luajit-dev \
 		pcre2-dev \
 		perl \
 		ragel \
