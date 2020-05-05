@@ -23,14 +23,6 @@ RUN apk add --no-cache \
 	dovecot-lmtpd \
 	dovecot-mysql \
 	dovecot-pigeonhole-plugin \
-	clamav \
-	clamav-libunrar \
-	clamsmtp \
-	redis@edge=5.0.9-r0 \
-	rspamd@edge=2.5-r3 \
-	rspamd-controller@edge=2.5-r3 \
-	rspamd-fuzzy@edge=2.5-r3 \
-	rspamd-proxy@edge=2.5-r3 \
 	rspamd-client@edge=2.5-r3 \
     && curl -L -s -o postfixadmin.tar.gz "https://github.com/postfixadmin/postfixadmin/archive/postfixadmin-3.2.3.tar.gz"; \
 	mkdir /var/www/postfixadmin; \

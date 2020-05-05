@@ -1,5 +1,0 @@
-#!/usr/bin/with-contenv bashio
-
-bashio::log.info "Starting Rspamd...."
-
-exec rspamd -u rspamd -g rspamd -f
