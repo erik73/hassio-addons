@@ -1,7 +1,7 @@
 #!/usr/bin/with-contenv bashio
  # ==============================================================================
- # Home Assistant Community Add-on: Home Panel
- # Configures NGINX for use with Home Panel
+ # Home Assistant Add-on: Mailserver
+ # Configures NGINX
  # ==============================================================================
  declare port
  declare certfile
