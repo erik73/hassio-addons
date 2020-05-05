@@ -24,7 +24,7 @@ RUN apk add --no-cache \
 	dovecot-mysql \
 	dovecot-pigeonhole-plugin \
 	rspamd-client@edge=2.5-r3 \
-    && curl -L -s -o postfixadmin.tar.gz "https://github.com/postfixadmin/postfixadmin/archive/postfixadmin-3.2.3.tar.gz"; \
+    && curl -L -s -o postfixadmin.tar.gz "https://github.com/postfixadmin/postfixadmin/archive/postfixadmin-3.2.4.tar.gz"; \
 	mkdir /var/www/postfixadmin; \
 	tar -xf postfixadmin.tar.gz -C /var/www/postfixadmin --strip-components=1; \
 	rm postfixadmin.tar.gz; \
