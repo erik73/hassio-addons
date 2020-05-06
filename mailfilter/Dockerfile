@@ -23,6 +23,8 @@ RUN apk add --no-cache \
 		sqlite-libs \
 		glib \
 		icu-libs \
+		libssl1.1=1.1.1g-r0 \
+		libcrypto1.1=1.1.1g-r0 \
     && apk add --no-cache --virtual .build-dependencies \
 		build-base \
 		cmake \
@@ -33,7 +35,7 @@ RUN apk add --no-cache \
 		lua5.1-dev \
 		icu-dev \
 		libsodium-dev \
-		openssl-dev \
+		openssl-dev=1.1.1g-r0 \
 		pcre2-dev \
 		perl \
 		ragel \
