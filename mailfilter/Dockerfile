@@ -31,7 +31,7 @@ RUN apk add --no-cache \
 		curl-dev \
 		file-dev \
 		gd-dev \
-		glib-dev
+		glib-dev \
 		lua5.1-dev \
 		icu-dev \
 		libsodium-dev \
