@@ -17,6 +17,14 @@
     # chown rspamd:rspamd /var/lib/rspamd/dkim
     # rspamadm dkim_keygen -b 2048 -s mail -k /var/lib/rspamd/dkim/mail.key | tee -a  /var/lib/rspamd/dkim/mail.pub
     # chown -R rspamd:rspamd /var/lib/rspamd/dkim
+
+    #Create rspamd encrypted password
+rspamdpw=$(bashio::config 'rspamd_password')
+encryptedpw="$(rspamadm pw --encrypt -p ${rspamdpw})"
+encryptedenpw="$(rspamadm pw --encrypt -p ${rspamdpw})"
+sed -i "4 s/password = /password = "${encryptedpw}";/g" /etc/rspamd/local.d/worker-controller.inc
+sed -i "5 s/enable_password = /enable_password = "${encryptedenpw}";/g" /etc/rspamd/local.d/worker-controller.inc
+
 if bashio::config.false "enable_antivirus"; then
     rm -fr /etc/services.d/clamav
     rm -fr /etc/services.d/freshclam
