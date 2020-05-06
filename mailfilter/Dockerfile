@@ -18,8 +18,6 @@ RUN apk add --no-cache \
 		clamav \
 		clamav-libunrar \
 		redis \
-		libcrypto1.1=1.1.1g-r0 \
-		libssl1.1=1.1.1g-r0 \
 		libsodium \
 		lua5.1 \
 		sqlite-libs \
@@ -31,10 +29,9 @@ RUN apk add --no-cache \
 		curl-dev \
 		file-dev \
 		gd-dev \
-		glib-dev=2.62.6-r0 \
+		glib-dev
 		lua5.1-dev \
 		icu-dev \
-		libevent-dev \
 		libsodium-dev \
 		openssl-dev \
 		pcre2-dev \
