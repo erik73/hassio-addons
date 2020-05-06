@@ -8,6 +8,7 @@
   "startup": "application",
   "init": false,
   "ingress": true,
+  "panel_icon": "mdi:filter",
   "boot": "auto",
   "host_network": false,
   "hassio_api": true,
