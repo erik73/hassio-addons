@@ -18,7 +18,7 @@
     # rspamadm dkim_keygen -b 2048 -s mail -k /var/lib/rspamd/dkim/mail.key | tee -a  /var/lib/rspamd/dkim/mail.pub
     # chown -R rspamd:rspamd /var/lib/rspamd/dkim
 
-    #Create rspamd encrypted password
+#Create rspamd encrypted password
 rspamdpw=$(bashio::config 'rspamd_password')
 encryptedpw="$(rspamadm pw --encrypt -p ${rspamdpw})"
 encryptedenpw="$(rspamadm pw --encrypt -p ${rspamdpw})"
