@@ -59,14 +59,15 @@ chown -R vmail:postdrop /var/mail/
 
 fi
 
-if bashio::config.false "enable_antivirus"; then
+if bashio::config.false "enable_mailfilter"; then
   rm -f -r \
   /etc/dovecot/conf.d/20-managesieve.conf \
   /etc/dovecot/conf.d/90-sieve.conf
 fi
 
-if bashio::config.true "enable_antivirus"; then
-    bashio::log.info "Antivirus enabled. Setting up ClamAV and Postfix"
+if bashio::config.true "enable_mailfilter"; then
+    bashio::log.info "Mailfilter enabled."
+    bashio::log.info "Configuring connection to Mailfilter addon"
     cat << EOF >> /etc/postfix/main.cf
 milter_protocol = 6
 milter_mail_macros = i {mail_addr} {client_addr} {client_name} {auth_authen}

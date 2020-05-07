@@ -1,6 +1,6 @@
 {
   "name": "Mailserver",
-  "version": "0.12",
+  "version": "0.13",
   "slug": "mailserver",
   "description": "Complete mail server solution for Home Assistant",
   "url": "https://github.com/erik73/hassio-addons",
@@ -17,15 +17,15 @@
   "hassio_role": "default",
   "options": {
     "domain_name": "mydomain.no-ip.com",
-    "admin_user": "superadmin",
+    "admin_user": "admin",
     "admin_password": null,
-    "enable_antivirus": false
+    "enable_mailfilter": false
   },
   "schema": {
     "domain_name": "str",
     "admin_user": "str",
     "admin_password": "str",
-    "enable_antivirus": "bool",
+    "enable_mailfilter": "bool",
     "smtp_relayhost": "str?",
     "log_level": "list(trace|debug|info|notice|warning|error|fatal)?"
   },
