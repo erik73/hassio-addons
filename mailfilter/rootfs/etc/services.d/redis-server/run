@@ -1,4 +1,8 @@
 #!/usr/bin/with-contenv bashio
+# ==============================================================================
+# Home Assistant Add-on: Mailfilter
+# Runs the Redis server
+# ==============================================================================
 
 bashio::log.info "Starting Redis server...."
 

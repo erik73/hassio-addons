@@ -19,7 +19,7 @@
     # chown -R rspamd:rspamd /var/lib/rspamd/dkim
 
 #Create rspamd encrypted password
-rspamdpw=$(bashio::config 'rspamd_password')
+rspamdpw="$(date | md5sum)"
 encryptedpw="$(rspamadm pw --encrypt -p ${rspamdpw})"
 encryptedenpw="$(rspamadm pw --encrypt -p ${rspamdpw})"
 sed -i "4 s/password = /password = "${encryptedpw}";/g" /etc/rspamd/local.d/worker-controller.inc
