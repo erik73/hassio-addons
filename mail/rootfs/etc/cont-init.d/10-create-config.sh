@@ -88,12 +88,12 @@ EOF
 
   cat << EOF >> /var/mail/vmail/sieve/global/report-spam.sieve
 require ["vnd.dovecot.pipe", "copy", "imapsieve"];
-pipe :copy "rspamc" ["-h", "9beff68d-mailfilterdev:11334", "learn_ham"];
+pipe :copy "rspamc" ["-h", "32b8266a-mailfilter:11334", "learn_ham"];
 EOF
 
   cat << EOF >> /var/mail/vmail/sieve/global/report-ham.sieve
 require ["vnd.dovecot.pipe", "copy", "imapsieve"];
-pipe :copy "rspamc" ["-h", "9beff68d-mailfilterdev:11334", "learn_ham"];
+pipe :copy "rspamc" ["-h", "32b8266a-mailfilter:11334", "learn_ham"];
 EOF
 
 chown -R vmail:postdrop /var/mail/
@@ -113,8 +113,8 @@ if bashio::config.true "enable_mailfilter"; then
 milter_protocol = 6
 milter_mail_macros = i {mail_addr} {client_addr} {client_name} {auth_authen}
 milter_default_action = accept
-smtpd_milters = inet:9beff68d-mailfilterdev:11332
-non_smtpd_milters = inet:9beff68d-mailfilterdev:11332
+smtpd_milters = inet:32b8266a-mailfilter:11332
+non_smtpd_milters = inet:32b8266a-mailfilter:11332
 EOF
 
     sed -i 's/^  mail.*/& sieve/' /etc/dovecot/conf.d/20-lmtp.conf
