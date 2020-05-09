@@ -2,10 +2,10 @@
 $CONF['configured'] = true;
 
 $CONF['database_type'] = 'mysqli';
-$CONF['database_host'] = getenv("SERVICE_HOST");
-$CONF['database_user'] = getenv("SERVICE_USERNAME");
-$CONF['database_password'] = getenv("SERVICE_PASSWORD");
-$CONF['database_port'] = getenv("SERVICE_PORT");
+$CONF['database_host'] = getenv("host");
+$CONF['database_user'] = getenv("username");
+$CONF['database_password'] = getenv("password");
+$CONF['database_port'] = getenv("port");
 $CONF['database_name'] = 'postfixadmin';
 
 $CONF['default_aliases'] = array (
@@ -14,6 +14,13 @@ $CONF['default_aliases'] = array (
   'postmaster' => 'postmaster@domain',
   'webmaster'  => 'webmaster@domain'
 );
+
+$CONF['password_validation'] = array(
+  #    '/regular expression/' => '$PALANG key (optional: + parameter)',
+      '/.{4}/'                => 'password_too_short 4',      # minimum length 5 characters
+  #    '/([a-zA-Z].*){3}/'     => 'password_no_characters 3',  # must contain at least 3 characters
+  #    '/([0-9].*){2}/'        => 'password_no_digits 2',      # must contain at least 2 digits
+  );
 
 $CONF['fetchmail'] = 'NO';
 $CONF['show_footer_text'] = 'NO';

@@ -1,11 +1,11 @@
 #!/usr/bin/with-contenv bashio
 # ==============================================================================
-# Home Assistant Community Add-on: phpMyAdmin
+# Home Assistant Add-on: Mailserver
 # Runs the Nginx daemon
 # ==============================================================================
 
 # Wait for PHP-FPM to become available
-bashio::net.wait_for 9001
+bashio::net.wait_for 9002
 
 bashio::log.info "Starting NGinx...."
 
