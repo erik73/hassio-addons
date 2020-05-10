@@ -17,6 +17,7 @@ username=$(bashio::services "mysql" "username")
 relayhost=$(bashio::config 'smtp_relayhost')
 postfixadmin=$(bashio::config 'admin_user')
 postfixpassword=$(bashio::config 'admin_password')
+myhostname=$(bashio::config 'my_hostname')
 domain=$(bashio::config 'domain_name')
 
 chmod +x /usr/local/bin/quota-warning.sh
@@ -43,8 +44,11 @@ sed -i 's/^connect .*$/connect = host='$host' dbname=postfixadmin user='$usernam
 sed -i "s/postmaster_address = postmaster/postmaster_address = postmaster@${domain}/g" /etc/dovecot/conf.d/20-lmtp.conf
 sed -i "s/From: postmaster/From: postmaster@${domain}/g" /usr/local/bin/quota-warning.sh
 sed -i "s/@domain/@${domain}/g" /var/www/postfixadmin/config.local.php
+sed -i "s/myhostname =/myhostname = ${myhostname}/g" /etc/postfix/main.cf
+
+if bashio::config.has_value "smtp_relayhost"; then
 sed -i "s/relayhost =/relayhost = ${relayhost}/g" /etc/postfix/main.cf
-sed -i "s/myhostname =/myhostname = ${domain}/g" /etc/postfix/main.cf
+fi
 
 database=$(\
     mysql \
