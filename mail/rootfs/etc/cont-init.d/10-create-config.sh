@@ -50,6 +50,14 @@ if bashio::config.has_value "smtp_relayhost"; then
 sed -i "s/relayhost =/relayhost = ${relayhost}/g" /etc/postfix/main.cf
 fi
 
+if bashio::config.true "letsencrypt_certs"; then
+bashio::log.info "Let's Encrypt certs will be used..."
+sed -i 's~^smtpd_tls_cert.*$~smtpd_tls_cert_file = /ssl/fullchain.pem~g' /etc/postfix/main.cf
+sed -i 's~^smtpd_tls_key.*$~smtpd_tls_key_file = /ssl/privkey.pem~g' /etc/postfix/main.cf
+sed -i 's~^ssl_cert.*$~ssl_cert = </ssl/fullchain.pem~g' /etc/dovecot/conf.d/10-ssl.conf
+sed -i 's~^ssl_key.*$~ssl_key = </ssl/privkey.pem~g' /etc/dovecot/conf.d/10-ssl.conf
+fi
+
 database=$(\
     mysql \
         -u "${username}" -p"${password}" \
