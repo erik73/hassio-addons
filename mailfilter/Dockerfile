@@ -14,11 +14,16 @@ ARG BUILD_ARCH=amd64
 
 
 # Install mailserver
-RUN apk add --no-cache \
+RUN apk update \
+	&& apk add --no-cache \
         luarocks \
 		nginx \ 
-		clamav \
-		clamav-libunrar \
+		clamav-libs@edge=0.102.3-r0 \
+		freshclam@edge=0.102.3-r0 \
+		clamav-scanner@edge=0.102.3-r0 \
+		clamav-daemon@edge=0.102.3-r0 \
+		clamav@edge=0.102.3-r0 \
+		clamav-libunrar@edge=0.102.3-r0 \
 		redis \
 		libsodium \
 		lua5.1 \
@@ -58,6 +63,7 @@ RUN apk add --no-cache \
     && rm -rf /usr/src/rspamd \
     && cd / \
     && rm -f -r \
+	/var/cache/apk/* \
     /tmp/* \
     /usr/src/rspamd \
     /usr/src/jemalloc-${JEMALLOC_VERSION} \
