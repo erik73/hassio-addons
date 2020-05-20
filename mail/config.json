@@ -1,10 +1,11 @@
 {
   "name": "Mailserver",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "slug": "mailserver",
   "description": "Complete mail server solution for Home Assistant",
   "url": "https://github.com/erik73/hassio-addons",
   "arch": ["aarch64", "amd64", "armv7", "i386"],
+  "stage": "experimental",
   "startup": "application",
   "init": false,
   "ingress": true,
