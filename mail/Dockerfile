@@ -49,14 +49,14 @@ ARG BUILD_VERSION
 
 # Labels
 LABEL \
-    io.hass.name="Mailserver-dev" \
-    io.hass.description="Mailserver-dev: Complete mail server solution for Home Assistant" \
+    io.hass.name="Mailserver" \
+    io.hass.description="Mailserver: Complete mail server solution for Home Assistant" \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION} \
     maintainer="Erik Hilton <erikhilton73@gmail.com>" \
-    org.opencontainers.image.title="Mailserver-dev" \
-    org.opencontainers.image.description="Mailserver-dev: Complete mail server solution for Home Assistant" \
+    org.opencontainers.image.title="Mailserver" \
+    org.opencontainers.image.description="Mailserver: Complete mail server solution for Home Assistant" \
     org.opencontainers.image.vendor="Erik73 Hassio-Addons" \
     org.opencontainers.image.authors="Erik Hilton <erikhilton73@gmail.com>" \
     org.opencontainers.image.licenses="MIT" \
