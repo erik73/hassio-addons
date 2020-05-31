@@ -10,12 +10,12 @@
     rm -fr /var/lib/clamav
     ln -s /data/lib/rspamd /var/lib/rspamd
     ln -s /data/lib/redis /var/lib/redis
-    chown rspamd:rspamd /var/lib/rspamd
-    chown redis:redis /var/lib/redis
+    chown -R rspamd:rspamd /var/lib/rspamd
+    chown -R redis:redis /var/lib/redis
     mkdir /run/clamav
-    chown clamav:clamav /run/clamav
+    chown -R clamav:clamav /run/clamav
     ln -s /data/lib/clamav /var/lib/clamav
-    chown clamav:clamav /var/lib/clamav
+    chown -R clamav:clamav /var/lib/clamav
     mkdir /run/rspamd
     
     # Disable DKIM Signing
