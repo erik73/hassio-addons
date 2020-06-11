@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.9
+
+ - Update base image to Alpine 3.12
+
 ## 0.82
 
  - Updated Dockerfile to reduce number of layers.
