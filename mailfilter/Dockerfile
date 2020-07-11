@@ -1,4 +1,4 @@
-ARG BUILD_FROM=hassioaddons/base:8.0.0
+ARG BUILD_FROM=hassioaddons/base:8.0.1
 FROM ${BUILD_FROM}
 
 ARG JEMALLOC_VERSION

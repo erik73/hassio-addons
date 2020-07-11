@@ -2,7 +2,7 @@
 
 ## 0.2.0
 
- - Update base image to 8.0.0
+ - Update base image to 8.0.1
 
 ## 0.1.8
 
