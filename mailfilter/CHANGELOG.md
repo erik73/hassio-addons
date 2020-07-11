@@ -1,12 +1,16 @@
 # Changelog
 
+## 0.2.0
+
+ - Update base image to 8.0.0
+
 ## 0.1.8
 
- - Fix permissions at startup to prevent problems after snapshot restore
+ - Update base image to 7.2.0
 
 ## 0.1.7
 
- - Clean up config files and use clamav update to 0.102.3
+ - Clean up config files and update clamav to 0.102.3
 
 ## 0.1.6
 
