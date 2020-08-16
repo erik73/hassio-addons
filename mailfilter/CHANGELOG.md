@@ -1,6 +1,10 @@
 # Changelog
 
 ## 0.2.0
+ 
+ - Try master branch for Rspamd
+
+## 0.2.0
 
  - Update base image to 8.0.1
 
