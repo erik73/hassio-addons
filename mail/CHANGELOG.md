@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.1
+
+ - Update base image to 8.0.1
+
 ## 0.2.0
 
  - Update base image to 8.0.0 (Alpine 3.12)
