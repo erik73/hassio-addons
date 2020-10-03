@@ -1,4 +1,4 @@
-ARG BUILD_FROM=hassioaddons/base:8.0.1
+ARG BUILD_FROM=hassioaddons/base:8.0.3
 FROM ${BUILD_FROM}
 
 ARG JEMALLOC_VERSION
@@ -45,7 +45,7 @@ RUN apk add --no-cache \
     && make \
     && make install \
     && cd /usr/src \
-    && git clone -b master --recursive https://github.com/rspamd/rspamd \
+    && git clone -b 2.6 --recursive https://github.com/rspamd/rspamd \
     && cd rspamd \
     && cmake -DCMAKE_INSTALL_PREFIX= . -DENABLE_JEMALLOC=ON -DENABLE_LUAJIT=OFF \
     && make install \
@@ -74,7 +74,7 @@ ARG BUILD_VERSION
 # Labels
 LABEL \
     io.hass.name="Mailfilter" \
-    io.hass.description="Mailfilter-dev: Rspamd Mailfilter for Home Assistant" \
+    io.hass.description="Mailfilter: Rspamd Mailfilter for Home Assistant" \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION} \

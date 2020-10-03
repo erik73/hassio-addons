@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.0
+
+ - Upgrade Rspamd to version 2.6
+ - Upgrade base image to 8.0.3
+
 ## 0.2.0
  
  - Try master branch for Rspamd
