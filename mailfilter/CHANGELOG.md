@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.0
+
+ - Upgrade base image. Alpine 3.12.1
+
 ## 0.3.0
 
  - Upgrade Rspamd to version 2.6

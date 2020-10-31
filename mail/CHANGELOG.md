@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.0
+
+ - Upgrade base image. Alpine 3.12.1
+
 ## 0.2.1
 
  - Update base image to 8.0.1
