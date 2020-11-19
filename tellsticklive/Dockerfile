@@ -34,12 +34,15 @@ RUN apk add --no-cache \
         -DFTDI_LIBRARY=/usr/lib/libftdi1.so \
     && make \
     && make install \
-    && apk del .build-dependencies \
-    && rm -rf /usr/src/telldus \
-    && cd / \
     && pip install --no-cache-dir \ 
        tellcore-py \
-       tellive-py
+    && git clone -b master --depth 1 https://github.com/erijo/tellive-py \
+    && cd telldus/tellive-py \
+    && python setup.py install \
+    && apk del .build-dependencies \
+    && rm -rf /usr/src/telldus \
+    && rm -rf /usr/src/tellive-py \
+    && cd /
 
 # Copy data for add-on
 COPY rootfs /

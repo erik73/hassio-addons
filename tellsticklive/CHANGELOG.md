@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.91
+
+ - Update to latest telllive-py
+
 ## 0.9
 
  - Update base image to Alpine 3.12
