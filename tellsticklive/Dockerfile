@@ -37,7 +37,7 @@ RUN apk add --no-cache \
     && pip install --no-cache-dir \ 
        tellcore-py \
     && git clone -b master --depth 1 https://github.com/erijo/tellive-py \
-    && cd telldus/tellive-py \
+    && cd /usr/src/tellive-py \
     && python setup.py install \
     && apk del .build-dependencies \
     && rm -rf /usr/src/telldus \
