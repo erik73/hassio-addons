@@ -31,7 +31,7 @@ RUN apk add --no-cache \
     glib-dev \
     icu-dev \
     libsodium-dev \
-    openssl-dev \
+    openssl-dev=1.1.1g-r0 \
     pcre2-dev \
     perl \
     ragel \
