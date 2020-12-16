@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.4.1
+ - Update base image
+ 
 ## 0.4.0
 
  - Upgrade base image. Alpine 3.12.1
