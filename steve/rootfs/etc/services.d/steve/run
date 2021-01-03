@@ -9,4 +9,4 @@ if ! bashio::fs.file_exists '/usr/src/steve/target/steve.jar'; then
     exec mvn package
 
 fi
-exec java -jar usr/src/steve/target/steve.jar
+exec java -jar /usr/src/steve/target/steve.jar
