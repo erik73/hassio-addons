@@ -15,7 +15,7 @@ RUN apk add --no-cache \
         tar -xf steve.tar.gz -C /usr/src/steve --strip-components=1; \
         rm steve.tar.gz; \
         cd /usr/src/steve; \
-        mvn package \
+        mvn package;
 # Copy data for add-on
 COPY rootfs /
 
