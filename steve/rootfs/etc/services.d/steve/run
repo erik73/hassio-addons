@@ -1,0 +1,12 @@
+#!/usr/bin/with-contenv bashio
+# ==============================================================================
+# Home Assistant Add-on: SteVe
+# Runs the SteVe OCPP Server
+# ==============================================================================
+bashio::log.info "Starting Steve initial build...."
+if ! bashio::fs.file_exists '/usr/src/steve/target/steve.jar'; then
+    cd /usr/src/steve
+    exec mvn package
+
+fi
+exec java -jar usr/src/steve/target/steve.jar

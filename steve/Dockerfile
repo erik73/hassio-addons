@@ -14,9 +14,7 @@ RUN apk add --no-cache \
     && curl -L -s -o steve.tar.gz "https://github.com/RWTH-i5-IDSG/steve/archive/steve-3.4.4.tar.gz"; \
         mkdir /usr/src/steve; \
         tar -xf steve.tar.gz -C /usr/src/steve --strip-components=1; \
-        rm steve.tar.gz; \
-        cd /usr/src/steve; \
-        mvn package;
+        rm steve.tar.gz;
 # Copy data for add-on
 COPY rootfs /
 
