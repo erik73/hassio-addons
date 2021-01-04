@@ -3,6 +3,7 @@
 # Home Assistant Add-on: SteVe
 # Runs the SteVe OCPP Server
 # ==============================================================================
+export MAVEN_OPTS="-Xmx100m"
 bashio::log.info "Starting Steve initial build...."
 if ! bashio::fs.file_exists '/usr/src/steve/target/steve.jar'; then
     cd /usr/src/steve
