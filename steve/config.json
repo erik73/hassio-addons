@@ -9,7 +9,7 @@
   "startup": "application",
   "init": false,
   "ingress": true,
-  "panel_icon": "mdi:email",
+  "panel_icon": "mdi:CarElectric",
   "boot": "auto",
   "map": ["ssl"],
   "services": ["mysql:need"],
@@ -17,21 +17,14 @@
   "hassio_api": true,
   "hassio_role": "default",
   "options": {
-    "my_hostname": "mydomain.no-ip.com",
-    "domain_name": "mydomain.no-ip.com",
+    "timezone": "CET",
     "admin_user": "admin",
-    "admin_password": null,
-    "letsencrypt_certs": false,
-    "enable_mailfilter": false
+    "admin_password": null
   },
   "schema": {
-    "my_hostname": "str",
-    "domain_name": "str",
+    "timezone": "str",
     "admin_user": "str",
     "admin_password": "str",
-    "letsencrypt_certs": "bool",
-    "enable_mailfilter": "bool",
-    "smtp_relayhost": "str?",
     "log_level": "list(trace|debug|info|notice|warning|error|fatal)?"
   },
   "image": "ehilton73/steve-{arch}"
