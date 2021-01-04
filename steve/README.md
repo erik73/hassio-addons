@@ -1,6 +1,6 @@
-# Home Assistant Add-on: Mailserver
+# Home Assistant Add-on: SteVe
 
-Postfix/Dovecot mailserver with Postfixadmin web interface.
+SteVe OCPP server for mobile charging stations (Wallbox) supporting the OCPP protocol
 
 ![Supports aarch64 Architecture][aarch64-shield] ![Supports amd64 Architecture][amd64-shield] ![Supports armv7 Architecture][armv7-shield] ![Supports i386 Architecture][i386-shield] ![Project Stage][project-stage-shield]
 
@@ -8,8 +8,7 @@ Postfix/Dovecot mailserver with Postfixadmin web interface.
 
 Important: This addon requires that the MariaDB addon is installed and running!
 
-This addon is experimental, and provides a mailserver for your domain.
-It is also possible to configure additional email domains and accounts in the Postfixadmin web interface.
+This addon is experimental, and provides the SteVe OCPP backend server for HomeAssistant
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg

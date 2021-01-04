@@ -31,7 +31,7 @@ LABEL \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION} \
     maintainer="Erik Hilton <erikhilton73@gmail.com>" \
-    org.opencontainers.image.title="Mailserver" \
+    org.opencontainers.image.title="StEve" \
     org.opencontainers.image.description="OCPP server for EV charging stations" \
     org.opencontainers.image.vendor="Erik73 Hassio-Addons" \
     org.opencontainers.image.authors="Erik Hilton <erikhilton73@gmail.com>" \
