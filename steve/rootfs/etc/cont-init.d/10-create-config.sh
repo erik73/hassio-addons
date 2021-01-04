@@ -42,3 +42,4 @@ if ! bashio::var.has_value "${database}"; then
         -u "${username}" -p"${password}" \
         -h "${host}" -P "${port}" \
             < /usr/src/steve/createdb.sql
+fi
