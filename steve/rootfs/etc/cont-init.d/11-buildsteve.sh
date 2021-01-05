@@ -6,12 +6,12 @@
 
 export MAVEN_OPTS="-Xmx100m"
 
-if ! bashio::fs.file_exists '/data/steve.jar'; then
+if ! bashio::fs.directory_exists '/data/target'; then
     bashio::log.info "Starting SteVe initial build...."
     cd /usr/src/steve
     mvn package
     cp -f /usr/src/steve/pom.xml /data/
-    cp -f /usr/src/steve/target/steve.jar /data/
+    cp -R -f /usr/src/steve/target/ /data/
 fi
 
 diff /usr/src/steve/pom.xml /data/pom.xml
@@ -19,6 +19,7 @@ if [ $? -ne 0 ]; then
     bashio::log.info "Starting SteVe rebuild since there is a new verion...."
     cd /usr/src/steve
     mvn package
+    rm -rf /data/target
     cp -f /usr/src/steve/pom.xml /data/
-    cp -f /usr/src/steve/target/steve.jar /data/
+    cp -R -f /usr/src/steve/target/ /data/
 fi
