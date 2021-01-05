@@ -4,7 +4,5 @@
 # Runs the SteVe OCPP Server
 # ==============================================================================
 
-export MAVEN_OPTS="-Xmx100m"
-
 bashio::log.info "Starting SteVe...."
 exec java -jar /data/target/steve.jar
