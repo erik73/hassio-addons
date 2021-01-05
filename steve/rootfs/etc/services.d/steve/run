@@ -5,4 +5,4 @@
 # ==============================================================================
 
 bashio::log.info "Starting SteVe...."
-exec java -jar /data/steve.jar
+exec java -jar /data/target/steve.jar
