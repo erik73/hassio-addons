@@ -4,10 +4,15 @@
 # Runs the SteVe OCPP Server
 # ==============================================================================
 export MAVEN_OPTS="-Xmx100m"
-bashio::log.info "Starting Steve initial build...."
-if ! bashio::fs.file_exists '/usr/src/steve/target/steve.jar'; then
+
+diff /usr/src/steve/pom.xml /data/pom.xml
+if [ $? -ne 0 ]; then
+    bashio::log.info "Starting Steve rebuild...."
     cd /usr/src/steve
     exec mvn package
-
+    cp -f /usr/src/steve/pom.xml /data/
+    cp -f /usr/src/steve/target/steve.jar /data/
 fi
-exec java -jar /usr/src/steve/target/steve.jar
+if bashio::fs.file_exists '/usr/src/steve/target/steve.jar'; then
+    exec java -jar /data/steve.jar
+fi

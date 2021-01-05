@@ -1,6 +1,6 @@
 {
   "name": "SteVe",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "slug": "steve",
   "description": "OCPP server for EV charging stations",
   "url": "https://github.com/erik73/hassio-addons",
@@ -8,7 +8,7 @@
   "stage": "experimental",
   "startup": "application",
   "init": false,
-  "ingress": true,
+  "ingress": false,
   "panel_icon": "mdi:CarElectric",
   "boot": "auto",
   "map": ["ssl"],
@@ -18,11 +18,13 @@
   "hassio_role": "default",
   "options": {
     "timezone": "CET",
+    "httpport": "8180",
     "admin_user": "admin",
     "admin_password": null
   },
   "schema": {
     "timezone": "str",
+    "httpport": "str",
     "admin_user": "str",
     "admin_password": "str",
     "log_level": "list(trace|debug|info|notice|warning|error|fatal)?"
