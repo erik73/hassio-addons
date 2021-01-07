@@ -15,8 +15,7 @@ if ! bashio::fs.directory_exists '/data/target'; then
     cp -R -f /usr/src/steve/target/ /data/
 fi
 
-if ["$builtversion" != "$packageversion"]
-then
+if [ "$builtversion" != "$packageversion" ]; then
     bashio::log.info "Starting SteVe rebuild since there is a new verion...."
     cd /usr/src/steve
     MAVEN_OPTS="-Xmx100m" mvn package
