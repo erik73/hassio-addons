@@ -11,7 +11,7 @@ if ! bashio::fs.directory_exists '/data/target'; then
     cp -f /usr/src/steve/pom.xml /data/
     cp -R -f /usr/src/steve/target/ /data/
 fi
-
+unset errexit
 cmp -s /usr/src/steve/pom.xml /data/pom.xml
 if [ $? -eq 1 ]
 then
@@ -22,3 +22,4 @@ then
     cp -f /usr/src/steve/pom.xml /data/
     cp -R -f /usr/src/steve/target/ /data/
 fi
+set -o errexit
