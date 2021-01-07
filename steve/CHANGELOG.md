@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.1
+
+ - Fix bulding SteVe if the addon has a new version in it
+
 ## 0.2.0
 
  - Stop SteVe from building unless there is a new addon version, or build har not run yet

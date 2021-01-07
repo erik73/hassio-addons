@@ -4,6 +4,9 @@
 # Check if SteVe needs to be built
 # ==============================================================================
 
+builtversion="$(xmlstarlet sel -N x=http://maven.apache.org/POM/4.0.0 -t -v "/x:project/x:version" /data/pom.xml)"
+packageversion="$(xmlstarlet sel -N x=http://maven.apache.org/POM/4.0.0 -t -v "/x:project/x:version" /usr/src/steve/pom.xml)"
+
 if ! bashio::fs.directory_exists '/data/target'; then
     bashio::log.info "Starting SteVe initial build...."
     cd /usr/src/steve
@@ -11,9 +14,8 @@ if ! bashio::fs.directory_exists '/data/target'; then
     cp -f /usr/src/steve/pom.xml /data/
     cp -R -f /usr/src/steve/target/ /data/
 fi
-unset errexit
-cmp -s /usr/src/steve/pom.xml /data/pom.xml
-if [ $? -eq 1 ]
+
+if ["$builtversion" != "$packageversion"]
 then
     bashio::log.info "Starting SteVe rebuild since there is a new verion...."
     cd /usr/src/steve
@@ -22,4 +24,3 @@ then
     cp -f /usr/src/steve/pom.xml /data/
     cp -R -f /usr/src/steve/target/ /data/
 fi
-set -o errexit
