@@ -12,8 +12,8 @@ if ! bashio::fs.directory_exists '/data/target'; then
     cp -R -f /usr/src/steve/target/ /data/
 fi
 
-diff /usr/src/steve/pom.xml /data/pom.xml
-if [ $? -ne 0 ]; then
+DIFF=$(diff -u <(find /usr/src/steve/pom.xml -type f -printf '%P\n' | sort) <(find /data/pom.xml -type f -printf '%P\n' | sort))
+if [ "$DIFF" ]; then
     bashio::log.info "Starting SteVe rebuild since there is a new verion...."
     cd /usr/src/steve
     MAVEN_OPTS="-Xmx100m" mvn package
