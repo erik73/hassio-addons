@@ -1,4 +1,4 @@
-ARG BUILD_FROM=hassioaddons/base:8.0.6
+ARG BUILD_FROM=ehilton73/amd64-base:3.13.0
 FROM ${BUILD_FROM}
 
 ARG JEMALLOC_VERSION
@@ -31,19 +31,13 @@ RUN apk add --no-cache \
     glib-dev \
     icu-dev \
     libsodium-dev \
-    openssl-dev=1.1.1g-r0 \
+    openssl-dev \
     pcre2-dev \
     perl \
     ragel \
     sqlite-dev \
     lua5.1-dev \
     git \
-    && mkdir -p /usr/src \
-    && curl -L -s https://github.com/jemalloc/jemalloc/releases/download/${JEMALLOC_VERSION}/jemalloc-${JEMALLOC_VERSION}.tar.bz2 | tar -xjf - -C /usr/src \
-    && cd /usr/src/jemalloc-${JEMALLOC_VERSION} \
-    && ./configure \
-    && make \
-    && make install \
     && cd /usr/src \
     && git clone -b 2.6 --recursive https://github.com/rspamd/rspamd \
     && cd rspamd \

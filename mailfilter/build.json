@@ -1,11 +1,11 @@
 {
   "squash": false,
   "build_from": {
-    "aarch64": "hassioaddons/base-aarch64:8.0.6",
-    "amd64": "hassioaddons/base-amd64:8.0.6",
-    "armhf": "hassioaddons/base-armhf:8.0.6",
-    "armv7": "hassioaddons/base-armv7:8.0.6",
-    "i386": "hassioaddons/base-i386:8.0.6"
+    "aarch64": "ehilton73/amd64-base:3.13.0",
+    "amd64": "ehilton73/amd64-base:3.13.0",
+    "armhf": "ehilton73/amd64-base:3.13.0",
+    "armv7": "ehilton73/amd64-base:3.13.0",
+    "i386": "ehilton73/amd64-base:3.13.0"
   },
   "args": {
     "JEMALLOC_VERSION": "5.2.1"
