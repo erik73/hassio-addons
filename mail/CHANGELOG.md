@@ -1,6 +1,10 @@
 # Changelog
 
+## 0.4.2
+
+ - Fix DB upgrade and webui
 ## 0.4.1
+
  - Update base image and postfixadmin
 
 ## 0.4.0
