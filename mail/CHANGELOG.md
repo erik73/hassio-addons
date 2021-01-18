@@ -1,7 +1,7 @@
 # Changelog
 
 ## 0.4.1
- - Update base image
+ - Update base image and postfixadmin
 
 ## 0.4.0
 
