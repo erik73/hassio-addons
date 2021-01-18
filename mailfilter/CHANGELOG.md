@@ -1,6 +1,11 @@
 # Changelog
 
+## 0.4.2
+
+ - Upgrade rspamd to version 2.7
+
 ## 0.4.1
+
  - Update base image
  
 ## 0.4.0
