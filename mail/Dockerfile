@@ -18,6 +18,7 @@ RUN apk add --no-cache \
     php7-opcache \
     php7-mbstring \
     php7-mysqli \
+    php7-pdo \
     postfix \
     postfix-mysql \
     dovecot \
