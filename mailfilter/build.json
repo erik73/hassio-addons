@@ -1,11 +1,11 @@
 {
   "squash": false,
   "build_from": {
-    "aarch64": "ehilton73/amd64-base:3.13.0",
+    "aarch64": "ehilton73/aarch64-base:3.13.0",
     "amd64": "ehilton73/amd64-base:3.13.0",
-    "armhf": "ehilton73/amd64-base:3.13.0",
-    "armv7": "ehilton73/amd64-base:3.13.0",
-    "i386": "ehilton73/amd64-base:3.13.0"
+    "armhf": "ehilton73/armhf-base:3.13.0",
+    "armv7": "ehilton73/armv7-base:3.13.0",
+    "i386": "ehilton73/i386-base:3.13.0"
   },
   "args": {
     "JEMALLOC_VERSION": "5.2.1"
