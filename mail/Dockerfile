@@ -25,10 +25,9 @@ RUN apk add --no-cache \
     dovecot-mysql \
     dovecot-pigeonhole-plugin \
     rspamd-client \
-    && curl -L -s -o --ipv4 postfixadmin.tar.gz "https://github.com/postfixadmin/postfixadmin/archive/postfixadmin-3.3.3.tar.gz"; \
-        mkdir /var/www/postfixadmin; \
-        tar -xf postfixadmin.tar.gz -C /var/www/postfixadmin --strip-components=1; \
-        rm postfixadmin.tar.gz; \
+    && mkdir /var/www/postfixadmin \
+    && curl -L -s --ipv4 "https://github.com/postfixadmin/postfixadmin/archive/postfixadmin-3.3.3.tar.gz" \
+        | tar zxvf - -C /var/www/postfixadmin --strip-components=1; \
         mkdir -p /var/www/postfixadmin/templates_c; \
         chown -R nginx: /var/www/postfixadmin; \
         mkdir -p /etc/postfix/sql \
