@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.0
+
+ - Upgrade to Alpine 3.13
+
 ## 0.2.2
 
  - Change service run script
