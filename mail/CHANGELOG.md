@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.9
+
+ - Use new community base images
+
 ## 0.4.2
 
  - Fix DB upgrade and webui
