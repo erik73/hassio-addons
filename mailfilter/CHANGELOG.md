@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.9
+
+ - Community base images
+
 ## 0.4.2
 
  - Upgrade rspamd to version 2.7

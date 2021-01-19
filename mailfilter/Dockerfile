@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ehilton73/amd64-base:3.13.0
+ARG BUILD_FROM=ghcr.io/hassio-addons/base/amd64:9.0.0
 FROM ${BUILD_FROM}
 
 ARG JEMALLOC_VERSION
@@ -38,6 +38,12 @@ RUN apk add --no-cache \
     sqlite-dev \
     lua5.1-dev \
     git \
+    && mkdir -p /usr/src \
+    && curl -L -s https://github.com/jemalloc/jemalloc/releases/download/${JEMALLOC_VERSION}/jemalloc-${JEMALLOC_VERSION}.tar.bz2 | tar -xjf - -C /usr/src \
+    && cd /usr/src/jemalloc-${JEMALLOC_VERSION} \
+    && ./configure \
+    && make \
+    && make install \
     && cd /usr/src \
     && git clone -b 2.7 --recursive https://github.com/rspamd/rspamd \
     && cd rspamd \
