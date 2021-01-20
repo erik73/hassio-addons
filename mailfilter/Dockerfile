@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/base/amd64:9.0.0
+ARG BUILD_FROM=ghcr.io/hassio-addons/base/amd64:9.0.1
 FROM ${BUILD_FROM}
 
 ARG JEMALLOC_VERSION

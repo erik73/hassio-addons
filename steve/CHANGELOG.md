@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.1
+
+ - New base image
+
 ## 0.3.0
 
  - Upgrade to Alpine 3.13

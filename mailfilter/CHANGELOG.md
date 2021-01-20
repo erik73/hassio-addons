@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.0
+
+ - New base image
+
 ## 0.4.9
 
  - Community base images
