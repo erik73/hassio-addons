@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.1
+
+ - Do not try to resolve domain names for users created in gui
+
 ## 0.5.0
 
  - New base image

@@ -35,4 +35,5 @@ $CONF['aliases'] = '0';
 $CONF['mailboxes'] = '0';
 $CONF['maxquota'] = '0';
 $CONF['domain_quota_default'] = '0';
+$CONF['emailcheck_resolve_domain']='NO';
 ?>
