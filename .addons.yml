@@ -1,0 +1,7 @@
+---
+channel: stable
+addons:
+  steve:
+    repository: erik73/addon-steve
+    target: steve
+    image: ghcr.io/erik73/steve/{arch}
