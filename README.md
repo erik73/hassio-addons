@@ -40,6 +40,19 @@ https://github.com/erik73/hassio-addons
 
 ## Add-ons provided by this repository
 
+### &#10003; [steve][addon-steve]
+
+![Latest Version][steve-version-shield]
+![Supports armhf Architecture][steve-armhf-shield]
+![Supports armv7 Architecture][steve-armv7-shield]
+![Supports aarch64 Architecture][steve-aarch64-shield]
+![Supports amd64 Architecture][steve-amd64-shield]
+![Supports i386 Architecture][steve-i386-shield]
+
+OCPP server for EV charging stations
+
+[:books: steve add-on documentation][addon-doc-steve]
+
 ## Releases
 
 Add-on releases are **NOT** based on [Semantic Versioning][semver], unlike
@@ -61,6 +74,7 @@ You could also open an issue here on GitHub. Note, we use a separate
 GitHub repository for each add-on. Please ensure you are creating the issue
 on the correct GitHub repository matching the add-on.
 
+- [Open an issue for the add-on: steve][steve-issue]
 
 For a general repository issue or add-on ideas [open an issue here][issue]
 
@@ -108,6 +122,15 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+[addon-steve]: https://github.com/erik73/addon-steve/tree/v0.3.7
+[addon-doc-steve]: https://github.com/erik73/addon-steve/blob/v0.3.7/README.md
+[steve-issue]: https://github.com/erik73/addon-steve/issues
+[steve-version-shield]: https://img.shields.io/badge/version-v0.3.7-blue.svg
+[steve-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[steve-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[steve-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[steve-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[steve-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
