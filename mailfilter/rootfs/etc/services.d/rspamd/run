@@ -1,9 +1,0 @@
-#!/usr/bin/with-contenv bashio
-# ==============================================================================
-# Home Assistant Add-on: Mailfilter
-# Runs the Rspamd daemon
-# ==============================================================================
-
-bashio::log.info "Starting Rspamd...."
-
-exec rspamd -u rspamd -g rspamd -f

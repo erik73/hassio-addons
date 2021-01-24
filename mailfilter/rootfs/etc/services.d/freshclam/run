@@ -1,8 +1,0 @@
-#!/usr/bin/with-contenv bashio
-# ==============================================================================
-# Home Assistant Add-on: Mailfilter
-# Runs Freshclam virus pattern updates
-# ==============================================================================
-
-bashio::log.info "Starting Freshclam...."
-exec freshclam -d --config-file /etc/clamav/freshclam.conf >/dev/null 2>&1
