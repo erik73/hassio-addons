@@ -1,0 +1,81 @@
+{
+  "name": "TellStick with Telldus Live",
+  "version": "0.9.5",
+  "slug": "tellsticklive",
+  "description": "TellStick and TellStick Duo service with Telldus Live",
+  "url": "https://github.com/erik73/hassio-addons",
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armhf",
+    "armv7",
+    "i386"
+  ],
+  "startup": "system",
+  "stdin": true,
+  "devices": [
+    "/dev/bus/usb:/dev/bus/usb:rwm"
+  ],
+  "options": {
+    "enable_local": true,
+    "enable_live": false,
+    "devices": [
+      {
+        "id": 1,
+        "name": "Example device",
+        "protocol": "everflourish",
+        "model": "selflearning-switch",
+        "house": "A",
+        "unit": "1"
+      },
+      {
+        "id": 2,
+        "name": "Example device two",
+        "protocol": "everflourish",
+        "model": "selflearning-switch",
+        "house": "A",
+        "unit": "2"
+      }
+    ],
+    "sensors": [
+      {
+        "id": 199,
+        "name": "Example sensor",
+        "protocol": "fineoffset",
+        "model": "temperature"
+      },
+      {
+        "id": 215,
+        "name": "Example sensor two",
+        "protocol": "fineoffset",
+        "model": "temperaturehumidity"
+      }
+    ]
+  },
+  "schema": {
+    "enable_local": "bool",
+    "enable_live": "bool",
+    "live_uuid": "match(^[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?",
+    "devices": [
+      {
+        "id": "int(1,)",
+        "name": "str",
+        "protocol": "match(arctech|brateck|comen|everflourish|fineoffset|fuhaote|hasta|ikea|kangtai|mandolyn|oregon|risingsun|sartano|silvanchip|upm|waveman|x10|yidong)",
+        "model": "match(codeswitch|bell|selflearning-switch|selflearning-dimmer|selflearning|ecosavers|kp100|temperaturehumidity|temperature)?",
+        "house": "str?",
+        "code": "str?",
+        "unit": "str?",
+        "fade": "str?"
+      }
+    ],
+    "sensors": [
+      {
+        "id": "int(1,)",
+        "name": "str",
+        "protocol": "match(arctech|brateck|comen|everflourish|fineoffset|fuhaote|hasta|ikea|kangtai|mandolyn|oregon|risingsun|sartano|silvanchip|upm|waveman|x10|yidong)",
+        "model": "match(codeswitch|bell|selflearning-switch|selflearning-dimmer|selflearning|ecosavers|kp100|temperaturehumidity|temperature)?"
+      }
+    ]
+  },
+  "image": "ghcr.io/erik73/tellsticklive/{arch}"
+}

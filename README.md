@@ -53,6 +53,19 @@ Complete mail server solution for Home Assistant
 
 [:books: Mailserver add-on documentation][addon-doc-mailserver]
 
+### &#10003; [TellStick with Telldus Live][addon-tellsticklive]
+
+![Latest Version][tellsticklive-version-shield]
+![Supports armhf Architecture][tellsticklive-armhf-shield]
+![Supports armv7 Architecture][tellsticklive-armv7-shield]
+![Supports aarch64 Architecture][tellsticklive-aarch64-shield]
+![Supports amd64 Architecture][tellsticklive-amd64-shield]
+![Supports i386 Architecture][tellsticklive-i386-shield]
+
+TellStick and TellStick Duo service with Telldus Live
+
+[:books: TellStick with Telldus Live add-on documentation][addon-doc-tellsticklive]
+
 ### &#10003; [steve][addon-steve]
 
 ![Latest Version][steve-version-shield]
@@ -88,6 +101,7 @@ GitHub repository for each add-on. Please ensure you are creating the issue
 on the correct GitHub repository matching the add-on.
 
 - [Open an issue for the add-on: Mailserver][mailserver-issue]
+- [Open an issue for the add-on: TellStick with Telldus Live][tellsticklive-issue]
 - [Open an issue for the add-on: steve][steve-issue]
 
 For a general repository issue or add-on ideas [open an issue here][issue]
@@ -145,6 +159,15 @@ SOFTWARE.
 [mailserver-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [mailserver-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [mailserver-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[addon-tellsticklive]: https://github.com/erik73/addon-tellsticklive/tree/v0.9.5
+[addon-doc-tellsticklive]: https://github.com/erik73/addon-tellsticklive/blob/v0.9.5/README.md
+[tellsticklive-issue]: https://github.com/erik73/addon-tellsticklive/issues
+[tellsticklive-version-shield]: https://img.shields.io/badge/version-v0.9.5-blue.svg
+[tellsticklive-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[tellsticklive-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[tellsticklive-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[tellsticklive-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[tellsticklive-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-steve]: https://github.com/erik73/addon-steve/tree/v0.3.7
 [addon-doc-steve]: https://github.com/erik73/addon-steve/blob/v0.3.7/README.md
 [steve-issue]: https://github.com/erik73/addon-steve/issues
