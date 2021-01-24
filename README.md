@@ -40,6 +40,19 @@ https://github.com/erik73/hassio-addons
 
 ## Add-ons provided by this repository
 
+### &#10003; [Mailfilter][addon-mailfilter]
+
+![Latest Version][mailfilter-version-shield]
+![Supports armhf Architecture][mailfilter-armhf-shield]
+![Supports armv7 Architecture][mailfilter-armv7-shield]
+![Supports aarch64 Architecture][mailfilter-aarch64-shield]
+![Supports amd64 Architecture][mailfilter-amd64-shield]
+![Supports i386 Architecture][mailfilter-i386-shield]
+
+Rspamd Mailfilter for Home Assistant
+
+[:books: Mailfilter add-on documentation][addon-doc-mailfilter]
+
 ### &#10003; [Mailserver][addon-mailserver]
 
 ![Latest Version][mailserver-version-shield]
@@ -100,6 +113,7 @@ You could also open an issue here on GitHub. Note, we use a separate
 GitHub repository for each add-on. Please ensure you are creating the issue
 on the correct GitHub repository matching the add-on.
 
+- [Open an issue for the add-on: Mailfilter][mailfilter-issue]
 - [Open an issue for the add-on: Mailserver][mailserver-issue]
 - [Open an issue for the add-on: TellStick with Telldus Live][tellsticklive-issue]
 - [Open an issue for the add-on: steve][steve-issue]
@@ -150,6 +164,15 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+[addon-mailfilter]: https://github.com/erik73/addon-mailfilter/tree/v0.5.2
+[addon-doc-mailfilter]: https://github.com/erik73/addon-mailfilter/blob/v0.5.2/README.md
+[mailfilter-issue]: https://github.com/erik73/addon-mailfilter/issues
+[mailfilter-version-shield]: https://img.shields.io/badge/version-v0.5.2-blue.svg
+[mailfilter-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[mailfilter-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[mailfilter-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[mailfilter-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[mailfilter-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-mailserver]: https://github.com/erik73/addon-mail/tree/v0.5.7
 [addon-doc-mailserver]: https://github.com/erik73/addon-mail/blob/v0.5.7/README.md
 [mailserver-issue]: https://github.com/erik73/addon-mail/issues
