@@ -5,3 +5,7 @@ addons:
     repository: erik73/addon-steve
     target: steve
     image: ghcr.io/erik73/steve/{arch}
+  mailserver:
+    repository: erik73/addon-mail
+    target: mail
+    image: ghcr.io/erik73/mailserver/{arch}
