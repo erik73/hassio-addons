@@ -46,6 +46,19 @@ Complete mail server solution for Home Assistant
 
 [:books: Mailserver add-on documentation][addon-doc-mailserver]
 
+### &#10003; [SteVe][addon-steve]
+
+![Latest Version][steve-version-shield]
+![Supports armhf Architecture][steve-armhf-shield]
+![Supports armv7 Architecture][steve-armv7-shield]
+![Supports aarch64 Architecture][steve-aarch64-shield]
+![Supports amd64 Architecture][steve-amd64-shield]
+![Supports i386 Architecture][steve-i386-shield]
+
+OCPP server for EV charging stations
+
+[:books: SteVe add-on documentation][addon-doc-steve]
+
 ### &#10003; [TellStick with Telldus Live][addon-tellsticklive]
 
 ![Latest Version][tellsticklive-version-shield]
@@ -59,19 +72,6 @@ TellStick and TellStick Duo service with Telldus Live
 
 [:books: TellStick with Telldus Live add-on documentation][addon-doc-tellsticklive]
 
-### &#10003; [steve][addon-steve]
-
-![Latest Version][steve-version-shield]
-![Supports armhf Architecture][steve-armhf-shield]
-![Supports armv7 Architecture][steve-armv7-shield]
-![Supports aarch64 Architecture][steve-aarch64-shield]
-![Supports amd64 Architecture][steve-amd64-shield]
-![Supports i386 Architecture][steve-i386-shield]
-
-OCPP server for EV charging stations
-
-[:books: steve add-on documentation][addon-doc-steve]
-
 
 ## Support
 
@@ -83,8 +83,8 @@ on the correct GitHub repository matching the add-on.
 
 - [Open an issue for the add-on: Mailfilter][mailfilter-issue]
 - [Open an issue for the add-on: Mailserver][mailserver-issue]
+- [Open an issue for the add-on: SteVe][steve-issue]
 - [Open an issue for the add-on: TellStick with Telldus Live][tellsticklive-issue]
-- [Open an issue for the add-on: steve][steve-issue]
 
 For a general repository issue or add-on ideas [open an issue here][issue]
 
@@ -110,15 +110,6 @@ MIT License
 [mailserver-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [mailserver-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [mailserver-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-tellsticklive]: https://github.com/erik73/addon-tellsticklive/tree/v0.9.5
-[addon-doc-tellsticklive]: https://github.com/erik73/addon-tellsticklive/blob/v0.9.5/README.md
-[tellsticklive-issue]: https://github.com/erik73/addon-tellsticklive/issues
-[tellsticklive-version-shield]: https://img.shields.io/badge/version-v0.9.5-blue.svg
-[tellsticklive-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[tellsticklive-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[tellsticklive-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[tellsticklive-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[tellsticklive-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-steve]: https://github.com/erik73/addon-steve/tree/v0.3.8
 [addon-doc-steve]: https://github.com/erik73/addon-steve/blob/v0.3.8/README.md
 [steve-issue]: https://github.com/erik73/addon-steve/issues
@@ -128,6 +119,15 @@ MIT License
 [steve-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [steve-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [steve-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+[addon-tellsticklive]: https://github.com/erik73/addon-tellsticklive/tree/v0.9.5
+[addon-doc-tellsticklive]: https://github.com/erik73/addon-tellsticklive/blob/v0.9.5/README.md
+[tellsticklive-issue]: https://github.com/erik73/addon-tellsticklive/issues
+[tellsticklive-version-shield]: https://img.shields.io/badge/version-v0.9.5-blue.svg
+[tellsticklive-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[tellsticklive-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[tellsticklive-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[tellsticklive-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[tellsticklive-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [awesome-shield]: https://img.shields.io/badge/awesome%3F-yes-brightgreen.svg
 [awesome]: https://awesome-ha.com
 [discord-ha]: https://discord.gg/c5DvZ4e
