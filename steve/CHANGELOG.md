@@ -1,3 +1,5 @@
 ## What’s changed
 
-* Try new way of publishing add-on
+## 🚀 Enhancements
+
+- Update base image @erik73 (#7)
