@@ -17,3 +17,7 @@ addons:
     repository: erik73/addon-tellsticklive
     target: tellsticklive
     image: ghcr.io/erik73/tellsticklive/{arch}
+  base-python:
+    repository: erik73/addon-base-python37
+    target: base
+    image: ghcr.io/erik73/base-python/{arch}
