@@ -12,5 +12,5 @@ See the official addon documentation for details on device setup.
 
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.9.7-blue.svg
-[release]: https://github.com/erik73/addon-tellsticklive/tree/v0.9.7
+[release-shield]: https://img.shields.io/badge/version-v1.0.0-blue.svg
+[release]: https://github.com/erik73/addon-tellsticklive/tree/v1.0.0

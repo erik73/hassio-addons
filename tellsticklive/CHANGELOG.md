@@ -1,3 +1,5 @@
 ## What’s changed
 
-- Add DOCS.md @erik73 (#8)
+## 🚀 Enhancements
+
+- New Base image @erik73 (#9)
