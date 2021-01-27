@@ -133,10 +133,10 @@ MIT License
 [base-python-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [base-python-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [base-python-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-steve]: https://github.com/erik73/addon-steve/tree/v0.3.9
-[addon-doc-steve]: https://github.com/erik73/addon-steve/blob/v0.3.9/README.md
+[addon-steve]: https://github.com/erik73/addon-steve/tree/v0.3.10
+[addon-doc-steve]: https://github.com/erik73/addon-steve/blob/v0.3.10/README.md
 [steve-issue]: https://github.com/erik73/addon-steve/issues
-[steve-version-shield]: https://img.shields.io/badge/version-v0.3.9-blue.svg
+[steve-version-shield]: https://img.shields.io/badge/version-v0.3.10-blue.svg
 [steve-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [steve-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [steve-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
