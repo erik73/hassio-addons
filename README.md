@@ -46,19 +46,6 @@ Complete mail server solution for Home Assistant
 
 [:books: Mailserver add-on documentation][addon-doc-mailserver]
 
-### &#10003; [Python Base Image][addon-base-python]
-
-![Latest Version][base-python-version-shield]
-![Supports armhf Architecture][base-python-armhf-shield]
-![Supports armv7 Architecture][base-python-armv7-shield]
-![Supports aarch64 Architecture][base-python-aarch64-shield]
-![Supports amd64 Architecture][base-python-amd64-shield]
-![Supports i386 Architecture][base-python-i386-shield]
-
-Docker Python base images used by Home Assistant Community Add-ons.
-
-[:books: Python Base Image add-on documentation][addon-doc-base-python]
-
 ### &#10003; [SteVe][addon-steve]
 
 ![Latest Version][steve-version-shield]
@@ -96,7 +83,6 @@ on the correct GitHub repository matching the add-on.
 
 - [Open an issue for the add-on: Mailfilter][mailfilter-issue]
 - [Open an issue for the add-on: Mailserver][mailserver-issue]
-- [Open an issue for the add-on: Python Base Image][base-python-issue]
 - [Open an issue for the add-on: SteVe][steve-issue]
 - [Open an issue for the add-on: TellStick with Telldus Live][tellsticklive-issue]
 
@@ -124,15 +110,6 @@ MIT License
 [mailserver-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [mailserver-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [mailserver-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-base-python]: https://github.com/erik73/addon-base-python37/tree/v0.5.1
-[addon-doc-base-python]: https://github.com/erik73/addon-base-python37/blob/v0.5.1/README.md
-[base-python-issue]: https://github.com/erik73/addon-base-python37/issues
-[base-python-version-shield]: https://img.shields.io/badge/version-v0.5.1-blue.svg
-[base-python-aarch64-shield]: https://img.shields.io/badge/aarch64-no-red.svg
-[base-python-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[base-python-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
-[base-python-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
-[base-python-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-steve]: https://github.com/erik73/addon-steve/tree/v0.3.10
 [addon-doc-steve]: https://github.com/erik73/addon-steve/blob/v0.3.10/README.md
 [steve-issue]: https://github.com/erik73/addon-steve/issues
