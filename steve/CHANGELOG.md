@@ -1,3 +1,3 @@
 ## What’s changed
 
-- Update base image 9.1.1 @erik73 (#11)
+- Update base image Alpine 3.13.1 and DOC fixes @erik73 (#12)
