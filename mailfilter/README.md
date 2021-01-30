@@ -1,4 +1,4 @@
-# Home Assistant Community Add-on: Mailfilter
+# Home Assistant Add-on: Mailfilter
 
 [![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance][maintenance-shield]
 
@@ -14,5 +14,5 @@ This addon is experimental, and provides a mailfilter for your mailserver.
 
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.5.4-blue.svg
-[release]: https://github.com/erik73/addon-mailfilter/tree/v0.5.4
+[release-shield]: https://img.shields.io/badge/version-v1.0.0-blue.svg
+[release]: https://github.com/erik73/addon-mailfilter/tree/v1.0.0

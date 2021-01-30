@@ -1,3 +1,5 @@
 ## What’s changed
 
-- New base image 9.1.1 @erik73 (#11)
+- Use base image with jemalloc preinstalled Alpine 3.13.1 @erik73 (#12)
+- Upgrade socklog overlay @erik73 (#13)
+- Update readme @erik73 (#14)
