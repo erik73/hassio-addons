@@ -1,7 +1,10 @@
 ## What’s changed
 
-- Upgrade postfixadmin to 3.3.5 @erik73 (#22)
-
 ## 🚀 Enhancements
 
-- Upgrade base image and socklog overlay Alpine 3.13.1 @erik73 (#21)
+- Documentation added @erik73 (#25)
+- Update base image to 1.0.1 @erik73 (#26)
+
+## ⬆️ Dependency updates
+
+- Bump frenck/action-yamllint from v1.0.2 to v1.1 @dependabot (#23)
