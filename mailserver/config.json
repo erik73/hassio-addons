@@ -1,6 +1,6 @@
 {
   "name": "Mailserver",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "slug": "mailserver",
   "description": "Complete mail server solution for Home Assistant",
   "url": "https://github.com/erik73/hassio-addons",
@@ -20,7 +20,18 @@
   "services": [
     "mysql:need"
   ],
-  "host_network": true,
+  "ports": {
+    "25/tcp": 25,
+    "465/tcp": 465,
+    "587/tcp": 587,
+    "993/tcp": 993
+  },
+  "ports_description": {
+    "25/tcp": "SMTP",
+    "465/tcp": "SMTP",
+    "587/tcp": "SMTP",
+    "993/tcp": "IMAPS"
+  },
   "hassio_api": true,
   "options": {
     "my_hostname": "mydomain.no-ip.com",
