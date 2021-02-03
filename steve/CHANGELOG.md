@@ -2,8 +2,4 @@
 
 ## 🚀 Enhancements
 
-- Do not run on host network @erik73 (#18)
-
-## ⬆️ Dependency updates
-
-- Bump frenck/action-yamllint from v1.0.2 to v1.1 @dependabot (#13)
+- Cleanup config from http-port setting that is no longer needed. @erik73 (#19)
