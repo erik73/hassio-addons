@@ -1,6 +1,6 @@
 {
   "name": "TellStick with Telldus Live",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "slug": "tellsticklive",
   "description": "TellStick and TellStick Duo service with Telldus Live",
   "url": "https://github.com/erik73/hassio-addons",
@@ -13,9 +13,7 @@
   ],
   "startup": "system",
   "stdin": true,
-  "devices": [
-    "/dev/bus/usb:/dev/bus/usb:rwm"
-  ],
+  "usb": true,
   "options": {
     "enable_local": true,
     "enable_live": false,

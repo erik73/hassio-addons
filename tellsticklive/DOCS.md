@@ -1,4 +1,4 @@
-# Home Assistant Add-on: TellStick with Telldus Live
+# Home Assistant TellStick with Telldus Live
 
 TellStick and TellStick Duo service with a possibility to export devices
 to Telldus Live!
