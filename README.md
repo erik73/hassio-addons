@@ -77,6 +77,12 @@ TellStick and TellStick Duo service with Telldus Live
 
 Got questions?
 
+All my work can be found on my GitHub repo:
+
+```txt
+https://github.com/erik73
+```
+
 You could open an issue here on GitHub. Note, we use a separate
 GitHub repository for each add-on. Please ensure you are creating the issue
 on the correct GitHub repository matching the add-on.
