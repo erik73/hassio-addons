@@ -1,0 +1,64 @@
+---
+# Project information
+site_name: "Home Assistant Add-ons by Erik73"
+site_url: "https://erik73.github.io"
+site_description: "These add-ons for Home Assistant was created for my own use, be able to use my HA host for all my server needs. Someone else might find them useful!"
+site_author: "Erik Hilton"
+copyright: "Copyright 2021 - Erik Hilton."
+
+# Repository
+repo_name: "hassio-addons"
+repo_url: "https://github.com/erik73/hassio-addons"
+edit_uri: ""
+
+# Theme configuration
+theme:
+  name: "material"
+  logo: "https://avatars3.githubusercontent.com/u/30772201?s=200&v=4"
+  language: "en"
+  palette:
+    primary: "light-blue"
+    accent: "blue"
+  font:
+    text: "Exo2"
+    code: "Roboto Mono"
+  feature:
+    - tabs
+extra_css:
+  - css/extra.css
+
+# Customization
+extra:
+  manifest: "manifest.webmanifest"
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: "https://github.com/erik73"
+
+# Extensions
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# The pages to serve
+nav:
+  - "Our Add-ons": "index.md"
+  - "Beta Add-ons": "beta.md"
+  - "Edge Add-ons": "edge.md"
+  - "Contributing": "contributing.md"
+  - "Code of Conduct": "code-of-conduct.md"
+  - "License": "license.md"
