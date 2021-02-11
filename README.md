@@ -42,7 +42,7 @@ Rspamd mailfilter for Home Assistant
 ![Supports amd64 Architecture][mailserver-amd64-shield]
 ![Supports i386 Architecture][mailserver-i386-shield]
 
-Complete mail server solution for Home Assistant
+Postfix and Dovecot mail server for Home Assistant, with Postfix Admin web interface
 
 [:books: Mailserver add-on documentation][addon-doc-mailserver]
 
