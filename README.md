@@ -93,6 +93,7 @@ For a general repository issue or add-on ideas [open an issue here][issue]
 ## License
 
 MIT License
+
 [addon-mailfilter]: https://github.com/erik73/addon-mailfilter/tree/v1.1.2
 [addon-doc-mailfilter]: https://github.com/erik73/addon-mailfilter/blob/v1.1.2/README.md
 [mailfilter-issue]: https://github.com/erik73/addon-mailfilter/issues
