@@ -77,9 +77,7 @@ TellStick and TellStick Duo service with Telldus Live
 
 Got questions?
 
-All my work can be found here: 
-
-- [GitHub-repo][erik-github-repo]
+All my work can be found here: https://github.com/erik73/
 
 You could open an issue here on GitHub. Note, we use a separate
 GitHub repository for each add-on. Please ensure you are creating the issue
@@ -95,7 +93,6 @@ For a general repository issue or add-on ideas [open an issue here][issue]
 ## License
 
 MIT License
-[erik-github-repo]: https://github.com/erik73
 [addon-mailfilter]: https://github.com/erik73/addon-mailfilter/tree/v1.1.2
 [addon-doc-mailfilter]: https://github.com/erik73/addon-mailfilter/blob/v1.1.2/README.md
 [mailfilter-issue]: https://github.com/erik73/addon-mailfilter/issues
