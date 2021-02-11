@@ -1,12 +1,10 @@
 ## What’s changed
 
-- Revert previous changes to logging. Implement workaround to make logging work in both old and new Supervisor versions. 
-
-## 🚀 Enhancements
-
-- Add configuration for socklog-overlay @erik73 (#21)
+- Update add-on description @erik73 (#24)
+- Update base image to 1.0.2 @erik73 (#26)
+- Remove the large clamav definitions if disabled @erik73 (#25)
 
 ## ⬆️ Dependency updates
 
-- Bump actionshub/markdownlint from 2.0.0 to 2.0.2 @dependabot (#20)
-- Bump actions/cache from v2.1.3 to v2.1.4 @dependabot (#19)
+- Bump actions/stale from v3.0.15 to v3.0.16 @dependabot (#22)
+- Bump frenck/action-addon-linter from v1.4 to v2 @dependabot (#23)
