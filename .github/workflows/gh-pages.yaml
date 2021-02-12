@@ -30,7 +30,6 @@ jobs:
           ln -sf ../CONTRIBUTING.md docs/contributing.md
           ln -sf ../CODE_OF_CONDUCT.md docs/code-of-conduct.md
 
-
       - run: mkdocs build
 
       - name: Deploy
@@ -39,4 +38,4 @@ jobs:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           external_repository: erik73/erik73.github.io
           publish_branch: master
-          publish_dir: ./site
+          publish_dir: ./
