@@ -23,6 +23,13 @@ jobs:
           python3 -m pip install mkdocs
           python3 -m pip install mkdocs-material
           mkdir -p docs
+          curl https://raw.githubusercontent.com/erik73/repository-beta/master/README.md --output docs/beta.md
+          curl https://raw.githubusercontent.com/erik73/repository-edge/master/README.md --output docs/edge.md
+          ln -sf ../README.md docs/index.md
+          ln -sf ../LICENSE.md docs/license.md
+          ln -sf ../CONTRIBUTING.md docs/contributing.md
+          ln -sf ../CODE_OF_CONDUCT.md docs/code-of-conduct.md
+
 
       - run: mkdocs build
 
