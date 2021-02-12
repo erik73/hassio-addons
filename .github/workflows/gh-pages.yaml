@@ -36,6 +36,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          external_repository: erik73/erik74.github.io
-          publish_branch: master
+          external_repository: erik73/erik73.github.io
+          publish_branch: main
           publish_dir: ./site
