@@ -1,5 +1,5 @@
 ---
-name: github pages
+name: Deploy to Github Pages
 
 on:
   push:
