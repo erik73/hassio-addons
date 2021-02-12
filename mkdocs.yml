@@ -7,7 +7,7 @@ site_author: "Erik Hilton"
 copyright: "Copyright 2021 - Erik Hilton."
 
 # Repository
-repo_name: "hassio-addons"
+repo_name: "erik73/hassio-addons"
 repo_url: "https://github.com/erik73/hassio-addons"
 edit_uri: ""
 
@@ -56,7 +56,7 @@ markdown_extensions:
 
 # The pages to serve
 nav:
-  - "Our Add-ons": "index.md"
+  - "Stable Add-ons": "index.md"
   - "Beta Add-ons": "beta.md"
   - "Edge Add-ons": "edge.md"
   - "Contributing": "contributing.md"
