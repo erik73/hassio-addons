@@ -61,4 +61,4 @@ rules:
   trailing-spaces:
     level: error
   truthy:
-    level: error
+    level: warning
