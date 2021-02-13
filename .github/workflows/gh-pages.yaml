@@ -37,7 +37,7 @@ jobs:
       - name: Install dependencies
         run: python3 -m pip install -r ./requirements.txt
 
-      - run: | 
+      - run: |
           mkdir -p docs
           curl https://raw.githubusercontent.com/erik73/repository-beta/master/README.md --output docs/beta.md
           curl https://raw.githubusercontent.com/erik73/repository-edge/master/README.md --output docs/edge.md
