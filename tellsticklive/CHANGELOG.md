@@ -1,14 +1,10 @@
 ## What’s changed
 
-- Update documentation @erik73 (#11)
+## 📚 Documentation
 
-## 🚀 Enhancements
-
-- Update config to be compliant with new supervisor @erik73 (#16)
+- Some fixes to documentation @erik73 (#19)
 
 ## ⬆️ Dependency updates
 
-- Bump frenck/action-yamllint from v1.0.2 to v1.1 @dependabot (#12)
-- Bump actions/cache from v2.1.3 to v2.1.4 @dependabot (#14)
-- Bump actionshub/markdownlint from 2.0.0 to 2.0.2 @dependabot (#13)
-- Bump actions/stale from v3.0.15 to v3.0.16 @dependabot (#15)
+- Bump frenck/action-addon-linter from v1.4 to v2 @dependabot (#17)
+- Update base image to resolve S6 bug @erik73 (#18)

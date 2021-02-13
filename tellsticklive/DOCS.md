@@ -25,7 +25,7 @@ Click on the "INSTALL" button.
 
 ### Starting the add-on
 
-After installation you are presented with a default and example configuration.
+After installation you are presented with an example configuration.
 
 Adjust the add-on configuration to match your devices. See the official add-on
 configuration options for details.
@@ -35,10 +35,10 @@ Start the add-on.
 ### Home Assistant integration
 
 You can run the addon in Live-only mode. In that case, you configure the TelldusLive
-integration i HA once you have everything set up.
+integration in HA once you have everything set up.
 If you want to run in local mode (the same way the official addon runs), you will
 need to add internal communication details to the `configuration.yaml`
-file to enable the integration with the add-on.
+file to enable the integration with the add-on:
 
 ```yaml
 # Example configuration.yaml entry
@@ -53,10 +53,6 @@ For device configuration, refer to the official addon instructions.
 
 All devices configured and working will be visible in your Telldus Live account when
 you have completed the configuration steps below.
-
-To have your sensors visible in Telldus Live they have to be added to the configuration.
-Use the following service call to find the needed sensor information:
-`{"addon":"32b8266a_tellsticklive","input":{"function":"list-sensors"}}`
 
 Example sensor configuration:
 
