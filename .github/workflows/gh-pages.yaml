@@ -1,6 +1,7 @@
 ---
 name: Deploy to Github Pages
 
+# yamllint disable-line rule:truthy
 on:
   push:
     branches:
