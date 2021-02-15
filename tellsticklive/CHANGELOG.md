@@ -1,10 +1,7 @@
 ## What’s changed
 
-## 📚 Documentation
-
-- Some fixes to documentation @erik73 (#19)
+- Update base image to 1.0.2 @erik73 (#20)
 
 ## ⬆️ Dependency updates
 
-- Bump frenck/action-addon-linter from v1.4 to v2 @dependabot (#17)
-- Update base image to resolve S6 bug @erik73 (#18)
+- Bump release-drafter/release-drafter from v5.13.0 to v5.14.0 @dependabot (#21)
