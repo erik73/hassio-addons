@@ -14,5 +14,5 @@ This addon is experimental, and provides a mailfilter for your mailserver.
 
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v1.1.2-blue.svg
-[release]: https://github.com/erik73/addon-mailfilter/tree/v1.1.2
+[release-shield]: https://img.shields.io/badge/version-v1.1.3-blue.svg
+[release]: https://github.com/erik73/addon-mailfilter/tree/v1.1.3
