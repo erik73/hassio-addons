@@ -139,8 +139,20 @@ enable_local: false
 
 Once all this is complete, you can restart the addon, and your devices and
 sensors will appear in Telldus Live!
-It can take a restart or two before the sensor names show correctly in
-Telldus Live.
+
+```yaml
+live_delay: 10
+```
+
+The above config options is by default set to 10 seconds. It is used
+to control how long to wait before establishing the connection to Telldus.
+This is important to set this to a higher value when new sensors has been
+added, because the sensors has to be found by your Telldus device before
+connecting.
+So in short, if new sensors has been added to your configuration, set it
+to for example 600 seconds. Once the sensors are found, and have been
+assigned the correct name in the Telldus Live system, it can be reduced
+to 10 seconds again.
 
 ## Support
 

@@ -1,5 +1,9 @@
 ## What’s changed
 
-## ⬆️ Dependency updates
+## 🚀 Enhancements
 
-- Update base image to 1.0.3 @erik73 (#22)
+- Create option to add delay for live connection @erik73 (#23)
+
+## 📚 Documentation
+
+- Add new option to DOCS @erik73 (#24)
