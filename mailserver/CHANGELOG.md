@@ -2,5 +2,6 @@
 
 ## ⬆️ Dependency updates
 
-- Bump release-drafter/release-drafter from v5.13.0 to v5.14.0 @dependabot (#45)
-- Update base image to 1.0.3 @erik73 (#46)
+- Bump docker/build-push-action from v2.2.2 to v2.3.0 @dependabot (#47)
+- Bump actions/stale from v3.0.16 to v3.0.17 @dependabot (#48)
+- Update Postfix Admin to version 3.3.7 @erik73 (#49)
