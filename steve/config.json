@@ -1,6 +1,6 @@
 {
   "name": "SteVe",
-  "version": "1.1.5",
+  "version": "1.2.0",
   "slug": "steve",
   "description": "OCPP server for EV charging stations",
   "url": "https://github.com/erik73/addon-steve",
@@ -18,10 +18,12 @@
     "mysql:need"
   ],
   "ports": {
-    "8180/tcp": 8180
+    "8180/tcp": 8180,
+    "12801/tcp": null
   },
   "ports_description": {
-    "8180/tcp": "SteVe TCP port"
+    "8180/tcp": "SteVe TCP port",
+    "12801/tcp": "SteVe SOAP return port"
   },
   "hassio_api": true,
   "options": {

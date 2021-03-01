@@ -1,10 +1,10 @@
 ## What’s changed
 
-## 🧰 Maintenance
+## 🚀 Enhancements
 
-- Try new way of calling java @erik73 (#29)
+- Add SOAP return port @erik73 (#34)
 
 ## ⬆️ Dependency updates
 
-- Bump release-drafter/release-drafter from v5.13.0 to v5.14.0 @dependabot (#30)
-- Update base image to 1.0.3 @erik73 (#31)
+- Bump docker/build-push-action from v2.2.2 to v2.3.0 @dependabot (#32)
+- Bump actions/stale from v3.0.16 to v3.0.17 @dependabot (#33)
