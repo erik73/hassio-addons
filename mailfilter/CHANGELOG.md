@@ -2,4 +2,4 @@
 
 ## ⬆️ Dependency updates
 
-- Revert lua @erik73 (#102)
+- Rspamd 3.2 @erik73 (#103)
