@@ -1,3 +1,4 @@
 ## What’s changed
 
-- Allow messages with a max of 25.6MB, instead of the default 10. @RubenNL (#147)
+- Configurable max message size. @RubenNL (#148)
+- Try to fix messagesize @erik73 (#149)
