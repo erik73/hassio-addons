@@ -1,6 +1,6 @@
 {
   "name": "SteVe",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "slug": "steve",
   "description": "OCPP server for EV charging stations",
   "url": "https://github.com/erik73/addon-steve",
@@ -10,7 +10,6 @@
   ],
   "stage": "experimental",
   "init": false,
-  "ingress": true,
   "panel_icon": "mdi:CarElectric",
   "map": [
     "ssl"
