@@ -1,3 +1,5 @@
 ## What’s changed
 
-* Fix web interface access problems
+## ⬆️ Dependency updates
+
+- Alpine 3.17.0 @erik73 (#148)
