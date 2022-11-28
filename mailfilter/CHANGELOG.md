@@ -1,3 +1,5 @@
 ## What’s changed
 
-* Turn off Clamd ConcurrentDatabaseReload
+## ⬆️ Dependency updates
+
+- Alpine 3.17.0 @erik73 (#132)
