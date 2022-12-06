@@ -1,6 +1,5 @@
 ## What’s changed
 
-## ⬆️ Dependency updates
+## 🐛 Bug fixes
 
-- Bump dessant/lock-threads from 3 to 4 @dependabot (#170)
-- Postfixadmin 3.3.12 @erik73 (#171)
+- Fix php8 to php81 @DvinPROG (#172)
