@@ -1,5 +1,10 @@
 ## What’s changed
 
+## ✨ New features
+
+- dkim_signing @erik73 (#135)
+-  Experimental DKIM support. Documentation will follow. 
+
 ## ⬆️ Dependency updates
 
-- Alpine 3.17.0 @erik73 (#132)
+- Bump dessant/lock-threads from 3 to 4 @dependabot (#133)
