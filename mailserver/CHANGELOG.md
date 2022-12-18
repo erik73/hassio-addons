@@ -1,5 +1,5 @@
 ## What’s changed
 
-## 🐛 Bug fixes
+## ⬆️ Dependency updates
 
-- Fix php8 to php81 @DvinPROG (#172)
+- Postfixadmin 3.3.13 @erik73 (#174)
