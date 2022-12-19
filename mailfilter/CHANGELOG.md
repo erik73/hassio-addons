@@ -1,10 +1,8 @@
 ## What’s changed
 
-## ✨ New features
-
-- dkim_signing @erik73 (#135)
--  Experimental DKIM support. Documentation will follow. 
-
 ## ⬆️ Dependency updates
 
-- Bump dessant/lock-threads from 3 to 4 @dependabot (#133)
+- Bump actionshub/markdownlint from 2.0.2 to 2.1.2 @dependabot (#136)
+- Add documentation
+- More information in the logs
+- Remove DKIM key files when DKIM is disabled
