@@ -1,4 +1,8 @@
 ---
+ignore: |
+  */translations/*.yaml
+  */config.yaml
+  */config.yml
 rules:
   braces:
     level: error
@@ -61,4 +65,4 @@ rules:
   trailing-spaces:
     level: error
   truthy:
-    level: warning
+    level: error
