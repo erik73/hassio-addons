@@ -13,7 +13,7 @@ This addon is experimental, and provides a mailserver for your domain.
 It is also possible to configure additional email domains and accounts in the Postfixadmin
 web interface.
 
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v1.2.15-blue.svg
-[release]: https://github.com/erik73/addon-mail/tree/v1.2.15
+[release-shield]: https://img.shields.io/badge/version-v1.2.16-blue.svg
+[release]: https://github.com/erik73/addon-mail/tree/v1.2.16
