@@ -12,7 +12,7 @@ Important: This addon is requires that the Mailserver addon is installed!
 
 This addon is experimental, and provides a mailfilter for your mailserver.
 
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v3.0.0-blue.svg
-[release]: https://github.com/erik73/addon-mailfilter/tree/v3.0.0
+[release-shield]: https://img.shields.io/badge/version-v3.0.1-blue.svg
+[release]: https://github.com/erik73/addon-mailfilter/tree/v3.0.1
