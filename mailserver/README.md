@@ -15,5 +15,5 @@ web interface.
 
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v1.2.16-blue.svg
-[release]: https://github.com/erik73/addon-mail/tree/v1.2.16
+[release-shield]: https://img.shields.io/badge/version-v1.2.17-blue.svg
+[release]: https://github.com/erik73/addon-mail/tree/v1.2.17
