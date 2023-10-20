@@ -2,8 +2,5 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update Add-on base image to v3.0.4 @renovate ([#210](https://github.com/erik73/addon-steve/pull/210))
-- ⬆️ Update Add-on base image to v3.0.5 @renovate ([#211](https://github.com/erik73/addon-steve/pull/211))
-- ⬆️ Update alpine_3_18/mariadb-client to v10.11.5-r0 @renovate ([#212](https://github.com/erik73/addon-steve/pull/212))
-- ⬆️ Update Add-on base image to v3.0.6 @renovate ([#214](https://github.com/erik73/addon-steve/pull/214))
-- ⬆️ Update Add-on base image to v3.0.7 @renovate ([#215](https://github.com/erik73/addon-steve/pull/215))
+- ⬆️ Update alpine_3_18/nginx to v1.24.0-r7 @renovate ([#216](https://github.com/erik73/addon-steve/pull/216))
+- ⬆️ Update alpine_3_18/openjdk11 to v11.0.21_p9-r0 @renovate ([#217](https://github.com/erik73/addon-steve/pull/217))
