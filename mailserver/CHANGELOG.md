@@ -1,13 +1,14 @@
 ## What’s changed
 
-Dependency updates and version bump
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Update Add-on base image to v3.0.5 @renovate ([#244](https://github.com/erik73/addon-mail/pull/244))
-- ⬆️ Update PHP to v8.1.23-r0 @renovate ([#245](https://github.com/erik73/addon-mail/pull/245))
-- ⬆️ Update Postfix to v3.8.2-r0 @renovate ([#246](https://github.com/erik73/addon-mail/pull/246))
-- ⬆️ Update alpine_3_18/mariadb-client to v10.11.5-r0 @renovate ([#247](https://github.com/erik73/addon-mail/pull/247))
-- ⬆️ Update Add-on base image to v3.0.6 @renovate ([#248](https://github.com/erik73/addon-mail/pull/248))
-- ⬆️ Update Add-on base image to v3.0.7 @renovate ([#249](https://github.com/erik73/addon-mail/pull/249))
-- ⬆️ Update Dovecot to v2.3.20-r11 @renovate ([#250](https://github.com/erik73/addon-mail/pull/250))
+- ⬆️ Update alpine_3_18/nginx to v1.24.0-r7 @renovate ([#251](https://github.com/erik73/addon-mail/pull/251))
+- ⬆️ Update Add-on base image to v3.0.8 @renovate ([#252](https://github.com/erik73/addon-mail/pull/252))
+- ⬆️ Update Add-on base image to v3.0.9 @renovate ([#253](https://github.com/erik73/addon-mail/pull/253))
+- ⬆️ Update Postfix to v3.8.3-r0 @renovate ([#254](https://github.com/erik73/addon-mail/pull/254))
+- ⬆️ Update PHP to v8.1.25-r0 @renovate ([#256](https://github.com/erik73/addon-mail/pull/256))
+- ⬆️ Update just-containers/s6-overlay to v3.1.6.0 @renovate ([#255](https://github.com/erik73/addon-mail/pull/255))
+- ⬆️ Update Add-on base image to v3.0.10 @renovate ([#257](https://github.com/erik73/addon-mail/pull/257))
+- ⬆️ Update Add-on base image to v3.0.11 @renovate ([#259](https://github.com/erik73/addon-mail/pull/259))
+- ⬆️ Update just-containers/s6-overlay to v3.1.6.2 @renovate ([#258](https://github.com/erik73/addon-mail/pull/258))
+- ⬆️ Update PHP to v8.1.26-r0 @renovate ([#260](https://github.com/erik73/addon-mail/pull/260))
