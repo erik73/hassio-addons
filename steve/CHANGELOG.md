@@ -2,5 +2,7 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update alpine_3_18/nginx to v1.24.0-r7 @renovate ([#216](https://github.com/erik73/addon-steve/pull/216))
-- ⬆️ Update alpine_3_18/openjdk11 to v11.0.21_p9-r0 @renovate ([#217](https://github.com/erik73/addon-steve/pull/217))
+- ⬆️ Update Add-on base image to v3.0.8 @renovate ([#218](https://github.com/erik73/addon-steve/pull/218))
+- ⬆️ Update Add-on base image to v3.0.9 @renovate ([#219](https://github.com/erik73/addon-steve/pull/219))
+- ⬆️ Update Add-on base image to v3.0.10 @renovate ([#220](https://github.com/erik73/addon-steve/pull/220))
+- ⬆️ Update Add-on base image to v3.0.11 @renovate ([#221](https://github.com/erik73/addon-steve/pull/221))
