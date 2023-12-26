@@ -41,7 +41,7 @@ enable_dkim_signing: false
 
 Please note: The antivirus option will consume lots of memory.
 The absolute minimum is 4GB of RAM intsalled in the host.
-Depending other add-ons that are installed 4GB might not be enough.
+Depending other add-ons that are installed 6GB might not be enough.
 
 ### Option: `enable_antivirus` (optional)
 

@@ -1,12 +1,21 @@
 ## What’s changed
 
+- Rspamd 3.7.5
+
+## 🐛 Bug fixes
+
+- Recreate Hyperscan files @erik73 ([#218](https://github.com/erik73/addon-mailfilter/pull/218))
+- Use Rspamd 3.7.5 @erik73 ([#220](https://github.com/erik73/addon-mailfilter/pull/220))
+
+## 🧰 Maintenance
+
+- clean up script file @erik73 ([#219](https://github.com/erik73/addon-mailfilter/pull/219))
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Update alpine_3_18/nginx to v1.24.0-r7 @renovate ([#204](https://github.com/erik73/addon-mailfilter/pull/204))
-- ⬆️ Update alpine_3_18/redis to v7.0.14-r0 @renovate ([#205](https://github.com/erik73/addon-mailfilter/pull/205))
-- ⬆️ Update Add-on base image to v3.0.8 @renovate ([#206](https://github.com/erik73/addon-mailfilter/pull/206))
-- ⬆️ Update Add-on base image to v3.0.9 @renovate ([#207](https://github.com/erik73/addon-mailfilter/pull/207))
-- ⬆️ Update just-containers/s6-overlay to v3.1.6.0 @renovate ([#208](https://github.com/erik73/addon-mailfilter/pull/208))
-- ⬆️ Update Add-on base image to v3.0.10 @renovate ([#209](https://github.com/erik73/addon-mailfilter/pull/209))
-- ⬆️ Update Add-on base image to v3.0.11 @renovate ([#211](https://github.com/erik73/addon-mailfilter/pull/211))
-- ⬆️ Update just-containers/s6-overlay to v3.1.6.2 @renovate ([#210](https://github.com/erik73/addon-mailfilter/pull/210))
+- ⬆️ Update Add-on base image to v3.0.12 @renovate ([#212](https://github.com/erik73/addon-mailfilter/pull/212))
+- ⬆️ Update Rspamd to v3.6-r2 @renovate ([#213](https://github.com/erik73/addon-mailfilter/pull/213))
+- ⬆️ Update Add-on base image to v3.0.13 @renovate ([#217](https://github.com/erik73/addon-mailfilter/pull/217))
+- ⬆️ Update Clamav to v1.2.1-r0 @renovate ([#214](https://github.com/erik73/addon-mailfilter/pull/214))
+- ⬆️ Update Rspamd to v3.7.4-r0 @renovate ([#215](https://github.com/erik73/addon-mailfilter/pull/215))
+- ⬆️ Update alpine_3_19/redis to v7.2.3-r0 @renovate ([#216](https://github.com/erik73/addon-mailfilter/pull/216))
