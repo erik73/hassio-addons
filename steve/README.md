@@ -10,5 +10,5 @@ Steve is an OCCP server for communicationg with charge points
 
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2024.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v2.0.17-blue.svg
-[release]: https://github.com/erik73/addon-steve/tree/v2.0.17
+[release-shield]: https://img.shields.io/badge/version-v2.0.18-blue.svg
+[release]: https://github.com/erik73/addon-steve/tree/v2.0.18
