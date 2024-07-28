@@ -1,13 +1,13 @@
 ## What’s changed
 
-- Update Alpine Linux to 3.20
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Update alpine_3_19/git to v2.43.4-r0 @renovate ([#237](https://github.com/erik73/addon-steve/pull/237))
-- ⬆️ Update Add-on base image to v3.0.18 @renovate ([#238](https://github.com/erik73/addon-steve/pull/238))
-- ⬆️ Update alpine_3_20/mariadb-client to v10.11.8-r0 @renovate ([#239](https://github.com/erik73/addon-steve/pull/239))
-- ⬆️ Update alpine_3_20/maven to v3.9.6-r0 @renovate ([#240](https://github.com/erik73/addon-steve/pull/240))
-- ⬆️ Update Add-on base image to v3.0.19 @renovate ([#241](https://github.com/erik73/addon-steve/pull/241))
-- ⬆️ Update alpine_3_20/git to v2.45.1-r0 @renovate ([#242](https://github.com/erik73/addon-steve/pull/242))
-- ⬆️ Update alpine_3_20/nginx to v1.26.0-r1 @renovate ([#243](https://github.com/erik73/addon-steve/pull/243))
+- ⬆️ Update alpine_3_20/nginx to v1.26.0-r2 @renovate ([#244](https://github.com/erik73/addon-steve/pull/244))
+- ⬆️ Update alpine_3_20/nginx to v1.26.1-r0 @renovate ([#245](https://github.com/erik73/addon-steve/pull/245))
+- ⬆️ Update alpine_3_20/git to v2.45.2-r0 @renovate ([#246](https://github.com/erik73/addon-steve/pull/246))
+- ⬆️ Update Add-on base image to v3.0.20 @renovate ([#247](https://github.com/erik73/addon-steve/pull/247))
+- ⬆️ Update Add-on base image to v3.0.21 @renovate ([#248](https://github.com/erik73/addon-steve/pull/248))
+- ⬆️ Update Add-on base image to v3.0.22 @renovate ([#249](https://github.com/erik73/addon-steve/pull/249))
+- ⬆️ Update alpine_3_20/openjdk11 to v11.0.24_p8-r0 @renovate ([#250](https://github.com/erik73/addon-steve/pull/250))
+- ⬆️ Update Add-on base image to v3.0.23 @renovate ([#251](https://github.com/erik73/addon-steve/pull/251))
+- ⬆️ Update SteVe OCCP to v3.7.0 @renovate ([#253](https://github.com/erik73/addon-steve/pull/253))
