@@ -1,15 +1,11 @@
 ## What’s changed
 
-- Update to RSPAMD 3.8.4 and Alpine Linux to 3.20
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Update alpine_3_19/nginx to v1.24.0-r15 @renovate ([#225](https://github.com/erik73/addon-mailfilter/pull/225))
-- ⬆️ Update Clamav to v1.2.2-r0 @renovate ([#226](https://github.com/erik73/addon-mailfilter/pull/226))
-- ⬆️ Update Add-on base image to v3.0.17 @renovate ([#227](https://github.com/erik73/addon-mailfilter/pull/227))
-- ⬆️ Update alpine_3_19/nginx to v1.24.0-r16 @renovate ([#228](https://github.com/erik73/addon-mailfilter/pull/228))
-- ⬆️ Update Add-on base image to v3.0.18 @renovate ([#230](https://github.com/erik73/addon-mailfilter/pull/230))
-- ⬆️ Update Rspamd to v3.8.4-r0 @renovate ([#231](https://github.com/erik73/addon-mailfilter/pull/231))
-- ⬆️ Update Add-on base image to v3.0.19 @renovate ([#233](https://github.com/erik73/addon-mailfilter/pull/233))
-- ⬆️ Update alpine_3_20/redis to v7.2.5-r0 @renovate ([#232](https://github.com/erik73/addon-mailfilter/pull/232))
-- ⬆️ Update alpine_3_20/nginx to v1.26.0-r1 @renovate ([#234](https://github.com/erik73/addon-mailfilter/pull/234))
+- ⬆️ Update alpine_3_20/nginx to v1.26.0-r2 @renovate ([#235](https://github.com/erik73/addon-mailfilter/pull/235))
+- ⬆️ Update alpine_3_20/nginx to v1.26.1-r0 @renovate ([#236](https://github.com/erik73/addon-mailfilter/pull/236))
+- ⬆️ Update Add-on base image to v3.0.20 @renovate ([#238](https://github.com/erik73/addon-mailfilter/pull/238))
+- ⬆️ Update just-containers/s6-overlay to v3.2.0.0 @renovate ([#237](https://github.com/erik73/addon-mailfilter/pull/237))
+- ⬆️ Update Add-on base image to v3.0.21 @renovate ([#239](https://github.com/erik73/addon-mailfilter/pull/239))
+- ⬆️ Update Add-on base image to v3.0.22 @renovate ([#240](https://github.com/erik73/addon-mailfilter/pull/240))
+- ⬆️ Update Add-on base image to v3.0.23 @renovate ([#241](https://github.com/erik73/addon-mailfilter/pull/241))
