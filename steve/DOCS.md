@@ -1,6 +1,6 @@
 # Home Assistant Add-on: SteVe
 
-SteVe OCCP server for communicationg with charge points
+SteVe OCPP server for communicationg with charge points
 
 ![Supports aarch64 Architecture][aarch64-shield] ![Supports amd64 Architecture][amd64-shield]
 
@@ -9,7 +9,7 @@ SteVe OCCP server for communicationg with charge points
 Important: This addon requires that the MariaDB add-on is installed and running!
 
 This add-on is experimental.
-Steve is an OCCP server for communicationg with charge points
+Steve is an OCPP server for communicationg with charge points
 
 ## Installation
 
