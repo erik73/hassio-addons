@@ -17,3 +17,7 @@ addons:
     repository: erik73/addon-tellsticklive
     target: tellsticklive
     image: ghcr.io/erik73/tellsticklive/{arch}
+  mariadb:
+    repository: erik73/addon-mariadb
+    target: mariadb
+    image: ghcr.io/erik73/mariadb/{arch}
