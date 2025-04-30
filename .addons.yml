@@ -21,3 +21,7 @@ addons:
     repository: erik73/addon-mariadb
     target: mariadb
     image: ghcr.io/erik73/mariadb/{arch}
+  phpmyadmin:
+    repository: erik73/addon-phpmyadmin
+    target: phpmyadmin
+    image: ghcr.io/erik73/phpmyadmin/{arch}
