@@ -1,7 +1,18 @@
 ## What’s changed
 
-## ⬆️ Dependency updates
+## ✨ New features
 
-- ⬆️ Update Postfix to v3.9.4-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#343](https://github.com/erik73/addon-mail/pull/343))
-- ⬆️ Update Add-on base image to v4.0.8 @[renovate[bot]](https://github.com/apps/renovate) ([#344](https://github.com/erik73/addon-mail/pull/344))
-- ⬆️ Update Add-on base image to v4.0.9 @[renovate[bot]](https://github.com/apps/renovate) ([#345](https://github.com/erik73/addon-mail/pull/345))
+- Add docs regarding changing admin-password @erik73 ([#351](https://github.com/erik73/addon-mail/pull/351))
+- Be careful! Do NOT try to change the admin user name. Only the password can be changed
+
+## 🚀 Enhancements
+
+- Set the superadmin user credentials on startup @erik73 ([#347](https://github.com/erik73/addon-mail/pull/347))
+
+## 🧰 Maintenance
+
+- Fix mysql warning @erik73 ([#350](https://github.com/erik73/addon-mail/pull/350))
+
+## 📚 Documentation
+
+- Add docs regarding changing admin-password @erik73 ([#351](https://github.com/erik73/addon-mail/pull/351))
