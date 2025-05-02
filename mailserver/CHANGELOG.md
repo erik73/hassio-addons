@@ -1,18 +1,11 @@
 ## What’s changed
 
-## ✨ New features
+- Update to PHP 8.4 and PostfixAdmin 3.3.15
 
-- Add docs regarding changing admin-password @erik73 ([#351](https://github.com/erik73/addon-mail/pull/351))
-- Be careful! Do NOT try to change the admin user name. Only the password can be changed
+## 🐛 Bug fixes
 
-## 🚀 Enhancements
+- Fix phpfpm crash @erik73 ([#354](https://github.com/erik73/addon-mail/pull/354))
 
-- Set the superadmin user credentials on startup @erik73 ([#347](https://github.com/erik73/addon-mail/pull/347))
+## ⬆️ Dependency updates
 
-## 🧰 Maintenance
-
-- Fix mysql warning @erik73 ([#350](https://github.com/erik73/addon-mail/pull/350))
-
-## 📚 Documentation
-
-- Add docs regarding changing admin-password @erik73 ([#351](https://github.com/erik73/addon-mail/pull/351))
+- Bump php postfixadmin @erik73 ([#353](https://github.com/erik73/addon-mail/pull/353))
