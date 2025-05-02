@@ -189,7 +189,7 @@ MIT License
 [gitlabci]: https://gitlab.com/erik73/hassio-addons/pipelines
 [issue]: https://github.com/erik73/hassio-addons/issues
 [license-shield]: https://img.shields.io/github/license/erik73/hassio-addons.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [reddit]: https://reddit.com/r/homeassistant
 [semver]: http://semver.org/spec/v2.0.0.html
