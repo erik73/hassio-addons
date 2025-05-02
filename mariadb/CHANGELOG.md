@@ -1,9 +1,9 @@
 ## What’s changed
 
-## 🐛 Bug fixes
+## 🧰 Maintenance
 
-- Fix typo mariadb-check @erik73 ([#4](https://github.com/erik73/addon-mariadb/pull/4))
+- Cleanup build files @erik73 ([#6](https://github.com/erik73/addon-mariadb/pull/6))
 
-## 🚀 Enhancements
+## ⬆️ Dependency updates
 
-- Rename executables @erik73 ([#3](https://github.com/erik73/addon-mariadb/pull/3))
+- ⬆️ Update Add-on base image to v4.0.9 @[renovate[bot]](https://github.com/apps/renovate) ([#5](https://github.com/erik73/addon-mariadb/pull/5))
