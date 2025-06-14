@@ -48,6 +48,13 @@ Depending other add-ons that are installed 6GB might not be enough.
 Turning this option on will enable the ClamAV virus scanner.
 See above regarding the memory considerations.
 
+### Option: `enable_gtube_tests` (optional)
+
+Turning this option on will enable Rspamd to recognize GTUBE-like
+test patterns specific to Rspamd. It is NOT recommended to turn
+this on in a production environment since it might be used to
+bypass the spam checks. Use it only when testing your setup!
+
 ### Option: `enable_dkim_signing` (optional)
 
 Enables DKIM signing for outgoing emails.
