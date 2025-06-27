@@ -25,7 +25,3 @@ addons:
     repository: erik73/addon-phpmyadmin
     target: phpmyadmin
     image: ghcr.io/erik73/phpmyadmin/{arch}
-  mailserver2:
-    repository: erik73/addon-mail2
-    target: mail2
-    image: ghcr.io/erik73/mailserver2/{arch}
