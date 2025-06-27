@@ -1,5 +1,9 @@
 ## What’s changed
 
-## 🐛 Bug fixes
+## ✨ New features
 
-- Restore quota policy check @erik73 ([#373](https://github.com/erik73/addon-mail/pull/373))
+- Mynetworks @erik73 ([#374](https://github.com/erik73/addon-mail/pull/374))
+
+## 📚 Documentation
+
+- Update documentation @erik73 ([#375](https://github.com/erik73/addon-mail/pull/375))

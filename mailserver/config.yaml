@@ -1,5 +1,5 @@
 name: Mailserver
-version: 4.0.4
+version: 4.1.0
 slug: mailserver
 description: Postfix and Dovecot mail server for Home Assistant, with Postfix Admin
   web interface
@@ -47,4 +47,5 @@ schema:
   smtp_relayhost_credentials: str?
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
   message_size_limit: int
+  mynetworks: str?
 image: ghcr.io/erik73/mailserver/{arch}
