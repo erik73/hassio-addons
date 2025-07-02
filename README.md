@@ -59,6 +59,19 @@ A SQL database server
 
 [:books: MariaDB add-on documentation][addon-doc-mariadb]
 
+### &#10003; [Roundcube][addon-roundcube]
+
+![Latest Version][roundcube-version-shield]
+![Supports armhf Architecture][roundcube-armhf-shield]
+![Supports armv7 Architecture][roundcube-armv7-shield]
+![Supports aarch64 Architecture][roundcube-aarch64-shield]
+![Supports amd64 Architecture][roundcube-amd64-shield]
+![Supports i386 Architecture][roundcube-i386-shield]
+
+Roundcube webmail client
+
+[:books: Roundcube add-on documentation][addon-doc-roundcube]
+
 ### &#10003; [SteVe][addon-steve]
 
 ![Latest Version][steve-version-shield]
@@ -112,6 +125,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Mailfilter][mailfilter-issue]
 - [Open an issue for the add-on: Mailserver][mailserver-issue]
 - [Open an issue for the add-on: MariaDB][mariadb-issue]
+- [Open an issue for the add-on: Roundcube][roundcube-issue]
 - [Open an issue for the add-on: SteVe][steve-issue]
 - [Open an issue for the add-on: TellStick with Telldus Live][tellsticklive-issue]
 - [Open an issue for the add-on: phpMyAdmin][phpmyadmin-issue]
@@ -149,6 +163,15 @@ MIT License
 [mariadb-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [mariadb-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [mariadb-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[addon-roundcube]: https://github.com/erik73/addon-roundcube/tree/v1.0.0
+[addon-doc-roundcube]: https://github.com/erik73/addon-roundcube/blob/v1.0.0/README.md
+[roundcube-issue]: https://github.com/erik73/addon-roundcube/issues
+[roundcube-version-shield]: https://img.shields.io/badge/version-v1.0.0-blue.svg
+[roundcube-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[roundcube-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[roundcube-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[roundcube-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[roundcube-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-steve]: https://github.com/erik73/addon-steve/tree/v3.0.0
 [addon-doc-steve]: https://github.com/erik73/addon-steve/blob/v3.0.0/README.md
 [steve-issue]: https://github.com/erik73/addon-steve/issues
