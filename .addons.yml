@@ -25,3 +25,7 @@ addons:
     repository: erik73/addon-phpmyadmin
     target: phpmyadmin
     image: ghcr.io/erik73/phpmyadmin/{arch}
+  roundcube:
+    repository: erik73/addon-roundcube
+    target: roundcube
+    image: ghcr.io/erik73/roundcube/{arch}
