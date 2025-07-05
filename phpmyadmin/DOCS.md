@@ -1,4 +1,4 @@
-# Home Assistant Add-on: phpMyAdmin
+# Home Assistant Add-on: "Unofficial" phpMyAdmin
 
 phpMyAdmin is a database administration tool for MySQL & MariaDB. Frequently
 used operations (managing databases, tables, columns, relations, indexes,
