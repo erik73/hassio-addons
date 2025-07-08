@@ -1,15 +1,16 @@
 ## What’s changed
 
-## 🚀 Enhancements
+- This release enables ingress access to Roundcube. Thanks to @RubenNL for this! The current implementation of ingress is a workaround. Fixes to HA core and Supervisor will enable a more permanent solution in the near future.
 
-- Refactor nginx @erik73 ([#4](https://github.com/erik73/addon-roundcube/pull/4))
-- Configure Roundcube @erik73 ([#6](https://github.com/erik73/addon-roundcube/pull/6))
+## ✨ New features
 
-## 📚 Documentation
+- Add vacation and markasjunk to configuration @erik73 ([#13](https://github.com/erik73/addon-roundcube/pull/13))
+- Fixed ingress for current hassio versions. @RubenNL ([#14](https://github.com/erik73/addon-roundcube/pull/14))
 
-- Update readme @erik73 ([#3](https://github.com/erik73/addon-roundcube/pull/3))
-- Clean up config for release @erik73 ([#7](https://github.com/erik73/addon-roundcube/pull/7))
+## 🧰 Maintenance
+
+- Clean up some of the config files @erik73 ([#12](https://github.com/erik73/addon-roundcube/pull/12))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update PHP to v8.3.23-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#5](https://github.com/erik73/addon-roundcube/pull/5))
+- ⬆️ Update ghcr.io/erik73/base Docker tag to v5.0.2 @[renovate[bot]](https://github.com/apps/renovate) ([#11](https://github.com/erik73/addon-roundcube/pull/11))
