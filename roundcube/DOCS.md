@@ -13,19 +13,15 @@ This add-on is experimental, and provides a webmail frontend that connects
 to the Mailserver add-on. It also enables you to configure Sieve scripts
 for your mailbox.
 
-The following ports are used by this addon:
-
-http or https: 2665
-
-Is is possible to change this in the Network section of the configuration.
-
-If you are brave, you may want to expose Roundcube to the Internet by forwarding
-port 2665 in your router. Don´t even consider this unless you have enabled SSL!
-
 You reach the Roundcube interface by clicking the Web UI button in the add-on
-page. You can also point your browser to: http://{homeassistant IP}:2665 or
-if you enable the SSL option it is http://{homeassistant IP}:2665. It is also
-possible to use the hostname insted of IP address.
+page to use ingress feature. Login with your IMAP credentials.
+If you want to reach the add-on directly you can specify a port in the optional
+ports section. Lets say you set the port 2665:
+Point your browser to: http://{homeassistant IP}:2665.
+If you enable the SSL option it is https://{homeassistant IP}:2665.
+It is also possible to use the hostname insted of IP address.
+If you want to forward your chosen port in your router, HTTPS is
+highly recommended!
 
 ## Installation
 
