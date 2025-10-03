@@ -154,10 +154,10 @@ MIT License
 [mailserver-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [mailserver-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [mailserver-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-mariadb]: https://github.com/erik73/addon-mariadb/tree/v1.0.5
-[addon-doc-mariadb]: https://github.com/erik73/addon-mariadb/blob/v1.0.5/README.md
+[addon-mariadb]: https://github.com/erik73/addon-mariadb/tree/v1.0.6
+[addon-doc-mariadb]: https://github.com/erik73/addon-mariadb/blob/v1.0.6/README.md
 [mariadb-issue]: https://github.com/erik73/addon-mariadb/issues
-[mariadb-version-shield]: https://img.shields.io/badge/version-v1.0.5-blue.svg
+[mariadb-version-shield]: https://img.shields.io/badge/version-v1.0.6-blue.svg
 [mariadb-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [mariadb-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [mariadb-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
