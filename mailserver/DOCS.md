@@ -167,6 +167,12 @@ documentation to understand the security implications of setting this option.
 192.168.1.0/24 192.168.3.12
 ```
 
+#### Option: `mail_max_userip_connections` (optional)
+
+Use this optional setting if you want to change the maximum number of IMAP
+connections allowed for a user from each IP address.
+If this setting is not set, the default Dovetcot value of 10 is used.
+
 ## Support
 
 Got questions?
