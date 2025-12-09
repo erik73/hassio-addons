@@ -1,5 +1,5 @@
 name: Mailserver
-version: 5.0.1
+version: 6.0.0
 slug: mailserver
 description: Postfix and Dovecot mail server for Home Assistant, with Postfix Admin
   web interface
@@ -7,8 +7,6 @@ url: https://github.com/erik73/hassio-addons
 arch:
 - aarch64
 - amd64
-- armv7
-- i386
 init: false
 ingress: true
 ingress_stream: true
