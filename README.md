@@ -145,10 +145,10 @@ MIT License
 [mailfilter-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [mailfilter-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [mailfilter-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-mailserver]: https://github.com/erik73/addon-mail/tree/v6.0.0
-[addon-doc-mailserver]: https://github.com/erik73/addon-mail/blob/v6.0.0/README.md
+[addon-mailserver]: https://github.com/erik73/addon-mail/tree/v6.0.1
+[addon-doc-mailserver]: https://github.com/erik73/addon-mail/blob/v6.0.1/README.md
 [mailserver-issue]: https://github.com/erik73/addon-mail/issues
-[mailserver-version-shield]: https://img.shields.io/badge/version-v6.0.0-blue.svg
+[mailserver-version-shield]: https://img.shields.io/badge/version-v6.0.1-blue.svg
 [mailserver-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [mailserver-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [mailserver-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
