@@ -163,10 +163,10 @@ MIT License
 [mariadb-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [mariadb-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [mariadb-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-roundcube]: https://github.com/erik73/addon-roundcube/tree/v1.1.1
-[addon-doc-roundcube]: https://github.com/erik73/addon-roundcube/blob/v1.1.1/README.md
+[addon-roundcube]: https://github.com/erik73/addon-roundcube/tree/v2.0.0
+[addon-doc-roundcube]: https://github.com/erik73/addon-roundcube/blob/v2.0.0/README.md
 [roundcube-issue]: https://github.com/erik73/addon-roundcube/issues
-[roundcube-version-shield]: https://img.shields.io/badge/version-v1.1.1-blue.svg
+[roundcube-version-shield]: https://img.shields.io/badge/version-v2.0.0-blue.svg
 [roundcube-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [roundcube-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [roundcube-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
