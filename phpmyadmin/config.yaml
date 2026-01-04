@@ -1,5 +1,5 @@
 name: phpMyAdmin
-version: 2.0.0
+version: 2.0.1
 slug: phpmyadmin
 description: A web interface for the official MariaDB add-on
 url: https://github.com/erik73/addon-phpmyadmin/
