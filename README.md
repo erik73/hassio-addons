@@ -107,7 +107,7 @@ TellStick and TellStick Duo service with Telldus Live
 ![Supports amd64 Architecture][phpmyadmin-amd64-shield]
 ![Supports i386 Architecture][phpmyadmin-i386-shield]
 
-A web interface for the official MariaDB add-on
+A web interface for the official MariaDB app
 
 [:books: phpMyAdmin add-on documentation][addon-doc-phpmyadmin]
 
