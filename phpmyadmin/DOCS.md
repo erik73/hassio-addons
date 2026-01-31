@@ -1,26 +1,26 @@
-# Home Assistant Add-on: "Unofficial" phpMyAdmin
+# Home Assistant App: "Unofficial" phpMyAdmin
 
 phpMyAdmin is a database administration tool for MySQL & MariaDB. Frequently
 used operations (managing databases, tables, columns, relations, indexes,
 users, permissions, etc) can be performed via the user interface,
 while you still have the ability to directly execute any SQL statement.
 
-This add-on was specifically designed to manage the official Home Assistant
-MariaDB add-on.
+This app was specifically designed to manage the official Home Assistant
+MariaDB app.
 
 ## Installation
 
-Follow these steps to get the add-on installed on your system:
+Follow these steps to get the app installed on your system:
 
 Add the repository `https://github.com/erik73/hassio-addons`.
-Find the "phpMyAdmin" add-on and click it.
+Find the "phpMyAdmin" app and click it.
 Click on the "INSTALL" button.
 
 ## Configuration
 
-**Note**: _Remember to restart the add-on when the configuration is changed._
+**Note**: _Remember to restart the app when the configuration is changed._
 
-Example add-on configuration:
+Example app configuration:
 
 ```yaml
 log_level: info
@@ -44,7 +44,7 @@ dealing with an unknown issue. Possible values are:
 - `info`: Normal (usually) interesting events.
 - `warning`: Exceptional occurrences that are not errors.
 - `error`: Runtime errors that do not require immediate action.
-- `fatal`: Something went terribly wrong. Add-on becomes unusable.
+- `fatal`: Something went terribly wrong. App becomes unusable.
 
 Please note that each level automatically includes log messages from a
 more severe level, e.g., `debug` also shows `info` messages. By default,
@@ -53,9 +53,9 @@ you are troubleshooting.
 
 ## Known issues and limitations
 
-- This add-on needs the core MariaDB add-on version 2.0 or higher.
-- This add-on is created to allow management of the official Home assistant
-  MariaDB add-on. It cannot connect to other MySQL or MariaDB servers.
+- This app needs the core MariaDB app version 2.0 or higher.
+- This app is created to allow management of the official Home assistant
+  MariaDB app. It cannot connect to other MySQL or MariaDB servers.
 
 ## Changelog & Releases
 

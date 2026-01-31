@@ -1,10 +1,10 @@
-# Home Assistant Add-on: "Unofficial" phpMyAdmin
+# Home Assistant App: "Unofficial" phpMyAdmin
 
 [![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance][maintenance-shield]
 
 [![Discord][discord-shield]][discord] [![Community Forum][forum-shield]][forum]
 
-A web interface for the official MariaDB add-on.
+A web interface for the official MariaDB app.
 
 ## About
 
@@ -13,8 +13,8 @@ used operations (managing databases, tables, columns, relations, indexes,
 users, permissions, etc) can be performed via the user interface,
 while you still have the ability to directly execute any SQL statement.
 
-This add-on was specifically designed to manage the official Home Assistant
-MariaDB add-on.
+This app was specifically designed to manage the official Home Assistant
+MariaDB app.
 
 ![phpMyAdmin screenshot][screenshot]
 
@@ -26,6 +26,6 @@ MariaDB add-on.
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v2.0.1-blue.svg
-[release]: https://github.com/erik73/addon-phpmyadmin/tree/v2.0.1
+[release-shield]: https://img.shields.io/badge/version-v2.0.2-blue.svg
+[release]: https://github.com/erik73/addon-phpmyadmin/tree/v2.0.2
 [screenshot]: https://github.com/erik73/addon-phpmyadmin/raw/main/images/screenshot.png
