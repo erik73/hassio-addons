@@ -1,4 +1,4 @@
-# Home Assistant Add-on: Roundcube
+# Home Assistant App: Roundcube
 
 [![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance][maintenance-shield]
 
@@ -6,12 +6,12 @@ Roundcube web based email client.
 
 ## About
 
-Important: This addon requires that the MariaDB addon is installed and running!
+Important: This app requires that the MariaDB app is installed and running!
 
-This addon is experimental, and provides a Roundcube web based email client
-that connects to the Mailserver add-on from this repo
+This app is experimental, and provides a Roundcube web based email client
+that connects to the Mailserver app from this repo
 
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v2.0.0-blue.svg
-[release]: https://github.com/erik73/addon-roundcube/tree/v2.0.0
+[release-shield]: https://img.shields.io/badge/version-v2.0.1-blue.svg
+[release]: https://github.com/erik73/app-roundcube/tree/v2.0.1
