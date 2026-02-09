@@ -154,9 +154,9 @@ MIT License
 [mailserver-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [mailserver-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [mailserver-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-mariadb]: https://github.com/erik73/addon-mariadb/tree/v2.0.2
-[addon-doc-mariadb]: https://github.com/erik73/addon-mariadb/blob/v2.0.2/README.md
-[mariadb-issue]: https://github.com/erik73/addon-mariadb/issues
+[addon-mariadb]: https://github.com/erik73/app-mariadb/tree/v2.0.2
+[addon-doc-mariadb]: https://github.com/erik73/app-mariadb/blob/v2.0.2/README.md
+[mariadb-issue]: https://github.com/erik73/app-mariadb/issues
 [mariadb-version-shield]: https://img.shields.io/badge/version-v2.0.2-blue.svg
 [mariadb-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [mariadb-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
@@ -190,9 +190,9 @@ MIT License
 [tellsticklive-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [tellsticklive-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [tellsticklive-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-phpmyadmin]: https://github.com/erik73/addon-phpmyadmin/tree/v2.0.2
-[addon-doc-phpmyadmin]: https://github.com/erik73/addon-phpmyadmin/blob/v2.0.2/README.md
-[phpmyadmin-issue]: https://github.com/erik73/addon-phpmyadmin/issues
+[addon-phpmyadmin]: https://github.com/erik73/app-phpmyadmin/tree/v2.0.2
+[addon-doc-phpmyadmin]: https://github.com/erik73/app-phpmyadmin/blob/v2.0.2/README.md
+[phpmyadmin-issue]: https://github.com/erik73/app-phpmyadmin/issues
 [phpmyadmin-version-shield]: https://img.shields.io/badge/version-v2.0.2-blue.svg
 [phpmyadmin-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [phpmyadmin-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
