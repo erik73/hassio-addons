@@ -103,5 +103,5 @@ You could [open an issue here][issue] GitHub.
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[issue]: https://github.com/erik73/addon-mariadb/issues
+[issue]: https://github.com/erik73/app-mariadb/issues
 [repository]: https://github.com/erik73/hassio-addons
