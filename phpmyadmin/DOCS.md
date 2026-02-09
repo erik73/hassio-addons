@@ -35,7 +35,7 @@ By default, the size limit for uploads (for operations such as imports) is set t
 
 ### Option: `log_level`
 
-The `log_level` option controls the level of log output by the addon and can
+The `log_level` option controls the level of log output by the app and can
 be changed to be more or less verbose, which might be useful when you are
 dealing with an unknown issue. Possible values are:
 
@@ -78,12 +78,12 @@ You could [open an issue here][issue] GitHub.
 
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
 [addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_phpmyadmin&repository_url=https%3A%2F%2Fgithub.com%2Ferik73%2Frepository
-[contributors]: https://github.com/erik73/addon-phpmyadmin/graphs/contributors
+[contributors]: https://github.com/erik73/app-phpmyadmin/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-phpmyadmin/171729?u=frenck
 [frenck]: https://github.com/frenck
-[issue]: https://github.com/erik73/addon-phpmyadmin/issues
+[issue]: https://github.com/erik73/app-phpmyadmin/issues
 [reddit]: https://reddit.com/r/homeassistant
-[releases]: https://github.com/erik73/addon-phpmyadmin/releases
+[releases]: https://github.com/erik73/app-phpmyadmin/releases
 [semver]: https://semver.org/spec/v2.0.0.html
