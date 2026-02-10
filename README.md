@@ -1,4 +1,4 @@
-# Home Assistant Add-ons by erik73
+# Home Assistant Apps by erik73
 
 ![Project Stage][project-stage-shield]
 ![Maintenance][maintenance-shield]
@@ -6,9 +6,9 @@
 
 ## About
 
-Home Assistant allows anyone to create add-on repositories to share their
-add-ons for Home Assistant easily. This repository is one of those repositories,
-providing extra Home Assistant add-ons for your installation.
+Home Assistant allows anyone to create app repositories to share their
+apps for Home Assistant easily. This repository is one of those repositories,
+providing extra Home Assistant apps for your installation.
 
 ## Installation
 
@@ -18,7 +18,7 @@ Use the following URL to add this repository:
 https://github.com/erik73/hassio-addons
 ```
 
-## Add-ons provided by this repository
+## Apps provided by this repository
 
 ### &#10003; [Mailfilter][addon-mailfilter]
 
@@ -31,7 +31,7 @@ https://github.com/erik73/hassio-addons
 
 Rspamd mailfilter for Home Assistant
 
-[:books: Mailfilter add-on documentation][addon-doc-mailfilter]
+[:books: Mailfilter app documentation][addon-doc-mailfilter]
 
 ### &#10003; [Mailserver][addon-mailserver]
 
@@ -44,7 +44,7 @@ Rspamd mailfilter for Home Assistant
 
 Postfix and Dovecot mail server for Home Assistant, with Postfix Admin web interface
 
-[:books: Mailserver add-on documentation][addon-doc-mailserver]
+[:books: Mailserver app documentation][addon-doc-mailserver]
 
 ### &#10003; [MariaDB][addon-mariadb]
 
@@ -57,7 +57,7 @@ Postfix and Dovecot mail server for Home Assistant, with Postfix Admin web inter
 
 A SQL database server
 
-[:books: MariaDB add-on documentation][addon-doc-mariadb]
+[:books: MariaDB app documentation][addon-doc-mariadb]
 
 ### &#10003; [Roundcube][addon-roundcube]
 
@@ -70,7 +70,7 @@ A SQL database server
 
 Roundcube webmail client
 
-[:books: Roundcube add-on documentation][addon-doc-roundcube]
+[:books: Roundcube app documentation][addon-doc-roundcube]
 
 ### &#10003; [SteVe][addon-steve]
 
@@ -83,7 +83,7 @@ Roundcube webmail client
 
 OCPP server for EV charging stations
 
-[:books: SteVe add-on documentation][addon-doc-steve]
+[:books: SteVe app documentation][addon-doc-steve]
 
 ### &#10003; [TellStick with Telldus Live][addon-tellsticklive]
 
@@ -96,7 +96,7 @@ OCPP server for EV charging stations
 
 TellStick and TellStick Duo service with Telldus Live
 
-[:books: TellStick with Telldus Live add-on documentation][addon-doc-tellsticklive]
+[:books: TellStick with Telldus Live app documentation][addon-doc-tellsticklive]
 
 ### &#10003; [phpMyAdmin][addon-phpmyadmin]
 
@@ -109,7 +109,7 @@ TellStick and TellStick Duo service with Telldus Live
 
 A web interface for the official MariaDB app
 
-[:books: phpMyAdmin add-on documentation][addon-doc-phpmyadmin]
+[:books: phpMyAdmin app documentation][addon-doc-phpmyadmin]
 
 
 ## Support
@@ -119,18 +119,18 @@ Got questions?
 All my work can be found at my [Github repo][erik-github-repo]
 
 You could open an issue here on GitHub. Note, we use a separate
-GitHub repository for each add-on. Please ensure you are creating the issue
-on the correct GitHub repository matching the add-on.
+GitHub repository for each app. Please ensure you are creating the issue
+on the correct GitHub repository matching the app.
 
-- [Open an issue for the add-on: Mailfilter][mailfilter-issue]
-- [Open an issue for the add-on: Mailserver][mailserver-issue]
-- [Open an issue for the add-on: MariaDB][mariadb-issue]
-- [Open an issue for the add-on: Roundcube][roundcube-issue]
-- [Open an issue for the add-on: SteVe][steve-issue]
-- [Open an issue for the add-on: TellStick with Telldus Live][tellsticklive-issue]
-- [Open an issue for the add-on: phpMyAdmin][phpmyadmin-issue]
+- [Open an issue for the app: Mailfilter][mailfilter-issue]
+- [Open an issue for the app: Mailserver][mailserver-issue]
+- [Open an issue for the app: MariaDB][mariadb-issue]
+- [Open an issue for the app: Roundcube][roundcube-issue]
+- [Open an issue for the app: SteVe][steve-issue]
+- [Open an issue for the app: TellStick with Telldus Live][tellsticklive-issue]
+- [Open an issue for the app: phpMyAdmin][phpmyadmin-issue]
 
-For a general repository issue or add-on ideas [open an issue here][issue]
+For a general repository issue or app ideas [open an issue here][issue]
 
 ## License
 
@@ -172,18 +172,18 @@ MIT License
 [roundcube-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [roundcube-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [roundcube-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-steve]: https://github.com/erik73/addon-steve/tree/v3.0.0
-[addon-doc-steve]: https://github.com/erik73/addon-steve/blob/v3.0.0/README.md
-[steve-issue]: https://github.com/erik73/addon-steve/issues
+[addon-steve]: https://github.com/erik73/app-steve/tree/v3.0.0
+[addon-doc-steve]: https://github.com/erik73/app-steve/blob/v3.0.0/README.md
+[steve-issue]: https://github.com/erik73/app-steve/issues
 [steve-version-shield]: https://img.shields.io/badge/version-v3.0.0-blue.svg
 [steve-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [steve-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [steve-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [steve-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [steve-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-tellsticklive]: https://github.com/erik73/addon-tellsticklive/tree/v1.1.8
-[addon-doc-tellsticklive]: https://github.com/erik73/addon-tellsticklive/blob/v1.1.8/README.md
-[tellsticklive-issue]: https://github.com/erik73/addon-tellsticklive/issues
+[addon-tellsticklive]: https://github.com/erik73/app-tellsticklive/tree/v1.1.8
+[addon-doc-tellsticklive]: https://github.com/erik73/app-tellsticklive/blob/v1.1.8/README.md
+[tellsticklive-issue]: https://github.com/erik73/app-tellsticklive/issues
 [tellsticklive-version-shield]: https://img.shields.io/badge/version-v1.1.8-blue.svg
 [tellsticklive-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [tellsticklive-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
