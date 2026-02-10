@@ -1,5 +1,5 @@
 name: phpMyAdmin
-version: 2.0.3
+version: 2.0.4
 slug: phpmyadmin
 description: A web interface for the official MariaDB app
 url: https://github.com/erik73/app-phpmyadmin/
