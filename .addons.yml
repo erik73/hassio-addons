@@ -2,7 +2,7 @@
 channel: stable
 addons:
   steve:
-    repository: erik73/addon-steve
+    repository: erik73/app-steve
     target: steve
     image: ghcr.io/erik73/steve/{arch}
   mailserver:
@@ -14,18 +14,18 @@ addons:
     target: mailfilter
     image: ghcr.io/erik73/mailfilter/{arch}
   tellsticklive:
-    repository: erik73/addon-tellsticklive
+    repository: erik73/app-tellsticklive
     target: tellsticklive
     image: ghcr.io/erik73/tellsticklive/{arch}
   mariadb:
-    repository: erik73/addon-mariadb
+    repository: erik73/app-mariadb
     target: mariadb
     image: ghcr.io/erik73/mariadb/{arch}
   phpmyadmin:
-    repository: erik73/addon-phpmyadmin
+    repository: erik73/app-phpmyadmin
     target: phpmyadmin
     image: ghcr.io/erik73/phpmyadmin/{arch}
   roundcube:
-    repository: erik73/addon-roundcube
+    repository: erik73/app-roundcube
     target: roundcube
     image: ghcr.io/erik73/roundcube/{arch}
