@@ -1,3 +1,3 @@
 ## What’s changed
 
-* Fix readme
+* Remove Discord link
