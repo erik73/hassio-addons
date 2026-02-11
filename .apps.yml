@@ -6,11 +6,11 @@ addons:
     target: steve
     image: ghcr.io/erik73/steve/{arch}
   mailserver:
-    repository: erik73/addon-mail
+    repository: erik73/app-mail
     target: mail
     image: ghcr.io/erik73/mailserver/{arch}
   mailfilter:
-    repository: erik73/addon-mailfilter
+    repository: erik73/app-mailfilter
     target: mailfilter
     image: ghcr.io/erik73/mailfilter/{arch}
   tellsticklive:
