@@ -136,10 +136,10 @@ For a general repository issue or app ideas [open an issue here][issue]
 
 MIT License
 
-[addon-mailfilter]: https://github.com/erik73/app-mailfilter/tree/v5.0.0
-[addon-doc-mailfilter]: https://github.com/erik73/app-mailfilter/blob/v5.0.0/README.md
+[addon-mailfilter]: https://github.com/erik73/app-mailfilter/tree/v5.0.1
+[addon-doc-mailfilter]: https://github.com/erik73/app-mailfilter/blob/v5.0.1/README.md
 [mailfilter-issue]: https://github.com/erik73/app-mailfilter/issues
-[mailfilter-version-shield]: https://img.shields.io/badge/version-v5.0.0-blue.svg
+[mailfilter-version-shield]: https://img.shields.io/badge/version-v5.0.1-blue.svg
 [mailfilter-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [mailfilter-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [mailfilter-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
