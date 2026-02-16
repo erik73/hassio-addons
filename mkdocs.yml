@@ -4,7 +4,7 @@ site_name: "Home Assistant Apps by Erik73"
 site_url: "https://erik73.github.io"
 site_description: "These apps for Home Assistant was created for my own use, be able to use my HA host for all my server needs. Someone else might find them useful!"
 site_author: "Erik Hilton"
-copyright: "Copyright 2025 - Erik Hilton."
+copyright: "Copyright 2026 - Erik Hilton."
 
 # Repository
 repo_name: "erik73/hassio-addons"

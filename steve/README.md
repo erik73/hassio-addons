@@ -8,7 +8,7 @@ SteVe OCPP server.
 
 Steve is an OCPP server for communicationg with charge points
 
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
 [release-shield]: https://img.shields.io/badge/version-v3.0.0-blue.svg
 [release]: https://github.com/erik73/addon-steve/tree/v3.0.0
