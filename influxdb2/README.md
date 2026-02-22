@@ -13,3 +13,5 @@ InfluxDB v2 gives you a nice InfluxDB admin interface for managing your users, d
 data retention settings, and lets you peek inside the database using the
 Data Explorer.
 
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
+[project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
