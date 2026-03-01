@@ -133,10 +133,12 @@ Please see the changelog
 2. Use the InfluxDB 3 Explorer and go to "Plugin Library".
 3. Install the "InfluDB Import"-plugin. Enter the following information:
 
-Database: Choose the database created in step 1 above.
+```yaml
+Database: Choose the database created in step 1 above
 Trigger Name: import_trigger
 Trigger Type: HTTP Endpoint
 Api Endpoint: import
+```
 
 ### Using the plugin
 
@@ -168,9 +170,12 @@ data from an InfluxDB2 instance to InfluxDB3:
 The import config above will import the °C and % measurements.
 Save the file, for example call it data.json
 Call the API via curl:
+
+```bash
 curl -X POST -H "Content-Type: application/json" -d @data.json \
- http://<your_influxdb3_ip_address>:8181/api/v3/engine/import?action=start \
- --header "Authorization: Bearer <your influxdb3_api_token>"
+    http://<your_influxdb3_ip_address>:8181/api/v3/engine/import?action=start \
+    --header "Authorization: Bearer <your influxdb3_api_token>"
+```
 
 Important: Do not try to import an entire database. The importer/InfluxDB3 will
 crash. Take on or two measurements at a time, and limit to a few months as above.
