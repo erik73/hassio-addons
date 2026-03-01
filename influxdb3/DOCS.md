@@ -1,4 +1,4 @@
-# Home Assistant Community Add-on: InfluxDB3
+# Home Assistant Community App: InfluxDB3
 
 InfluxDB is a time series database optimized for high-write-volume.
 It's useful for recording metrics, sensor data, events,

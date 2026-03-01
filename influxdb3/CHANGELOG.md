@@ -1,5 +1,5 @@
 ## What’s changed
 
-## 📚 Documentation
+## 🧰 Maintenance
 
-- Add ENVVARS to doc @erik73 ([#10](https://github.com/erik73/app-influxdb3/pull/10))
+- Rename add-on to app @erik73 ([#11](https://github.com/erik73/app-influxdb3/pull/11))
