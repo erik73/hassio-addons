@@ -125,6 +125,14 @@ influxdb:
   thats because the service supports less options as log_level and they are named
   different
 - show_api_keys : If enabled, the Token/key will be shown in the app log when started.
+- ENVVARS : Here you can add any environment variable. The InfluxDB3 server will accept
+  almost all configuration option as a variable. For example, I used the following variables
+  during my import of data (The variable has to start with INFLUXDB3):
+  ```yaml
+  INFLUXDB3_ENTERPRISE_COMPACTION_MAX_NUM_FILES_PER_PLAN = 1000
+  INFLUXDB3_WAL_SNAPSHOT_SIZE = 100
+  ```
+  See the following page for more info: https://docs.influxdata.com/influxdb3/enterprise/reference/config-options/
 
 ## Known issues and limitations
 
