@@ -1,5 +1,7 @@
 # Home Assistant App: "Unofficial" MariaDB
 
+This is a fork of the official MariaDB app, made for testing stuff. Do not use, as this can break at any time.
+
 ## Installation
 
 Follow these steps to get the app installed on your system:
