@@ -8,6 +8,9 @@ A web interface for the official MariaDB app.
 
 ## About
 
+This is a fork of the official phpMyAdmin app, made for testing stuff. 
+Do not use, as this can break at any time.
+
 phpMyAdmin is a database administration tool for MySQL & MariaDB. Frequently
 used operations (managing databases, tables, columns, relations, indexes,
 users, permissions, etc) can be performed via the user interface,
@@ -20,6 +23,6 @@ MariaDB app.
 
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v2.0.5-blue.svg
-[release]: https://github.com/erik73/app-phpmyadmin/tree/v2.0.5
+[release-shield]: https://img.shields.io/badge/version-v2.0.6-blue.svg
+[release]: https://github.com/erik73/app-phpmyadmin/tree/v2.0.6
 [screenshot]: https://github.com/erik73/app-phpmyadmin/raw/main/images/screenshot.png
