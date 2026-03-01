@@ -1,6 +1,6 @@
 # Home Assistant Community Add-on: InfluxDB3
 
-InfluxDB is an open source time series database optimized for high-write-volume.
+InfluxDB is a time series database optimized for high-write-volume.
 It's useful for recording metrics, sensor data, events,
 and performing analytics. It exposes an HTTP API for client interaction and is
 often used in combination with Grafana to visualize the data.
@@ -35,26 +35,33 @@ automated license request to InfluxData, and the app will wait for you
 to activate it via the activation link you recieve on your provided email
 account. Once you click the activaton link, InfluxDB3 will start.
 The email will say "trial license", but it is an at-home license.
+If the app does not start automatically when you click the activation link
+in the email, a restart of the app will doenload the license.
 
 Please save the `Token` and the `HTTP Requests Header` since you will
 need them later in your homeassistant configuration, and for data migration.
 
 ## Administrative Access
 
-There is no GUI provided with InfluxDB3. To create your database, you need
-to install InfluxDB 3 Explorer. I used docker desktop on my Windows desktop
+There is no GUI provided with InfluxDB3. To manage the app, you need to
+install InfluxDB 3 Explorer. I used docker desktop on my Windows desktop
 computer and installed it with the following command line input:
 
 ```yaml
 docker run --detach --name influxdb3-explorer --publish 8888:80 influxdata/influxdb3-ui:latest --mode=admin
 ```
 
+Folow this link for more information: https://docs.influxdata.com/influxdb3/explorer/
+
 Start the influxdb3-explorer container.
 Point your broser to `http://localhost:8888/` to connect to the admin interface.
+You will need your token to connect, and point the Explorer to
+<your_influxdb2_ip_address>:8181
 
 ## HomeAssistant Configuration
 
 Add the API token to your `secrets.yaml` in the HomeAssistant config directory.
+That will make it possible to use a pointer in the configuration below.
 
 ```yaml
 influx_token: <your Token>
@@ -76,6 +83,7 @@ influxdb:
   token: !secret influx_token
   # Required, but not validated
   organization: d1c92e4eef98a5b6
+  # The database will be created automatically
   bucket: <Your database name, for example HomeAssistant>
   ssl: false
   verify_ssl: false
@@ -116,6 +124,7 @@ influxdb:
 - influxd_log_level : you can set up a separate loglevel for the influxd service.
   thats because the service supports less options as log_level and they are named
   different
+- show_api_keys : If enabled, the Token/key will be shown in the app log when started.
 
 ## Known issues and limitations
 
@@ -162,7 +171,7 @@ data from an InfluxDB2 instance to InfluxDB3:
   "table_filter": "°C.%",
   "query_interval_ms": 100,
   "target_batch_size": 500,
-  "start_timestamp": "2026-02-01T00:00:00Z",
+  "start_timestamp": "2026-01-01T00:00:00Z",
   "end_timestamp": "2026-02-28T23:59:59Z"
 }
 ```
@@ -178,7 +187,10 @@ curl -X POST -H "Content-Type: application/json" -d @data.json \
 ```
 
 Important: Do not try to import an entire database. The importer/InfluxDB3 will
-crash. Take on or two measurements at a time, and limit to a few months as above.
+crash. At least it did om my 8GB RPI5. Take on or two measurements at a time,
+and limit to a few months as above.
+
+Read the docs for the plugin here: https://github.com/influxdata/influxdb3_plugins/tree/main/influxdata/import
 
 ## Support
 

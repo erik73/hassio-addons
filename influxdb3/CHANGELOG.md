@@ -2,4 +2,4 @@
 
 ## 📚 Documentation
 
-- Tidy docs @erik73 ([#8](https://github.com/erik73/app-influxdb3/pull/8))
+- Add links to docs @erik73 ([#9](https://github.com/erik73/app-influxdb3/pull/9))
