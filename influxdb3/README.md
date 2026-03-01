@@ -1,6 +1,7 @@
 # Add-on: InfluxDB3
 
 Scalable datastore for metrics, events, and real-time analytics.
+This version uses InfluxDB3 Enterprise with a free "at-home" license.
 
 ## About
 
