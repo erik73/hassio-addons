@@ -33,19 +33,6 @@ Scalable datastore for metrics, events, and real-time analytics
 
 [:books: InfluxDB2 app documentation][addon-doc-influxdb2]
 
-### &#10003; [InfluxDB3][addon-influxdb3]
-
-![Latest Version][influxdb3-version-shield]
-![Supports armhf Architecture][influxdb3-armhf-shield]
-![Supports armv7 Architecture][influxdb3-armv7-shield]
-![Supports aarch64 Architecture][influxdb3-aarch64-shield]
-![Supports amd64 Architecture][influxdb3-amd64-shield]
-![Supports i386 Architecture][influxdb3-i386-shield]
-
-Scalable datastore for metrics, events, and real-time analytics
-
-[:books: InfluxDB3 app documentation][addon-doc-influxdb3]
-
 ### &#10003; [Mailfilter][addon-mailfilter]
 
 ![Latest Version][mailfilter-version-shield]
@@ -149,7 +136,6 @@ GitHub repository for each app. Please ensure you are creating the issue
 on the correct GitHub repository matching the app.
 
 - [Open an issue for the app: InfluxDB2][influxdb2-issue]
-- [Open an issue for the app: InfluxDB3][influxdb3-issue]
 - [Open an issue for the app: Mailfilter][mailfilter-issue]
 - [Open an issue for the app: Mailserver][mailserver-issue]
 - [Open an issue for the app: MariaDB][mariadb-issue]
@@ -173,15 +159,6 @@ MIT License
 [influxdb2-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [influxdb2-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [influxdb2-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-influxdb3]: https://github.com/erik73/app-influxdb3/tree/v0.1.5
-[addon-doc-influxdb3]: https://github.com/erik73/app-influxdb3/blob/v0.1.5/README.md
-[influxdb3-issue]: https://github.com/erik73/app-influxdb3/issues
-[influxdb3-version-shield]: https://img.shields.io/badge/version-v0.1.5-blue.svg
-[influxdb3-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[influxdb3-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[influxdb3-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
-[influxdb3-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
-[influxdb3-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-mailfilter]: https://github.com/erik73/app-mailfilter/tree/v5.0.1
 [addon-doc-mailfilter]: https://github.com/erik73/app-mailfilter/blob/v5.0.1/README.md
 [mailfilter-issue]: https://github.com/erik73/app-mailfilter/issues
