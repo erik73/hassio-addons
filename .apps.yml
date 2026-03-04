@@ -33,3 +33,7 @@ addons:
     repository: erik73/app-influxdb2
     target: influxdb2
     image: ghcr.io/erik73/influxdb2/{arch}
+  influxdb3:
+    repository: erik73/app-influxdb3
+    target: influxdb3
+    image: ghcr.io/erik73/influxdb3/{arch}
