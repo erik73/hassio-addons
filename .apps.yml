@@ -37,3 +37,7 @@ addons:
     repository: erik73/app-influxdb3
     target: influxdb3
     image: ghcr.io/erik73/influxdb3/{arch}
+  influxdb3-explorer:
+    repository: erik73/app-influxdb3-explorer
+    target: influxdb3-explorer
+    image: ghcr.io/erik73/influxdb3-explorer/{arch}
