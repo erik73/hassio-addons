@@ -196,10 +196,10 @@ MIT License
 [influxdb3-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [influxdb3-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [influxdb3-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-influxdb3-explorer]: https://github.com/erik73/app-influxdb3-explorer/tree/v0.1.0
-[addon-doc-influxdb3-explorer]: https://github.com/erik73/app-influxdb3-explorer/blob/v0.1.0/README.md
+[addon-influxdb3-explorer]: https://github.com/erik73/app-influxdb3-explorer/tree/v0.1.1
+[addon-doc-influxdb3-explorer]: https://github.com/erik73/app-influxdb3-explorer/blob/v0.1.1/README.md
 [influxdb3-explorer-issue]: https://github.com/erik73/app-influxdb3-explorer/issues
-[influxdb3-explorer-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[influxdb3-explorer-version-shield]: https://img.shields.io/badge/version-v0.1.1-blue.svg
 [influxdb3-explorer-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [influxdb3-explorer-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [influxdb3-explorer-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
