@@ -21,4 +21,4 @@ An At-Home license request will be sent to Influxdata. It is free for At-Home us
 Read the Software License Terms in the activation email before accepting the license!
 
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
-[project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
+[project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
