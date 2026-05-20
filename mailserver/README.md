@@ -14,6 +14,6 @@ It is also possible to configure additional email domains and accounts in the Po
 web interface.
 
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
-[project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v6.1.1-blue.svg
-[release]: https://github.com/erik73/app-mail/tree/v6.1.1
+[project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
+[release-shield]: https://img.shields.io/badge/version-v6.1.2-blue.svg
+[release]: https://github.com/erik73/app-mail/tree/v6.1.2
