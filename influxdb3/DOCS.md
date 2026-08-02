@@ -36,18 +36,31 @@ to activate it via the activation link you recieve on your provided email
 account. Once you click the activaton link, InfluxDB3 will start.
 The email will say "trial license", but it is an at-home license.
 If the app does not start automatically when you click the activation link
-in the email, a restart of the app will doenload the license.
+in the email, a restart of the app will download the license.
 
 Please save the `Token` and the `HTTP Requests Header` since you will
 need them later in your homeassistant configuration, and for data migration.
 
 ## Administrative Access
 
-There is no GUI provided with InfluxDB3. To manage the app, you need to
-install InfluxDB 3 Explorer. It is available as an app here in this repo.
+Since the release of InfluxDB3 version 3.11 (app version 1.0), the
+InfluxDB3 Explorer is included in this app. Click the "Open Web UI"
+button to bring up InfluxDB 3 Explorer.
 
 You will need your token to connect, and point the Explorer app to
-<your_influxdb3_ip_address>:8181
+http://localhost:8181
+
+You can still use the stand-alone app InfluxDB3 Explorer in my repo,
+but it is really not needed anymore. InfluxDB3 version 3.11+
+comes with an included Exlorer bundled with the database binary.
+
+## Storage engine options
+
+The upgraded storage engine is now the default (InfluxDB3 3.11+).
+New installs default to the upgraded storage engine, called "Pacha Tree".
+Installs prior to app version 1.0 will continue running the old Parquet
+engine. To upgrade your existing install to the new storage engine,
+set the environment variable INFLUXDB3_UPGRADE_PACHA_TREE.
 
 ## HomeAssistant Configuration
 
@@ -117,12 +130,8 @@ influxdb:
   different
 - show_api_keys : If enabled, the Token/key will be shown in the app log when started.
 - ENVVARS : Here you can add any environment variable. The InfluxDB3 server will accept
-  almost all configuration option as a variable. For example, I used the following variables
-  during my import of data (The variable has to start with INFLUXDB3):
-  ```yaml
-  INFLUXDB3_ENTERPRISE_COMPACTION_MAX_NUM_FILES_PER_PLAN = 1000
-  INFLUXDB3_WAL_SNAPSHOT_SIZE = 100
-  ```
+  almost all configuration option as a variable.
+
   See the following page for more info: https://docs.influxdata.com/influxdb3/enterprise/reference/config-options/
 
 ## Known issues and limitations
