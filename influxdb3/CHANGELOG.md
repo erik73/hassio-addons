@@ -1,30 +1,18 @@
 ## What’s changed
 
-### This is a major release. Please read the docs regarding storage engine options, and please note that InfluxDB3 Explorer is now included and available via the "Open Web UI" button!
-
-## ✨ New features
-
-- Enable WebUI @erik73 ([#41](https://github.com/erik73/app-influxdb3/pull/41))
-- Add HA WebUI support @erik73 ([#43](https://github.com/erik73/app-influxdb3/pull/43))
-
-## 🐛 Bug fixes
-
-- Fix ipv6 not working @erik73 ([#45](https://github.com/erik73/app-influxdb3/pull/45))
-- Fix WebUI URL @erik73 ([#46](https://github.com/erik73/app-influxdb3/pull/46))
-
-## 🚀 Enhancements
-
-- Generate session secret if missing @erik73 ([#42](https://github.com/erik73/app-influxdb3/pull/42))
+- Update InfluxDB3 to 3.11.1
 
 ## 🧰 Maintenance
 
-- Fix variables and config for 3.11 @erik73 ([#44](https://github.com/erik73/app-influxdb3/pull/44))
+- Move S6 user bundle to new location @erik73 ([#54](https://github.com/erik73/app-influxdb3/pull/54))
 
 ## 📚 Documentation
 
-- Fix variables and config for 3.11 @erik73 ([#44](https://github.com/erik73/app-influxdb3/pull/44))
-- Update docs since InfluxDB3-Explorer is now included @erik73 ([#47](https://github.com/erik73/app-influxdb3/pull/47))
+- Use my own base image and add docs @erik73 ([#50](https://github.com/erik73/app-influxdb3/pull/50))
 
 ## ⬆️ Dependency updates
 
-- Update InfluxDB version to 3.11.0 @erik73 ([#40](https://github.com/erik73/app-influxdb3/pull/40))
+- Use my own base image and add docs @erik73 ([#50](https://github.com/erik73/app-influxdb3/pull/50))
+- ⬆️ Update ghcr.io/erik73/debian-base Docker tag to v1.0.1 @[renovate[bot]](https://github.com/apps/renovate) ([#51](https://github.com/erik73/app-influxdb3/pull/51))
+- Update InfluxDB3 to 3.11.1 @erik73 ([#52](https://github.com/erik73/app-influxdb3/pull/52))
+- ⬆️ Update ghcr.io/erik73/debian-base Docker tag to v1.0.2 @[renovate[bot]](https://github.com/apps/renovate) ([#53](https://github.com/erik73/app-influxdb3/pull/53))
