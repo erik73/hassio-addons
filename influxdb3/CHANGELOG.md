@@ -1,18 +1,13 @@
 ## What’s changed
 
-- Update InfluxDB3 to 3.11.1
+## 🐛 Bug fixes
 
-## 🧰 Maintenance
+- Use correct path for tokens @erik73 ([#56](https://github.com/erik73/app-influxdb3/pull/56))
 
-- Move S6 user bundle to new location @erik73 ([#54](https://github.com/erik73/app-influxdb3/pull/54))
+## 🚀 Enhancements
 
-## 📚 Documentation
-
-- Use my own base image and add docs @erik73 ([#50](https://github.com/erik73/app-influxdb3/pull/50))
+- Set InfluxDB3 auth token variable @erik73 ([#55](https://github.com/erik73/app-influxdb3/pull/55))
 
 ## ⬆️ Dependency updates
 
-- Use my own base image and add docs @erik73 ([#50](https://github.com/erik73/app-influxdb3/pull/50))
-- ⬆️ Update ghcr.io/erik73/debian-base Docker tag to v1.0.1 @[renovate[bot]](https://github.com/apps/renovate) ([#51](https://github.com/erik73/app-influxdb3/pull/51))
-- Update InfluxDB3 to 3.11.1 @erik73 ([#52](https://github.com/erik73/app-influxdb3/pull/52))
-- ⬆️ Update ghcr.io/erik73/debian-base Docker tag to v1.0.2 @[renovate[bot]](https://github.com/apps/renovate) ([#53](https://github.com/erik73/app-influxdb3/pull/53))
+- Update InfluxDB version to 3.11.2 @erik73 ([#57](https://github.com/erik73/app-influxdb3/pull/57))

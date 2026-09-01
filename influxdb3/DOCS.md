@@ -60,7 +60,7 @@ The upgraded storage engine is now the default (InfluxDB3 3.11+).
 New installs default to the upgraded storage engine, called "Pacha Tree".
 Installs prior to app version 1.0 will continue running the old Parquet
 engine. To upgrade your existing install to the new storage engine,
-set the environment variable INFLUXDB3_UPGRADE_PACHA_TREE.
+set the environment variable `INFLUXDB3_UPGRADE_PACHA_TREE=true`.
 Depending on how much data you have stored, this can consume a lot of
 resources. I have also during testing noticed that Home Assistant
 backups have had problems to backup the app using the new engine.
