@@ -2,12 +2,15 @@
 
 ## 🐛 Bug fixes
 
-- Update Bashio-syntax @erik73 ([#342](https://github.com/erik73/app-mailfilter/pull/342))
+- Revert "Move s6-overlay user bundles to new location" @erik73 ([#353](https://github.com/erik73/app-mailfilter/pull/353))
+
+## 🧰 Maintenance
+
+- Move s6-overlay user bundles to new location @erik73 ([#351](https://github.com/erik73/app-mailfilter/pull/351))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update Clamav to v1.4.5-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#343](https://github.com/erik73/app-mailfilter/pull/343))
-- ⬆️ Update erik73/workflows action to v2.0.3 @[renovate[bot]](https://github.com/apps/renovate) ([#344](https://github.com/erik73/app-mailfilter/pull/344))
-- ⬆️ Update just-containers/s6-overlay to v3.2.3.2 @[renovate[bot]](https://github.com/apps/renovate) ([#345](https://github.com/erik73/app-mailfilter/pull/345))
-- ⬆️ Update App base image to v7.0.3 @[renovate[bot]](https://github.com/apps/renovate) ([#346](https://github.com/erik73/app-mailfilter/pull/346))
-- ⬆️ Update alpine_3_24/nginx to v1.30.4-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#347](https://github.com/erik73/app-mailfilter/pull/347))
+- ⬆️ Update alpine_3_24/nginx to v1.30.4-r1 @[renovate[bot]](https://github.com/apps/renovate) ([#348](https://github.com/erik73/app-mailfilter/pull/348))
+- ⬆️ Update Clamav to v1.4.6-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#349](https://github.com/erik73/app-mailfilter/pull/349))
+- ⬆️ Update App base image to v7.0.4 @[renovate[bot]](https://github.com/apps/renovate) ([#350](https://github.com/erik73/app-mailfilter/pull/350))
+- ⬆️ Update App base image to v7.0.5 @[renovate[bot]](https://github.com/apps/renovate) ([#352](https://github.com/erik73/app-mailfilter/pull/352))
