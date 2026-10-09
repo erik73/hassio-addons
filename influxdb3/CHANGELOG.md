@@ -1,22 +1,21 @@
 ## What’s changed
 
-## ✨ New features
+* Add the possibility to use a custom data directory (in the share directory) by using the ENVVARS in the app settings.
+* Set INFLUXDB3_EXEC_MEM_POOL_SIZE=512mb and INFLUXDB3_FILE_CACHE_SIZE=384mb by default. These values can be changed by using the ENVVARS in the app settings.
 
-- Enable ssl @erik73 ([#67](https://github.com/erik73/app-influxdb3/pull/67))
+## 🚨 Breaking changes
+
+- Limit resource usage @erik73 ([#78](https://github.com/erik73/app-influxdb3/pull/78))
 
 ## 🐛 Bug fixes
 
-- Fix if statement for ssl @erik73 ([#68](https://github.com/erik73/app-influxdb3/pull/68))
+- Update run script to handle env variables @erik73 ([#76](https://github.com/erik73/app-influxdb3/pull/76))
+- Improve handling of custom data directory @erik73 ([#77](https://github.com/erik73/app-influxdb3/pull/77))
 
 ## 🚀 Enhancements
 
-- Fix InfluxDB3 service name @prvashisht ([#69](https://github.com/erik73/app-influxdb3/pull/69))
+- Set data directory as a variable @erik73 ([#74](https://github.com/erik73/app-influxdb3/pull/74))
 
 ## 📚 Documentation
 
-- Update docs @erik73 ([#72](https://github.com/erik73/app-influxdb3/pull/72))
-
-## ⬆️ Dependency updates
-
-- ⬆️ Update ghcr.io/erik73/debian-base Docker tag to v1.0.4 @[renovate[bot]](https://github.com/apps/renovate) ([#70](https://github.com/erik73/app-influxdb3/pull/70))
-- Update InfluxDB3 to 3.12.0 @erik73 ([#71](https://github.com/erik73/app-influxdb3/pull/71))
+- Document environment variable precedence @prvashisht ([#75](https://github.com/erik73/app-influxdb3/pull/75))
