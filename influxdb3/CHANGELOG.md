@@ -1,21 +1,12 @@
 ## What’s changed
 
-* Add the possibility to use a custom data directory (in the share directory) by using the ENVVARS in the app settings.
-* Set INFLUXDB3_EXEC_MEM_POOL_SIZE=512mb and INFLUXDB3_FILE_CACHE_SIZE=384mb by default. These values can be changed by using the ENVVARS in the app settings.
-
-## 🚨 Breaking changes
-
-- Limit resource usage @erik73 ([#78](https://github.com/erik73/app-influxdb3/pull/78))
-
-## 🐛 Bug fixes
-
-- Update run script to handle env variables @erik73 ([#76](https://github.com/erik73/app-influxdb3/pull/76))
-- Improve handling of custom data directory @erik73 ([#77](https://github.com/erik73/app-influxdb3/pull/77))
+- ⬆️ Update InfluxDB3 to 3.12.1
 
 ## 🚀 Enhancements
 
-- Set data directory as a variable @erik73 ([#74](https://github.com/erik73/app-influxdb3/pull/74))
+- Create jwt secret @erik73 ([#84](https://github.com/erik73/app-influxdb3/pull/84))
 
-## 📚 Documentation
+## ⬆️ Dependency updates
 
-- Document environment variable precedence @prvashisht ([#75](https://github.com/erik73/app-influxdb3/pull/75))
+- ⬆️ Update erik73/workflows action to v2.0.4 @[renovate[bot]](https://github.com/apps/renovate) ([#82](https://github.com/erik73/app-influxdb3/pull/82))
+- Update InfluxDB3 to 3.12.1 @erik73 ([#83](https://github.com/erik73/app-influxdb3/pull/83))
