@@ -1,11 +1,12 @@
 name: InfluxDB3
-version: 2.1.0
+version: 2.1.1
 slug: influxdb3
 description: Scalable datastore for metrics, events, and real-time analytics
 url: https://github.com/erik73/hassio-addons
 panel_icon: mdi:chart-areaspline
 startup: services
 homeassistant: 0.92.0b2
+backup: cold
 ulimits:
   nofile: 65535
 hassio_api: true
