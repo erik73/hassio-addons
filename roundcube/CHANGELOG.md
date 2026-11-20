@@ -2,8 +2,8 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update alpine_3_24/nginx to v1.30.6-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#102](https://github.com/erik73/app-roundcube/pull/102))
-- ⬆️ Update ghcr.io/erik73/base Docker tag to v7.0.6 @[renovate[bot]](https://github.com/apps/renovate) ([#103](https://github.com/erik73/app-roundcube/pull/103))
-- ⬆️ Update erik73/workflows action to v2.0.5 @[renovate[bot]](https://github.com/apps/renovate) ([#104](https://github.com/erik73/app-roundcube/pull/104))
-- ⬆️ Update ghcr.io/erik73/base Docker tag to v7.0.7 @[renovate[bot]](https://github.com/apps/renovate) ([#105](https://github.com/erik73/app-roundcube/pull/105))
-- ⬆️ Update roundcube/roundcubemail to v1.7.6 @[renovate[bot]](https://github.com/apps/renovate) ([#106](https://github.com/erik73/app-roundcube/pull/106))
+- ⬆️ Update alpine_3_24/nginx to v1.30.7-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#107](https://github.com/erik73/app-roundcube/pull/107))
+- ⬆️ Update alpine_3_24/mariadb-client to v11.8.10-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#108](https://github.com/erik73/app-roundcube/pull/108))
+- ⬆️ Update PHP to v8.4.28-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#109](https://github.com/erik73/app-roundcube/pull/109))
+- ⬆️ Update ghcr.io/erik73/base Docker tag to v7.0.8 @[renovate[bot]](https://github.com/apps/renovate) ([#110](https://github.com/erik73/app-roundcube/pull/110))
+- ⬆️: migrate Renovate config @[renovate[bot]](https://github.com/apps/renovate) ([#111](https://github.com/erik73/app-roundcube/pull/111))
